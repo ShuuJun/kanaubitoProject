@@ -9,5 +9,9 @@ namespace RedstoneinventeGameStudio
     {
         public string title;
         public string lines;
+        public bool choice;
+        public string choice1;
+        public string choice2;
+
     }
 }

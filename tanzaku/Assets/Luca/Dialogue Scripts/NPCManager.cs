@@ -16,10 +16,16 @@ namespace RedstoneinventeGameStudio
                 currentDialogueIndex = 0;
             }
         }
-
+        
         private void OnMouseUp()
         {
-            DialogueManager.instance.ShowDialogue(this);
+            var currentDialogue = dialogues[currentDialogueIndex];
+            bool choice = currentDialogue.choice;
+            if(choice)
+            {
+                DialogueManager.instance.ShowChoice(currentDialogue.choice1, currentDialogue.choice2);
+            }
+            DialogueManager.instance.ShowDialogue(this, choice);
         }
     }
 }

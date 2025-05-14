@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Hello
   lines: I am NPC2
+  choice: 0
+  choice1: 
+  choice2: 

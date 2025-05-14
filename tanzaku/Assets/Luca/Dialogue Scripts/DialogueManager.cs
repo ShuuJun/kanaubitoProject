@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -23,9 +24,21 @@ namespace RedstoneinventeGameStudio
 
         public Canvas dialogueCanvas;
 
+        public GameObject choicePanel;
+        private bool hasPlayerMadeChoice = false;
+        public TMP_Text choiceText1;
+        public TMP_Text choiceText2t;
+
+        public bool lastButton = false;
+
+        private TMP_Text NextButtontext;
+
         private void Awake()
         {
+            NextButtontext = moveNextButt.GetComponentInChildren<TextMeshProUGUI>();
             instance = this;
+            //TMP_Text NextButtontext = GetComponentInChildren<TextMeshProUGUI>();
+            NextButtontext.text = "Next";
         }
 
         private void Update()
@@ -43,13 +56,24 @@ namespace RedstoneinventeGameStudio
             moveNext = true;
         }
 
-        public void ShowDialogue(NPCManager nPCManager)
+        public void ShowChoice(string choice1, string choice2)
         {
-            StartCoroutine(ShowDialogueC(nPCManager));
+            choiceText1.text = choice1;
+            choiceText2t.text = choice2;
+            //choicePanel.SetActive(true);
         }
 
-        IEnumerator ShowDialogueC(NPCManager nPCManager)
+        public void ShowDialogue(NPCManager nPCManager, bool choice)
         {
+            NextButtontext.text = "Next";
+            hasPlayerMadeChoice = false;
+            StartCoroutine(ShowDialogueC(nPCManager, choice));
+        }
+
+        IEnumerator ShowDialogueC(NPCManager nPCManager, bool choice)
+        {
+            bool isLastDialogue = (nPCManager.currentDialogueIndex == nPCManager.dialogues.Count - 1);
+
             title.text = nPCManager.dialogues[nPCManager.currentDialogueIndex].title;
             content.text = "";
 
@@ -71,10 +95,41 @@ namespace RedstoneinventeGameStudio
                 }
             }
 
-            moveNextButt.SetActive(true);
+            // Now handle end-of-dialogue logic
+            if (isLastDialogue)
+            {
+                lastButton = true;
+                if (choice)
+                {
+                    choicePanel.SetActive(true);
+                    moveNextButt.SetActive(false);
+                }
+                else
+                {
+                    choicePanel.SetActive(false);
+                    NextButtontext.text = "End";
+                    moveNextButt.SetActive(true);
+                }
+            }
+            else
+            {
+                lastButton = false;
+                choicePanel.SetActive(false);
+                NextButtontext.text = "Next";
+                moveNextButt.SetActive(true);
+            }
 
-
-            yield return new WaitUntil(() => moveNext);
+            // Wait for input
+            if (choice)
+            {
+                yield return new WaitUntil(() => playerMadeChoice());
+                //Debug.Log("Choice");
+                choicePanel.SetActive(false);
+            }
+            else
+            {
+                yield return new WaitUntil(() => moveNext);
+            }
 
             content.text = "";
             moveNextButt.SetActive(false);
@@ -85,9 +140,20 @@ namespace RedstoneinventeGameStudio
             nPCManager.MoveNext();
         }
 
+
         bool IsPunctuation(char character)
         {
             return character == '.' || character == '?' || character == '!';
+        }
+
+        public bool playerMadeChoice()
+        {
+            return hasPlayerMadeChoice;
+        }
+
+        public void makeChoice()
+        {
+            hasPlayerMadeChoice = true;
         }
     }
 
