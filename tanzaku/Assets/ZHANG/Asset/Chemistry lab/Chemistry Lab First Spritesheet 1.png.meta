@@ -1,0 +1,774 @@
+fileFormatVersion: 2
+guid: 27e608f489517274bb8c6da6dc849201
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 819
+        width: 83
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f27da52cb6c1984bb3acb8f7f0c22b1
+      internalID: -1568329610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 791
+        width: 122
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2466f2ed0301d46bf54ad1920a1616
+      internalID: -1905752485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 750
+        width: 147
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ac48b73ab2bca41906134f6ad3e573
+      internalID: 860487671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 750
+        width: 148
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a2dc7d80e28844b901f0a5a1b7547a
+      internalID: -467618290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 533
+        width: 83
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7e8cb6c27287c47999894a50c90790
+      internalID: 1606877575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 550
+        width: 131
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0237223d7013f804bbaa5264787298bc
+      internalID: 1872227271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 413
+        width: 448
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a49ee0f67d9345428f9533e0540ba35
+      internalID: -1979299192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 405
+        width: 147
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4bcdf5237a2324c9ae5c8cf8c8ef48
+      internalID: -340110748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 211
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8729044fb448b3449c052669a4148d9
+      internalID: -1762961408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 180
+        width: 213
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de90199448baf894abaffa93b2e9bb4e
+      internalID: 1888547548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 186
+        width: 13
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660350a5fd96b754bbe5a0d636cd8b93
+      internalID: 287327021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 203
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38acd36a677efb14c97eccf86ec328e0
+      internalID: -1672583829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 203
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32710ce1869ed2419e3eee65c87d44f
+      internalID: -2071359536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 177
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16801fc6650321e44a80de50d9e84ad2
+      internalID: -942909950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 185
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d985605b12c10de46a14bb6bd427c802
+      internalID: -286265333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 185
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a421a2db35629478ee5f50685453e4
+      internalID: 1728280012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 174
+        width: 38
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac8d4e8da7b2b24daf1b451194c1e43
+      internalID: 411221088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 213
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7187bc0970b336e4c9ab9505667b9fbf
+      internalID: -612723002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 163
+        width: 24
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd20f74696bf53e49bee6b0324a06bc9
+      internalID: -801005542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 187
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e3b22babf626c47908423365d2e951
+      internalID: 302935140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 51
+        width: 12
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b165b6cb23e6f046bd9dcc69c308f12
+      internalID: 836391602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 66
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6413bc3bd1216447b34deeec9cdff5e
+      internalID: 1777279450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 66
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e913e4bf454344392f5898a92bbb80
+      internalID: 1298844742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 27
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f96566adc6cd3340aaa5b0d8d4bb697
+      internalID: 148102141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 34
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa27a572d46b28a46a4ea2e754b701db
+      internalID: -1761291915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 34
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2626f80e13122c241835576c33f6151c
+      internalID: -1071156539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 28
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc434159e10484b43b865ec2d24f64ec
+      internalID: 774933368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 63
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d3a9e25325d0c448a5eaf019f31c18
+      internalID: 1341930077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 37
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcefe746a6c941941bab8e2c6123d6ed
+      internalID: -8753528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab First Spritesheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 34
+        width: 24
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b71b46aedff7f946a5e60ed74766634
+      internalID: -1952654263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Chemistry Lab First Spritesheet 1_0: -1568329610
+      Chemistry Lab First Spritesheet 1_1: -1905752485
+      Chemistry Lab First Spritesheet 1_10: 287327021
+      Chemistry Lab First Spritesheet 1_11: -1672583829
+      Chemistry Lab First Spritesheet 1_12: -2071359536
+      Chemistry Lab First Spritesheet 1_13: -942909950
+      Chemistry Lab First Spritesheet 1_14: -286265333
+      Chemistry Lab First Spritesheet 1_15: 1728280012
+      Chemistry Lab First Spritesheet 1_16: 411221088
+      Chemistry Lab First Spritesheet 1_17: -612723002
+      Chemistry Lab First Spritesheet 1_18: -801005542
+      Chemistry Lab First Spritesheet 1_19: 302935140
+      Chemistry Lab First Spritesheet 1_2: 860487671
+      Chemistry Lab First Spritesheet 1_20: 836391602
+      Chemistry Lab First Spritesheet 1_21: 1777279450
+      Chemistry Lab First Spritesheet 1_22: 1298844742
+      Chemistry Lab First Spritesheet 1_23: 148102141
+      Chemistry Lab First Spritesheet 1_24: -1761291915
+      Chemistry Lab First Spritesheet 1_25: -1071156539
+      Chemistry Lab First Spritesheet 1_26: 774933368
+      Chemistry Lab First Spritesheet 1_27: 1341930077
+      Chemistry Lab First Spritesheet 1_28: -8753528
+      Chemistry Lab First Spritesheet 1_29: -1952654263
+      Chemistry Lab First Spritesheet 1_3: -467618290
+      Chemistry Lab First Spritesheet 1_4: 1606877575
+      Chemistry Lab First Spritesheet 1_5: 1872227271
+      Chemistry Lab First Spritesheet 1_6: -1979299192
+      Chemistry Lab First Spritesheet 1_7: -340110748
+      Chemistry Lab First Spritesheet 1_8: -1762961408
+      Chemistry Lab First Spritesheet 1_9: 1888547548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

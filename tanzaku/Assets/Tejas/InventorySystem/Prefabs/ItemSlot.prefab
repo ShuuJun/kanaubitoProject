@@ -97,6 +97,7 @@ MonoBehaviour:
   isFull: 0
   itemDescription: 
   emptySprite: {fileID: 0}
+  maxNumberOfItems: 9
   quantityText: {fileID: 3395780851093618108}
   itemImage: {fileID: 4832567591930304250}
   itemDescriptionImage: {fileID: 0}
@@ -121,7 +122,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1331812421930642724
 RectTransform:
   m_ObjectHideFlags: 0
