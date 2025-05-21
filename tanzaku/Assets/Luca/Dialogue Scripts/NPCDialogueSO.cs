@@ -13,5 +13,7 @@ namespace RedstoneinventeGameStudio
         public string choice1;
         public string choice2;
 
+        [Header ("Time Based Position")]
+        public Vector3 MorningPosition;
     }
 }

@@ -19,6 +19,7 @@ namespace RedstoneinventeGameStudio
         
         private void OnMouseUp()
         {
+            if (DialogueManager.IsDialogueActive) return;
             var currentDialogue = dialogues[currentDialogueIndex];
             bool choice = currentDialogue.choice;
             if(choice)

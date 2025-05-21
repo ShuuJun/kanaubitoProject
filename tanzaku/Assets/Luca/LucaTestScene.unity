@@ -390,6 +390,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102778230}
   m_CullTransparentMesh: 1
+--- !u!1 &141394655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 141394657}
+  - component: {fileID: 141394656}
+  m_Layer: 0
+  m_Name: TimeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &141394656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141394655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7746f7eb506400445b5edb39c65eb761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &141394657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141394655}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 504, y: 283.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &192778252
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,6 +1417,7 @@ GameObject:
   - component: {fileID: 1120258764}
   - component: {fileID: 1120258763}
   - component: {fileID: 1120258767}
+  - component: {fileID: 1120258768}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1488,6 +1533,19 @@ MonoBehaviour:
   choiceText1: {fileID: 1141409992}
   choiceText2t: {fileID: 353405650}
   lastButton: 0
+--- !u!114 &1120258768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120258762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8632883e3fee1544887a9c227be38a56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeText: {fileID: 0}
 --- !u!1 &1141409990
 GameObject:
   m_ObjectHideFlags: 0
@@ -2163,3 +2221,4 @@ SceneRoots:
   - {fileID: 311111235}
   - {fileID: 1447917915}
   - {fileID: 1374408831}
+  - {fileID: 141394657}

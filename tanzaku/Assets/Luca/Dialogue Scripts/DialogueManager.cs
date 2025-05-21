@@ -33,6 +33,8 @@ namespace RedstoneinventeGameStudio
 
         private TMP_Text NextButtontext;
 
+        public static bool IsDialogueActive { get; private set; }
+
         private void Awake()
         {
             NextButtontext = moveNextButt.GetComponentInChildren<TextMeshProUGUI>();
@@ -65,6 +67,7 @@ namespace RedstoneinventeGameStudio
 
         public void ShowDialogue(NPCManager nPCManager, bool choice)
         {
+            IsDialogueActive = true;
             NextButtontext.text = "Next";
             hasPlayerMadeChoice = false;
             StartCoroutine(ShowDialogueC(nPCManager, choice));
@@ -138,6 +141,7 @@ namespace RedstoneinventeGameStudio
             dialogueCanvas.enabled = false;
 
             nPCManager.MoveNext();
+            IsDialogueActive = false;
         }
 
 
