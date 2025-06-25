@@ -12,9 +12,20 @@ public class GameHandler : MonoBehaviour
     public static int playerStat1;
 
     public static bool GameisPaused = false;
+    public GameObject mainMenuUI;
     public GameObject pauseMenuUI;
+    public GameObject settingsMenuUI;
     public AudioMixer mixer;
     public static float volumeLevel = 1.0f;
+
+    private enum MenuCaller
+    {
+        None,
+        FromMainMenu,
+        FromPauseMenu
+    }
+
+    private MenuCaller lastMenuCaller = MenuCaller.None;
 
 
     void Start()
@@ -114,5 +125,35 @@ public class GameHandler : MonoBehaviour
 #else
                 Application.Quit();
 #endif
+    }
+
+    public void OpenSettingsFromMainMenu()
+    {
+        lastMenuCaller = MenuCaller.FromMainMenu;
+        mainMenuUI.SetActive(false);
+        settingsMenuUI.SetActive(true);
+    }
+
+    public void OpenSettingsFromPauseMenu()
+    {
+        lastMenuCaller = MenuCaller.FromPauseMenu;
+        pauseMenuUI.SetActive(false);
+        settingsMenuUI.SetActive(true);
+    }
+
+    public void BackFromSettings()
+    {
+        settingsMenuUI.SetActive(false);
+
+        if (lastMenuCaller == MenuCaller.FromMainMenu)
+        {
+            mainMenuUI.SetActive(true);
+        }
+        else if (lastMenuCaller == MenuCaller.FromPauseMenu)
+        {
+            pauseMenuUI.SetActive(true);
+        }
+
+        lastMenuCaller = MenuCaller.None;
     }
 }

@@ -1889,6 +1889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PAUSEMENU
       objectReference: {fileID: 0}
+    - target: {fileID: 544611486505993969, guid: 2111a73c8bdac544ab6d043e471c55a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2449445860657996102, guid: 2111a73c8bdac544ab6d043e471c55a8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2025,9 +2029,17 @@ PrefabInstance:
       value: GameHandler
       objectReference: {fileID: 0}
     - target: {fileID: 4290414310468918844, guid: 76aa2f9f5c6e4264984974d973464c56, type: 3}
+      propertyPath: mainMenuUI
+      value: 
+      objectReference: {fileID: 1712222910835720319, guid: 58535a7649cf3a44a81626831cce6dd2, type: 3}
+    - target: {fileID: 4290414310468918844, guid: 76aa2f9f5c6e4264984974d973464c56, type: 3}
       propertyPath: pauseMenuUI
       value: 
       objectReference: {fileID: 2039379814}
+    - target: {fileID: 4290414310468918844, guid: 76aa2f9f5c6e4264984974d973464c56, type: 3}
+      propertyPath: settingsMenuUI
+      value: 
+      objectReference: {fileID: 258966660441456667, guid: 89693d3de045c5049b6040d4c24a2677, type: 3}
     - target: {fileID: 4973001533607549207, guid: 76aa2f9f5c6e4264984974d973464c56, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2103,6 +2115,10 @@ PrefabInstance:
     - target: {fileID: 5393586819517085495, guid: 4e59deae754ce534c8e35775d10ada6d, type: 3}
       propertyPath: m_Name
       value: DIALOGUE_DISPLAY
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393586819517085495, guid: 4e59deae754ce534c8e35775d10ada6d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7364545493017992956, guid: 4e59deae754ce534c8e35775d10ada6d, type: 3}
       propertyPath: m_text
@@ -2351,6 +2367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonNextScene
       objectReference: {fileID: 0}
+    - target: {fileID: 5149041752828127754, guid: 30dab2bfd350dc74a9962cf968876377, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5462725139060235122, guid: 30dab2bfd350dc74a9962cf968876377, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2393,6 +2413,10 @@ PrefabInstance:
     - target: {fileID: 2399699435933115275, guid: 929cd4d69e04f4f47b6f609bf6cc0c35, type: 3}
       propertyPath: m_Name
       value: ButtonNext
+      objectReference: {fileID: 0}
+    - target: {fileID: 2399699435933115275, guid: 929cd4d69e04f4f47b6f609bf6cc0c35, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3182938378517907900, guid: 929cd4d69e04f4f47b6f609bf6cc0c35, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2520,6 +2544,10 @@ PrefabInstance:
     - target: {fileID: 7707851868574494657, guid: 2eabb6449efa9d0458bc757adc05f62d, type: 3}
       propertyPath: m_Name
       value: PauseButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707851868574494657, guid: 2eabb6449efa9d0458bc757adc05f62d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8949705155753100686, guid: 2eabb6449efa9d0458bc757adc05f62d, type: 3}
       propertyPath: m_Pivot.x

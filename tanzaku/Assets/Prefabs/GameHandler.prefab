@@ -44,5 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59544b4de0c51304494c8223afc28de4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainMenuUI: {fileID: 1712222910835720319, guid: 58535a7649cf3a44a81626831cce6dd2, type: 3}
   pauseMenuUI: {fileID: 544611486505993969, guid: 2111a73c8bdac544ab6d043e471c55a8, type: 3}
+  settingsMenuUI: {fileID: 258966660441456667, guid: 89693d3de045c5049b6040d4c24a2677, type: 3}
   mixer: {fileID: 0}
