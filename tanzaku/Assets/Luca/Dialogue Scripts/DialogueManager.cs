@@ -35,6 +35,15 @@ namespace RedstoneinventeGameStudio
 
         public static bool IsDialogueActive { get; private set; }
 
+        [Header("Multi-Choice UI")]
+        public GameObject multiChoicePanel;
+        public TMP_Text multiChoicePrompt;
+        public Button[] choiceButtons; // Assign in inspector
+
+        public GameObject secondaryChoicePanel; // Assign in inspector
+        public Button[] secondaryChoiceButtons; // Up to 10, assign in inspector
+        public TMP_Text secondaryResultText;    // Result area for secondary dialogue
+
         private void Awake()
         {
             NextButtontext = moveNextButt.GetComponentInChildren<TextMeshProUGUI>();
@@ -65,84 +74,88 @@ namespace RedstoneinventeGameStudio
             //choicePanel.SetActive(true);
         }
 
-        public void ShowDialogue(NPCManager nPCManager, bool choice)
+        public void ShowDialogue(NPCManager npcManager)
         {
             IsDialogueActive = true;
-            NextButtontext.text = "Next";
-            hasPlayerMadeChoice = false;
-            StartCoroutine(ShowDialogueC(nPCManager, choice));
+
+            // 1. Show secondary dialogue if present
+            if (npcManager.secondaryDialogue != null)
+            {
+                StartCoroutine(ShowSecondaryDialogue(npcManager.secondaryDialogue));
+                //return;
+            }
+
+            // 2. Otherwise, check for multi-choice
+            var dialogue = npcManager.dialogues[npcManager.currentDialogueIndex];
+            if (dialogue.choices != null && dialogue.choices.Count > 0)
+            {
+                StartCoroutine(ShowMultiChoiceDialogue(dialogue, npcManager));
+                return;
+            }
+
+            // 3. Otherwise, show standard dialogue
+            StartCoroutine(ShowDialogueC(npcManager, dialogue));
         }
 
-        IEnumerator ShowDialogueC(NPCManager nPCManager, bool choice)
+
+        private IEnumerator TypewriterEffect(string text, TMP_Text target, float charDelay, float punctDelay, int maxWords)
         {
+            target.text = "";
+            int wordCount = 0;
+
+            foreach (char character in text)
+            {
+                target.text += character;
+
+                // Update TMP's internal info to get accurate word count
+                target.ForceMeshUpdate();
+                wordCount = target.textInfo.wordCount;
+
+                yield return new WaitForSeconds(IsPunctuation(character) ? punctDelay : charDelay);
+
+                // If maxWords reached and at a word boundary, pause and wait for input
+                if (maxWords > 0 && wordCount >= maxWords && (character == ' ' || IsPunctuation(character) || character == ','))
+                {
+                    moveNextButt.SetActive(true);
+                    moveNext = false;
+                    yield return new WaitUntil(() => moveNext);
+                    moveNextButt.SetActive(false);
+                    target.text = "";
+                    wordCount = 0; // Reset for next "page"
+                }
+            }
+        }
+
+
+        private IEnumerator ShowDialogueC(NPCManager nPCManager, DialogueSO dialogue)
+        {
+            dialogueCanvas.enabled = true;
+            title.text = dialogue.title;
+
+            yield return StartCoroutine(TypewriterEffect(dialogue.lines, content, characterDelay, punctuationDelay, maxWords));
+
+
+
+            // Wait for player input to continue
             bool isLastDialogue = (nPCManager.currentDialogueIndex == nPCManager.dialogues.Count - 1);
 
-            title.text = nPCManager.dialogues[nPCManager.currentDialogueIndex].title;
-            content.text = "";
-
-            dialogueCanvas.enabled = true;
-
-            foreach (char character in nPCManager.dialogues[nPCManager.currentDialogueIndex].lines)
-            {
-                content.text += character;
-                yield return new WaitForSeconds(IsPunctuation(character) ? punctuationDelay : characterDelay);
-
-                if (content.textInfo.wordCount >= maxWords && (character == ' ' || IsPunctuation(character) || character == ','))
-                {
-                    moveNextButt.SetActive(true);
-                    yield return new WaitUntil(() => moveNext);
-
-                    content.text = "";
-                    moveNextButt.SetActive(false);
-                    moveNext = false;
-                }
-            }
-
-            // Now handle end-of-dialogue logic
             if (isLastDialogue)
-            {
-                lastButton = true;
-                if (choice)
-                {
-                    choicePanel.SetActive(true);
-                    moveNextButt.SetActive(false);
-                }
-                else
-                {
-                    choicePanel.SetActive(false);
-                    NextButtontext.text = "End";
-                    moveNextButt.SetActive(true);
-                }
-            }
+                NextButtontext.text = "End";
             else
-            {
-                lastButton = false;
-                choicePanel.SetActive(false);
                 NextButtontext.text = "Next";
-                moveNextButt.SetActive(true);
-            }
 
-            // Wait for input
-            if (choice)
-            {
-                yield return new WaitUntil(() => playerMadeChoice());
-                //Debug.Log("Choice");
-                choicePanel.SetActive(false);
-            }
-            else
-            {
-                yield return new WaitUntil(() => moveNext);
-            }
-
-            content.text = "";
-            moveNextButt.SetActive(false);
+            moveNextButt.SetActive(true);
             moveNext = false;
+            yield return new WaitUntil(() => moveNext);
+            moveNextButt.SetActive(false);
+            secondaryChoicePanel.SetActive(false);
 
             dialogueCanvas.enabled = false;
-
             nPCManager.MoveNext();
             IsDialogueActive = false;
         }
+
+
 
 
         bool IsPunctuation(char character)
@@ -159,6 +172,96 @@ namespace RedstoneinventeGameStudio
         {
             hasPlayerMadeChoice = true;
         }
-    }
 
+        private IEnumerator ShowMultiChoiceDialogue(DialogueSO dialogue, NPCManager npc)
+        {
+            dialogueCanvas.enabled = true;
+            title.text = dialogue.title;
+
+            // Typewriter effect for prompt with maxWords
+            yield return StartCoroutine(TypewriterEffect(dialogue.lines, content, characterDelay, punctuationDelay, maxWords));
+
+            multiChoicePanel.SetActive(true);
+
+            bool choiceMade = false;
+            int chosenIndex = -1;
+
+            // Setup choice buttons
+            for (int i = 0; i < choiceButtons.Length; i++)
+            {
+                if (i < dialogue.choices.Count)
+                {
+                    choiceButtons[i].gameObject.SetActive(true);
+                    int index = i;
+                    choiceButtons[i].GetComponentInChildren<TMP_Text>().text = dialogue.choices[i].choiceText;
+                    choiceButtons[i].onClick.RemoveAllListeners();
+                    choiceButtons[i].onClick.AddListener(() =>
+                    {
+                        choiceMade = true;
+                        chosenIndex = index;
+                    });
+                }
+                else
+                {
+                    choiceButtons[i].gameObject.SetActive(false);
+                }
+            }
+
+            yield return new WaitUntil(() => choiceMade);
+
+            multiChoicePanel.SetActive(false);
+
+            // Typewriter effect for result text with maxWords
+            yield return StartCoroutine(TypewriterEffect(dialogue.choices[chosenIndex].resultText, content, characterDelay, punctuationDelay, maxWords));
+
+            bool isLastDialogue = (npc.currentDialogueIndex == npc.dialogues.Count - 1);
+
+            if (isLastDialogue)
+                NextButtontext.text = "End";
+            else
+                NextButtontext.text = "Next";
+
+            moveNextButt.SetActive(true);
+            moveNext = false;
+            yield return new WaitUntil(() => moveNext);
+            moveNextButt.SetActive(false);
+            secondaryChoicePanel.SetActive(false);
+
+            dialogueCanvas.enabled = false;
+            npc.MoveNext();
+            IsDialogueActive = false;
+        }
+
+        private IEnumerator ShowSecondaryDialogue(DialogueSO dialogue)
+        {
+            secondaryChoicePanel.SetActive(true);
+            secondaryResultText.text = "";
+
+            // Setup up to 10 choices
+            for (int i = 0; i < secondaryChoiceButtons.Length; i++)
+            {
+                if (i < dialogue.choices.Count)
+                {
+                    secondaryChoiceButtons[i].gameObject.SetActive(true);
+                    int index = i;
+                    secondaryChoiceButtons[i].GetComponentInChildren<TMP_Text>().text = dialogue.choices[i].choiceText;
+                    secondaryChoiceButtons[i].onClick.RemoveAllListeners();
+                    secondaryChoiceButtons[i].onClick.AddListener(() =>
+                    {
+                        secondaryResultText.text = dialogue.choices[index].resultText;
+                    });
+                }
+                else
+                {
+                    secondaryChoiceButtons[i].gameObject.SetActive(false);
+                }
+            }
+
+            // No need to wait for input or hide the panel
+            yield break;
+        }
+
+
+
+    }
 }
