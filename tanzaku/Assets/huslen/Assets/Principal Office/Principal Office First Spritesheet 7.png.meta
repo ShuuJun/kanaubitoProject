@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 7_0
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 470
+        width: 108
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff004b7fc78d9834ca7df5bea4487f12
+      internalID: -1319586839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 7_1
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 469
+        width: 156
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fed83ce3d64194aaf96cd25223ca52
+      internalID: 290077753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 7_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 42
+        width: 213
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cdcc05f3ac8ec41b404bb8776f9c2e
+      internalID: 386067288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 7_3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 42
+        width: 172
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416bbdf965723be46a7fc6a1ca08681b
+      internalID: -2052921424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +190,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Principal Office First Spritesheet 7_0: -1319586839
+      Principal Office First Spritesheet 7_1: 290077753
+      Principal Office First Spritesheet 7_2: 386067288
+      Principal Office First Spritesheet 7_3: -2052921424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

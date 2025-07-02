@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 5_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 570
+        width: 435
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f7bb370fa16b841ab30607659f82bc
+      internalID: 1394746809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 5_1
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 570
+        width: 453
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208fd9c445ccdba46938d3d24e24171d
+      internalID: -2095532540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 5_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 95
+        width: 384
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dc80ffa1aed074d8ac8b0946bc44e2
+      internalID: -1589790484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 5_3
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 95
+        width: 383
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736c54c1da848224fab7fafccbcd4fea
+      internalID: 339776817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +190,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Principal Office First Spritesheet 5_0: 1394746809
+      Principal Office First Spritesheet 5_1: -2095532540
+      Principal Office First Spritesheet 5_2: -1589790484
+      Principal Office First Spritesheet 5_3: 339776817
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
