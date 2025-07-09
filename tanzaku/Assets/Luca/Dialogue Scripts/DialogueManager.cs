@@ -29,6 +29,8 @@ namespace RedstoneinventeGameStudio
         public TMP_Text choiceText1;
         public TMP_Text choiceText2t;
 
+        public Image ImageTarget;
+
         public bool lastButton = false;
 
         private TMP_Text NextButtontext;
@@ -77,6 +79,23 @@ namespace RedstoneinventeGameStudio
         public void ShowDialogue(NPCManager npcManager)
         {
             IsDialogueActive = true;
+
+            if (npcManager.dialogues[npcManager.currentDialogueIndex].dialogueImage)
+            {
+                ImageTarget.sprite = npcManager.dialogues[npcManager.currentDialogueIndex].dialogueImage;
+                var color = ImageTarget.color;
+                color.a = 1f;
+                ImageTarget.color = color;
+            }
+            else
+            {
+                ImageTarget.sprite = null;
+                var color = ImageTarget.color;
+                color.a = 0f;
+                ImageTarget.color = color;
+            }
+
+
 
             // 1. Show secondary dialogue if present
             if (npcManager.secondaryDialogue != null)

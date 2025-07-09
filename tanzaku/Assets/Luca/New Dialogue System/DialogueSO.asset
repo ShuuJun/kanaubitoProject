@@ -14,5 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Hello
   lines: test no choice
-  choices: []
+  choices:
+  - choiceText: 
+    resultText: 
+    onChoice:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  dialogueImage: {fileID: 0}
   MorningPosition: {x: 0, y: 0, z: 0}

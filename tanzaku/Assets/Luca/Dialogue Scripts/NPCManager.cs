@@ -19,11 +19,19 @@ namespace RedstoneinventeGameStudio
             }
         }
 
-        private void OnMouseUp()
+
+        public void StartDialogue()
         {
             if (DialogueManager.IsDialogueActive) return;
             DialogueManager.instance.ShowDialogue(this);
         }
+
+        /*  //origibal method, now its by pressing e
+        private void OnMouseUp()
+        {
+            if (DialogueManager.IsDialogueActive) return;
+            DialogueManager.instance.ShowDialogue(this);
+        }*/
 
     }
 }

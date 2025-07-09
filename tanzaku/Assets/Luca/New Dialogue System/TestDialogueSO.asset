@@ -18,6 +18,13 @@ MonoBehaviour:
   choices:
   - choiceText: banana
     resultText: i se you have chosen banana
-  - choiceText: apple
-    resultText: i see you have chosen apple
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+  - choiceText: Apple
+    resultText: i se you have chosen Apple
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+  dialogueImage: {fileID: 21300000, guid: db03c3ae8a6617e49b58c6fba2712142, type: 3}
   MorningPosition: {x: 0, y: 0, z: 0}
