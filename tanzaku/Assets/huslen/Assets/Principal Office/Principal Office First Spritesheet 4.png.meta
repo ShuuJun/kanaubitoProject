@@ -121,7 +121,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 4_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 489
+        width: 379
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aeb4d4deece2c4dbb44e1d1662ea5b
+      internalID: 1368113044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 4_1
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 489
+        width: 423
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73359dea19eb87741bcefdcdb01c7229
+      internalID: -2059260468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 4_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 37
+        width: 386
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d011f6a83df38a0458c1d59ff96709e4
+      internalID: -823492396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Principal Office First Spritesheet 4_3
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 37
+        width: 387
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2116856a510c7764c9031e70f2786c8e
+      internalID: 1305976460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +216,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Principal Office First Spritesheet 4_0: 1368113044
+      Principal Office First Spritesheet 4_1: -2059260468
+      Principal Office First Spritesheet 4_2: -823492396
+      Principal Office First Spritesheet 4_3: 1305976460
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,532 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 802
+        width: 215
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0279c6ee9a72007418a7591c62574f5c
+      internalID: 323716290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 847
+        width: 120
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7a50d650307804ba850f837c6c94b0
+      internalID: 1627671637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_2
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 806
+        width: 32
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787c503955ed2ce43982fda29da2bbd8
+      internalID: -1179930952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_3
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 822
+        width: 109
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1520ddf73c4982f40878b1f6710e5889
+      internalID: 387415961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_4
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 811
+        width: 63
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee94a54d05936764e96135753ffa1037
+      internalID: -295583197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 663
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786f7670a38693b47911cf4531b3a4fb
+      internalID: -2130397023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_6
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 637
+        width: 117
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4512c4009574ce40be8fd8bd3f8b68c
+      internalID: -821315796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_7
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 682
+        width: 152
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a74e8339ce00c744bdf05000485ee9d
+      internalID: 987706616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 495
+        width: 152
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa62991a15ea93a4db189ce9cad58b20
+      internalID: 260688871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 497
+        width: 119
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b924f7242bb10094bb0272626443b45f
+      internalID: 1162460620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_10
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 473
+        width: 52
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554b81ba3686cb04da2e99cc32313c9c
+      internalID: -1421877032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_11
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 537
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9869b3b52fc2b2247a31ee5129264037
+      internalID: -1845667746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_12
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 537
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2553b59f57c5d46aae0554d874ec83
+      internalID: -1259661857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_13
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 537
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb60af3699dc4cb46adfd8826be026c9
+      internalID: -1495663363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_14
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 552
+        width: 152
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dde37bdef452a419624a92228a4b38
+      internalID: 55427092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_15
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 303
+        width: 129
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069d74281d392aa4b9d866ed037afee7
+      internalID: 430176542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_16
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 447
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec328f6e65d6d16488c6e6f798ceb69b
+      internalID: 1379890817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_17
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 446
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9288178c679e1e45989dfdfabbbec80
+      internalID: -1005107283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_18
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 443
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577b8888a7734ab4aa7db76ffa8bbe97
+      internalID: -726026674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_19
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 447
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a76466eb1877f4ebae239872a60f69
+      internalID: -1406045497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_20
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 438
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4f1ed19e9a4964893ec8f57bc0e25d
+      internalID: -1287589852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_21
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 447
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe888bc45d9622418e022e0b4ab92af
+      internalID: -235038243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_22
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 38
+        width: 127
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc80429bdb9f0d5478feb1caf92de20b
+      internalID: 1083402930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_23
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 34
+        width: 127
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ef48f43adbd734bb10aeb63e18c2a2
+      internalID: -1430925336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer Room Spritesheet 5_24
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 59
+        width: 387
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86b3f834e4342e4596fb0e4ed4cbfe1
+      internalID: -2080750830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +631,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Computer Room Spritesheet 5_0: 323716290
+      Computer Room Spritesheet 5_1: 1627671637
+      Computer Room Spritesheet 5_10: -1421877032
+      Computer Room Spritesheet 5_11: -1845667746
+      Computer Room Spritesheet 5_12: -1259661857
+      Computer Room Spritesheet 5_13: -1495663363
+      Computer Room Spritesheet 5_14: 55427092
+      Computer Room Spritesheet 5_15: 430176542
+      Computer Room Spritesheet 5_16: 1379890817
+      Computer Room Spritesheet 5_17: -1005107283
+      Computer Room Spritesheet 5_18: -726026674
+      Computer Room Spritesheet 5_19: -1406045497
+      Computer Room Spritesheet 5_2: -1179930952
+      Computer Room Spritesheet 5_20: -1287589852
+      Computer Room Spritesheet 5_21: -235038243
+      Computer Room Spritesheet 5_22: 1083402930
+      Computer Room Spritesheet 5_23: -1430925336
+      Computer Room Spritesheet 5_24: -2080750830
+      Computer Room Spritesheet 5_3: 387415961
+      Computer Room Spritesheet 5_4: -295583197
+      Computer Room Spritesheet 5_5: -2130397023
+      Computer Room Spritesheet 5_6: -821315796
+      Computer Room Spritesheet 5_7: 987706616
+      Computer Room Spritesheet 5_8: 260688871
+      Computer Room Spritesheet 5_9: 1162460620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
