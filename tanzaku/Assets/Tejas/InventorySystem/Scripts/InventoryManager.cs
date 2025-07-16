@@ -11,13 +11,13 @@ public class InventoryManager : MonoBehaviour
     public ItemSO[] itemSOs;
     void Update()
     {
-        if (Input.GetButtonDown("Inventory") && menuActivated)
+        if (Input.GetKeyDown(KeyCode.Q) && menuActivated)
         {
             Time.timeScale = 1;
             InventoryMenu.SetActive(false);
             menuActivated = false;
         }
-        else if (Input.GetButtonDown("Inventory") && !menuActivated)
+        else if (Input.GetKeyDown(KeyCode.Q) && !menuActivated)
         {
             Time.timeScale = 0;
             InventoryMenu.SetActive(true);
@@ -44,8 +44,11 @@ public class InventoryManager : MonoBehaviour
             {
                 int leftOverItems = itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription);
                 if (leftOverItems > 0)
+                {
                     leftOverItems = AddItem(itemName, leftOverItems, itemSprite, itemDescription);
-                    return leftOverItems;
+                }
+                return leftOverItems;
+
             }
         }
         return quantity;

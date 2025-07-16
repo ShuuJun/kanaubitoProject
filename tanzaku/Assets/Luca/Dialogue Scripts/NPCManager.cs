@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D;
 
 namespace RedstoneinventeGameStudio
 {
@@ -8,7 +9,18 @@ namespace RedstoneinventeGameStudio
         public List<DialogueSO> dialogues; // Use DialogueSO, not NPCDialogueSO
         public int currentDialogueIndex = 0;
 
+        //public ItemSO QuestItem;
+
+        public Item QuestObject;
+        public bool HasGivenItem;
+        public InventoryManager inventoryManager;
+
         public DialogueSO secondaryDialogue;
+
+        private void Start()
+        {
+            HasGivenItem = false;
+        }
 
         public void MoveNext()
         {
@@ -32,6 +44,15 @@ namespace RedstoneinventeGameStudio
             if (DialogueManager.IsDialogueActive) return;
             DialogueManager.instance.ShowDialogue(this);
         }*/
+
+        public void GivePlayerItem()
+        {
+            if (!HasGivenItem && QuestObject)
+            {
+                inventoryManager.AddItem(QuestObject.itemName, QuestObject.quantity, QuestObject.sprite, QuestObject.itemDescription);
+                HasGivenItem = true;
+            }
+        }
 
     }
 }

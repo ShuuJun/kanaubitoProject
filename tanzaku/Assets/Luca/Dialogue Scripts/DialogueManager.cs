@@ -197,7 +197,6 @@ namespace RedstoneinventeGameStudio
             dialogueCanvas.enabled = true;
             title.text = dialogue.title;
 
-            // Typewriter effect for prompt with maxWords
             yield return StartCoroutine(TypewriterEffect(dialogue.lines, content, characterDelay, punctuationDelay, maxWords));
 
             multiChoicePanel.SetActive(true);
@@ -230,9 +229,29 @@ namespace RedstoneinventeGameStudio
 
             multiChoicePanel.SetActive(false);
 
-            // Typewriter effect for result text with maxWords
-            yield return StartCoroutine(TypewriterEffect(dialogue.choices[chosenIndex].resultText, content, characterDelay, punctuationDelay, maxWords));
+            var choice = dialogue.choices[chosenIndex];
 
+            // --- GIVE PLAYER ITEM IF THIS CHOICE SAYS SO ---
+            if (npc != null && choice.givesItem)
+            {
+                npc.GivePlayerItem();
+            }
+
+
+            // 1. Show result text first, if you want
+            if (!string.IsNullOrEmpty(choice.resultText))
+            {
+                yield return StartCoroutine(TypewriterEffect(choice.resultText, content, characterDelay, punctuationDelay, maxWords));
+            }
+
+            // 2. If the choice leads to another dialogue, start it!
+            if (choice.nextDialogue != null)
+            {
+                yield return StartCoroutine(ShowMultiChoiceDialogue(choice.nextDialogue, npc));
+                yield break;
+            }
+
+            // Otherwise, continue as before (end dialogue or advance)
             bool isLastDialogue = (npc.currentDialogueIndex == npc.dialogues.Count - 1);
 
             if (isLastDialogue)
@@ -250,6 +269,7 @@ namespace RedstoneinventeGameStudio
             npc.MoveNext();
             IsDialogueActive = false;
         }
+
 
         private IEnumerator ShowSecondaryDialogue(DialogueSO dialogue)
         {
