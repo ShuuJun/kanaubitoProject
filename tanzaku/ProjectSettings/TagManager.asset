@@ -7,6 +7,7 @@ TagManager:
   - GameHandler
   - Ground
   - Desk
+  - NPC
   layers:
   - Default
   - TransparentFX

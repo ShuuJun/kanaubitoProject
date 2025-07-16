@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
@@ -11,13 +12,13 @@ public class InventoryManager : MonoBehaviour
     public ItemSO[] itemSOs;
     void Update()
     {
-        if (Input.GetButtonDown("Inventory") && menuActivated)
+        if (Input.GetKeyDown(KeyCode.Q) && menuActivated)
         {
             Time.timeScale = 1;
             InventoryMenu.SetActive(false);
             menuActivated = false;
         }
-        else if (Input.GetButtonDown("Inventory") && !menuActivated)
+        else if (Input.GetKeyDown(KeyCode.Q) && !menuActivated)
         {
             Time.timeScale = 0;
             InventoryMenu.SetActive(true);
@@ -44,12 +45,17 @@ public class InventoryManager : MonoBehaviour
             {
                 int leftOverItems = itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription);
                 if (leftOverItems > 0)
+                {
                     leftOverItems = AddItem(itemName, leftOverItems, itemSprite, itemDescription);
-                    return leftOverItems;
+                }
+                return leftOverItems;
+
             }
         }
         return quantity;
     }
+
+
     public void DeselectAllSlots()
     {
         for (int i=0;i< itemSlot.Length;i++)
@@ -58,4 +64,28 @@ public class InventoryManager : MonoBehaviour
             itemSlot[i].thisItemSelected = false;
         }
     }
+
+    public void RemoveItem(Item item)
+    {
+        bool removed = false;
+        for (int i = 0; i < itemSlot.Length; i++)
+        {
+            Debug.Log($"Checking slot {i}: {itemSlot[i].itemName} x{itemSlot[i].quantity}");
+            if (itemSlot[i].itemName == item.itemName && itemSlot[i].quantity > 0)
+            {
+                Debug.Log($"Removing from slot {i}");
+                itemSlot[i].quantity--;
+
+                if (itemSlot[i].quantity <= 0)
+                {
+                    itemSlot[i].ClearSlot();
+                }
+                removed = true;
+                break;
+            }
+        }
+        if (!removed) Debug.LogWarning("RemoveItem failed: Item not found in inventory.");
+    }
+
+
 }

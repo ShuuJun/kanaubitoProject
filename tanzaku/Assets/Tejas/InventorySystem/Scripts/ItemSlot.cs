@@ -145,4 +145,24 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
             }
         }
     }
-}       
+
+    public void ClearSlot()
+    {
+        itemName = "";
+        itemDescription = "";
+        itemSprite = null;
+        isFull = false;
+        quantity = 0;
+        // If it controls UI elements, update them here, e.g.
+        // myIconImage.enabled = false;
+        // myQuantityText.text = "";
+
+        this.quantity -= 1;
+        quantityText.text = this.quantity.ToString();
+        if (this.quantity <= 0)
+        {
+            EmptySlot();
+        }
+    }
+
+}

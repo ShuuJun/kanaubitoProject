@@ -29,6 +29,8 @@ namespace RedstoneinventeGameStudio
         public TMP_Text choiceText1;
         public TMP_Text choiceText2t;
 
+        public Image ImageTarget;
+
         public bool lastButton = false;
 
         private TMP_Text NextButtontext;
@@ -77,6 +79,23 @@ namespace RedstoneinventeGameStudio
         public void ShowDialogue(NPCManager npcManager)
         {
             IsDialogueActive = true;
+
+            if (npcManager.dialogues[npcManager.currentDialogueIndex].dialogueImage)
+            {
+                ImageTarget.sprite = npcManager.dialogues[npcManager.currentDialogueIndex].dialogueImage;
+                var color = ImageTarget.color;
+                color.a = 1f;
+                ImageTarget.color = color;
+            }
+            else
+            {
+                ImageTarget.sprite = null;
+                var color = ImageTarget.color;
+                color.a = 0f;
+                ImageTarget.color = color;
+            }
+
+
 
             // 1. Show secondary dialogue if present
             if (npcManager.secondaryDialogue != null)
@@ -178,7 +197,6 @@ namespace RedstoneinventeGameStudio
             dialogueCanvas.enabled = true;
             title.text = dialogue.title;
 
-            // Typewriter effect for prompt with maxWords
             yield return StartCoroutine(TypewriterEffect(dialogue.lines, content, characterDelay, punctuationDelay, maxWords));
 
             multiChoicePanel.SetActive(true);
@@ -211,9 +229,36 @@ namespace RedstoneinventeGameStudio
 
             multiChoicePanel.SetActive(false);
 
-            // Typewriter effect for result text with maxWords
-            yield return StartCoroutine(TypewriterEffect(dialogue.choices[chosenIndex].resultText, content, characterDelay, punctuationDelay, maxWords));
+            var choice = dialogue.choices[chosenIndex];
 
+            // GIVE PLAYER ITEM if flagged
+            if (npc != null && choice.givesItem)
+            {
+                npc.GivePlayerItem();
+            }
+
+            // REMOVE PLAYER ITEM if flagged
+            if (npc != null && choice.takesItem)
+            {
+                npc.RemovePlayerItem();
+            }
+
+
+
+            // 1. Show result text first, if you want
+            if (!string.IsNullOrEmpty(choice.resultText))
+            {
+                yield return StartCoroutine(TypewriterEffect(choice.resultText, content, characterDelay, punctuationDelay, maxWords));
+            }
+
+            // 2. If the choice leads to another dialogue, start it!
+            if (choice.nextDialogue != null)
+            {
+                yield return StartCoroutine(ShowMultiChoiceDialogue(choice.nextDialogue, npc));
+                yield break;
+            }
+
+            // Otherwise, continue as before (end dialogue or advance)
             bool isLastDialogue = (npc.currentDialogueIndex == npc.dialogues.Count - 1);
 
             if (isLastDialogue)
@@ -231,6 +276,7 @@ namespace RedstoneinventeGameStudio
             npc.MoveNext();
             IsDialogueActive = false;
         }
+
 
         private IEnumerator ShowSecondaryDialogue(DialogueSO dialogue)
         {

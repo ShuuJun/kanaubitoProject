@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456095eeb3a398d4e86556967672e09b, type: 3}
+  m_Name: Test 1
+  m_EditorClassIdentifier: 
+  title: "\u307F\u306E\u308A"
+  lines: "\u3042\u3089\u3001\u79C1\u306B\u4F55\u304B\u3088\u3046\u3067\u3059\u304B\uFF1F"
+  choices:
+  - choiceText: "\u672C\u3092\u8FD4\u3057\u307E\u3059 "
+    resultText: 
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 11400000, guid: 861b93f44c1629f499a7da7ac958bad0, type: 2}
+    givesItem: 0
+    takesItem: 0
+  dialogueImage: {fileID: 0}
+  MorningPosition: {x: 0, y: 0, z: 0}
