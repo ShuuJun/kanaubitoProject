@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 456095eeb3a398d4e86556967672e09b, type: 3}
   m_Name: Test 1
   m_EditorClassIdentifier: 
-  title: chika
+  title: "\u5343\u82B1"
   lines: "\u3084\u3042\u3001\u5148\u8F29\u3002\u3069\u3046\u3057\u305F\u306E\uFF1F"
   choices:
-  - choiceText: "saikin nani ga arimashitaka?\u6700\u8FD1"
+  - choiceText: "\u6700\u8FD1\u3001\u4F55\u304C\u3042\u308A\u307E\u3057\u305F\u304B\uFF1F"
     resultText: 
     onChoice:
       m_PersistentCalls:
         m_Calls: []
     nextDialogue: {fileID: 11400000, guid: 51c25615d83c240438b8767c7fcee5f9, type: 2}
     givesItem: 0
+    takesItem: 0
   dialogueImage: {fileID: 0}
   MorningPosition: {x: 0, y: 0, z: 0}

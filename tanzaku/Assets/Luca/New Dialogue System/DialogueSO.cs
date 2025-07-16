@@ -10,7 +10,7 @@ public class DialogueChoice
     public UnityEvent onChoice;       // Assign functions in the inspector
     public DialogueSO nextDialogue;
     public bool givesItem;
-
+    public bool takesItem;
 }
 
 [CreateAssetMenu(fileName = "DialogueSO", menuName = "Dialogue")]

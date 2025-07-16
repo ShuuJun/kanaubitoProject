@@ -10,17 +10,21 @@ namespace RedstoneinventeGameStudio
         public int currentDialogueIndex = 0;
 
         //public ItemSO QuestItem;
-
+        public bool givesItem;
         public Item QuestObject;
         public bool HasGivenItem;
         public InventoryManager inventoryManager;
+
+        public bool TakesPlayerItem;
+        public bool HasTakenItem;
 
         public DialogueSO secondaryDialogue;
 
         private void Start()
         {
             HasGivenItem = false;
-        }
+            HasTakenItem = false;
+    }
 
         public void MoveNext()
         {
@@ -51,6 +55,15 @@ namespace RedstoneinventeGameStudio
             {
                 inventoryManager.AddItem(QuestObject.itemName, QuestObject.quantity, QuestObject.sprite, QuestObject.itemDescription);
                 HasGivenItem = true;
+            }
+        }
+
+        public void RemovePlayerItem()
+        {
+            if(!HasTakenItem)
+            {
+                inventoryManager.RemoveItem(QuestObject);
+                HasTakenItem = true;
             }
         }
 

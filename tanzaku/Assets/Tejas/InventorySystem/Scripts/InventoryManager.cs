@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
@@ -53,6 +54,8 @@ public class InventoryManager : MonoBehaviour
         }
         return quantity;
     }
+
+
     public void DeselectAllSlots()
     {
         for (int i=0;i< itemSlot.Length;i++)
@@ -61,4 +64,28 @@ public class InventoryManager : MonoBehaviour
             itemSlot[i].thisItemSelected = false;
         }
     }
+
+    public void RemoveItem(Item item)
+    {
+        bool removed = false;
+        for (int i = 0; i < itemSlot.Length; i++)
+        {
+            Debug.Log($"Checking slot {i}: {itemSlot[i].itemName} x{itemSlot[i].quantity}");
+            if (itemSlot[i].itemName == item.itemName && itemSlot[i].quantity > 0)
+            {
+                Debug.Log($"Removing from slot {i}");
+                itemSlot[i].quantity--;
+
+                if (itemSlot[i].quantity <= 0)
+                {
+                    itemSlot[i].ClearSlot();
+                }
+                removed = true;
+                break;
+            }
+        }
+        if (!removed) Debug.LogWarning("RemoveItem failed: Item not found in inventory.");
+    }
+
+
 }

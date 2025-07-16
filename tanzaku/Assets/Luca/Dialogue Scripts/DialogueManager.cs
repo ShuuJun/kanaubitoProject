@@ -231,11 +231,18 @@ namespace RedstoneinventeGameStudio
 
             var choice = dialogue.choices[chosenIndex];
 
-            // --- GIVE PLAYER ITEM IF THIS CHOICE SAYS SO ---
+            // GIVE PLAYER ITEM if flagged
             if (npc != null && choice.givesItem)
             {
                 npc.GivePlayerItem();
             }
+
+            // REMOVE PLAYER ITEM if flagged
+            if (npc != null && choice.takesItem)
+            {
+                npc.RemovePlayerItem();
+            }
+
 
 
             // 1. Show result text first, if you want
