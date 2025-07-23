@@ -51,11 +51,15 @@ namespace RedstoneinventeGameStudio
 
         public void GivePlayerItem()
         {
+
+            //Debug.Log(">>> Inside GivePlayerItem");
+
             if (!HasGivenItem && QuestObject)
             {
                 inventoryManager.AddItem(QuestObject.itemName, QuestObject.quantity, QuestObject.sprite, QuestObject.itemDescription);
                 HasGivenItem = true;
             }
+            //Debug.Log(">>> Given GivePlayerItem");
         }
 
         public void RemovePlayerItem()

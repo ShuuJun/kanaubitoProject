@@ -1,7 +1,8 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -10,6 +11,12 @@ public class InventoryManager : MonoBehaviour
     public ItemSlot[] itemSlot;
 
     public ItemSO[] itemSOs;
+
+    [Header("UI Resources")]
+    public Sprite emptySlotSprite; // Set this in the Inspector
+    public Image itemImage; // Drag the UI Image used for the item's icon
+
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q) && menuActivated)
@@ -71,21 +78,34 @@ public class InventoryManager : MonoBehaviour
         for (int i = 0; i < itemSlot.Length; i++)
         {
             Debug.Log($"Checking slot {i}: {itemSlot[i].itemName} x{itemSlot[i].quantity}");
+
             if (itemSlot[i].itemName == item.itemName && itemSlot[i].quantity > 0)
             {
                 Debug.Log($"Removing from slot {i}");
+
                 itemSlot[i].quantity--;
 
                 if (itemSlot[i].quantity <= 0)
                 {
                     itemSlot[i].ClearSlot();
+
+                    // 🟡 Set the slot's image to empty
+                    if (emptySlotSprite != null && itemSlot[i].itemImage != null)
+                    {
+                        itemSlot[i].itemImage.sprite = emptySlotSprite;
+                        itemSlot[i].itemImage.color = new Color(1, 1, 1, 0.2f); // Optional: Make it translucent
+                    }
                 }
+
                 removed = true;
                 break;
             }
         }
-        if (!removed) Debug.LogWarning("RemoveItem failed: Item not found in inventory.");
+
+        if (!removed)
+            Debug.LogWarning("RemoveItem failed: Item not found in inventory.");
     }
+
 
 
 }

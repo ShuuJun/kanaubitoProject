@@ -48,11 +48,17 @@ namespace RedstoneinventeGameStudio
 
         private void Awake()
         {
-            NextButtontext = moveNextButt.GetComponentInChildren<TextMeshProUGUI>();
+            if (instance != null && instance != this)
+            {
+                Destroy(instance.gameObject); // Remove duplicate from previous scene
+            }
+
             instance = this;
-            //TMP_Text NextButtontext = GetComponentInChildren<TextMeshProUGUI>();
+
+            NextButtontext = moveNextButt.GetComponentInChildren<TextMeshProUGUI>();
             NextButtontext.text = "Next";
         }
+
 
         private void Update()
         {
@@ -234,8 +240,11 @@ namespace RedstoneinventeGameStudio
             // GIVE PLAYER ITEM if flagged
             if (npc != null && choice.givesItem)
             {
+                //Debug.Log("GiveItem");
+                //Debug.Log("NPC passed: " + (npc == null ? "NULL" : npc.QuestObject.name));
                 npc.GivePlayerItem();
             }
+            //Debug.Log("after giveitem logic");
 
             // REMOVE PLAYER ITEM if flagged
             if (npc != null && choice.takesItem)
