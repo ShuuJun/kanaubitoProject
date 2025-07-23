@@ -23,7 +23,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     [SerializeField]
     private TMP_Text quantityText;
     [SerializeField]
-    private Image itemImage;
+    public Image itemImage;
 
     //=======ITEM DESCRIPTION SLOT=======//
     public Image itemDescriptionImage;
@@ -76,46 +76,59 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
             OnRightClick();
         }
     }
+
+
     public void OnLeftClick()
     {
-        if(thisItemSelected)
+        if (thisItemSelected)
         {
             bool usable = inventoryManager.UseItem(itemName);
             if (usable)
             {
-                this.quantity -= 1;
-                quantityText.text = this.quantity.ToString();
-                if (this.quantity <= 0)
+                quantity--;
+                quantityText.text = quantity.ToString();
+
+                if (quantity <= 0)
                 {
-                    EmptySlot();
+                    EmptySlot(); // Handles all UI updates and sets emptySprite
                 }
-            }            
+            }
         }
         else
         {
+            // Selecting this slot
             inventoryManager.DeselectAllSlots();
             selectedShader.SetActive(true);
             thisItemSelected = true;
+
             ItemDescriptionNameText.text = itemName;
             ItemDescriptionText.text = itemDescription;
-            itemDescriptionImage.sprite = itemSprite;
-            if (itemDescriptionImage.sprite == null)
-            {
-                itemDescriptionImage.sprite = emptySprite;
-            }
-        }            
+
+            itemDescriptionImage.sprite = (itemSprite != null) ? itemSprite : emptySprite;
+        }
     }
 
     private void EmptySlot()
     {
+        itemName = "";
+        itemDescription = "";
+        itemSprite = null;
+        isFull = false;
+        quantity = 0;
+
         quantityText.enabled = false;
+        quantityText.text = "";
+
         itemImage.sprite = emptySprite;
+
+        selectedShader.SetActive(false);
+        thisItemSelected = false;
 
         ItemDescriptionNameText.text = "";
         ItemDescriptionText.text = "";
         itemDescriptionImage.sprite = emptySprite;
-
     }
+
 
     public void OnRightClick()
     {
@@ -153,16 +166,19 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         itemSprite = null;
         isFull = false;
         quantity = 0;
-        // If it controls UI elements, update them here, e.g.
-        // myIconImage.enabled = false;
-        // myQuantityText.text = "";
 
-        this.quantity -= 1;
-        quantityText.text = this.quantity.ToString();
-        if (this.quantity <= 0)
-        {
-            EmptySlot();
-        }
+        quantityText.text = "";
+        quantityText.enabled = false;
+
+        itemImage.sprite = emptySprite;
+
+        selectedShader.SetActive(false);
+        thisItemSelected = false;
+
+        ItemDescriptionNameText.text = "";
+        ItemDescriptionText.text = "";
+        itemDescriptionImage.sprite = emptySprite;
     }
+
 
 }
