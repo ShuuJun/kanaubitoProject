@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Chemistry Lab Second Spritesheet 3_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 605
+        width: 201
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa34676229d86a5489011de7c2a54601
+      internalID: 678489828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab Second Spritesheet 3_1
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 607
+        width: 153
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd9f809dae530749a0a0b6defeb84a2
+      internalID: -207307200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab Second Spritesheet 3_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 459
+        width: 151
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ecbf0908761864e92b9c12504d1877
+      internalID: 1670091746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab Second Spritesheet 3_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 423
+        width: 72
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c962fe82186baa24fbdede338fc0633b
+      internalID: 1802575302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab Second Spritesheet 3_4
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 442
+        width: 135
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8fbfb39401a4848acf0ded702ed770
+      internalID: 475476638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab Second Spritesheet 3_5
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 406
+        width: 86
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a5a63cbb85583429556b42a924dc64
+      internalID: -833648683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab Second Spritesheet 3_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 10
+        width: 84
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce32c6af27b03834485adaefd0ae9a49
+      internalID: 1275419655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab Second Spritesheet 3_7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 25
+        width: 147
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a2d66dafee9d04eb9027af43270fe7
+      internalID: -1435618147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chemistry Lab Second Spritesheet 3_8
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 105
+        width: 353
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e29ff626380c294bba97cc3709d6aa5
+      internalID: 482991036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +321,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chemistry Lab Second Spritesheet 3_0: 678489828
+      Chemistry Lab Second Spritesheet 3_1: -207307200
+      Chemistry Lab Second Spritesheet 3_2: 1670091746
+      Chemistry Lab Second Spritesheet 3_3: 1802575302
+      Chemistry Lab Second Spritesheet 3_4: 475476638
+      Chemistry Lab Second Spritesheet 3_5: -833648683
+      Chemistry Lab Second Spritesheet 3_6: 1275419655
+      Chemistry Lab Second Spritesheet 3_7: -1435618147
+      Chemistry Lab Second Spritesheet 3_8: 482991036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
