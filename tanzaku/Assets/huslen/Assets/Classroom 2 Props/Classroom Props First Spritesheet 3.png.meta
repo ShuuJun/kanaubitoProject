@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_0
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 545
+        width: 17
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40888f016c795548a37f467a7613320
+      internalID: 1392406791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_1
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 878
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a219ffee6d44a1a4896fce901529e4db
+      internalID: -387536227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_2
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 878
+        width: 83
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cfec02d054ab043b1884ee4723c999
+      internalID: 1084139947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_3
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 725
+        width: 50
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eae8330844a5e45934eceee753f420
+      internalID: 412029478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_4
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 725
+        width: 50
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b67b76798064c4a926eb1b4da78b87
+      internalID: 2105909890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_5
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 603
+        width: 113
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990d0ec4d5c12664e85f6cf2a481f6c2
+      internalID: -865153676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_6
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 603
+        width: 112
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4f366d1651ef54db976388f086f84e
+      internalID: 20534973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_7
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 57
+        width: 38
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95b93edb69d464458fef298e4737bb1
+      internalID: 830585965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_8
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 478
+        width: 112
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778cc34879c834b4fa75f5fa20683fa7
+      internalID: 1436014693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_9
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 478
+        width: 113
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaab58a4ca59724ab358ddd34b8e66b
+      internalID: 1578653895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_10
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 259
+        width: 24
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81697ff39d0d1774da304899e5f3b68a
+      internalID: -1926902754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classroom Props First Spritesheet 3_11
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 22
+        width: 151
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90bc045232f9b14dac1682aabc72da4
+      internalID: -665919531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +384,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Classroom Props First Spritesheet 3_0: 1392406791
+      Classroom Props First Spritesheet 3_1: -387536227
+      Classroom Props First Spritesheet 3_10: -1926902754
+      Classroom Props First Spritesheet 3_11: -665919531
+      Classroom Props First Spritesheet 3_2: 1084139947
+      Classroom Props First Spritesheet 3_3: 412029478
+      Classroom Props First Spritesheet 3_4: 2105909890
+      Classroom Props First Spritesheet 3_5: -865153676
+      Classroom Props First Spritesheet 3_6: 20534973
+      Classroom Props First Spritesheet 3_7: 830585965
+      Classroom Props First Spritesheet 3_8: 1436014693
+      Classroom Props First Spritesheet 3_9: 1578653895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
