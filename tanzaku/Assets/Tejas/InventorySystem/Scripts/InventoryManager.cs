@@ -106,6 +106,16 @@ public class InventoryManager : MonoBehaviour
             Debug.LogWarning("RemoveItem failed: Item not found in inventory.");
     }
 
-
+    public ItemSO GetItemSO(string itemName)
+    {
+        for (int i = 0; i < itemSOs.Length; i++)
+        {
+            if (itemSOs[i].itemName == itemName)
+            {
+                return itemSOs[i];
+            }
+        }
+        return null;
+    }
 
 }

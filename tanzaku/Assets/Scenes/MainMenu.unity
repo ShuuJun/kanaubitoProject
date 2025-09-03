@@ -707,8 +707,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e760ac8c7f2a5044dbb7d8c37fa32dd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 4217408810013486404, guid: aad9d8f9c3ae1ee4f8569be2bb8fdefa, type: 3}
   hasTakePower: 0
+  inventoryManager: {fileID: 0}
+  questManager: {fileID: 0}
 --- !u!4 &1497052052
 Transform:
   m_ObjectHideFlags: 0
