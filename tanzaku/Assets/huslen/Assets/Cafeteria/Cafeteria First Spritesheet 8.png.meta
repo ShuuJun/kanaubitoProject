@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cafeteria First Spritesheet 8_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 707
+        width: 376
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1bb5534f299e74c8e11888ad4b1fdb
+      internalID: -1158852358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafeteria First Spritesheet 8_1
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 615
+        width: 437
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310b51c98e7a2dd43ae5efd7678423af
+      internalID: -1628237818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafeteria First Spritesheet 8_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 451
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e49c96d8459ea74e9394eb16d8a3826
+      internalID: -468727472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafeteria First Spritesheet 8_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 451
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451fd54a7b9ac774d98e0af5744c6b08
+      internalID: 35757189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafeteria First Spritesheet 8_4
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 451
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ad11e172cc53d44a9c15dd12b39059
+      internalID: -2111663990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafeteria First Spritesheet 8_5
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 439
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3b11db92e4e7e4db2e850ec1c59908
+      internalID: -1967736225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafeteria First Spritesheet 8_6
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 439
+        width: 136
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607dd200615e6034388861f076080050
+      internalID: 1533840984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafeteria First Spritesheet 8_7
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 439
+        width: 136
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0b3bc3af98e0a4e9a77df7d9917f91
+      internalID: -2000656380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafeteria First Spritesheet 8_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 6
+        width: 482
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff33f423094327c428edcf425af266e9
+      internalID: -319667740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafeteria First Spritesheet 8_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 9
+        width: 178
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bafd06823f3c874695108fd5eb267ea
+      internalID: -1846809031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafeteria First Spritesheet 8_10
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 9
+        width: 176
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81880e68b9569848b73dadcdec57dde
+      internalID: 137094929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +363,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cafeteria First Spritesheet 8_0: -1158852358
+      Cafeteria First Spritesheet 8_1: -1628237818
+      Cafeteria First Spritesheet 8_10: 137094929
+      Cafeteria First Spritesheet 8_2: -468727472
+      Cafeteria First Spritesheet 8_3: 35757189
+      Cafeteria First Spritesheet 8_4: -2111663990
+      Cafeteria First Spritesheet 8_5: -1967736225
+      Cafeteria First Spritesheet 8_6: 1533840984
+      Cafeteria First Spritesheet 8_7: -2000656380
+      Cafeteria First Spritesheet 8_8: -319667740
+      Cafeteria First Spritesheet 8_9: -1846809031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
