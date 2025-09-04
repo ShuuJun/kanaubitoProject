@@ -709,7 +709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 4217408810013486404, guid: aad9d8f9c3ae1ee4f8569be2bb8fdefa, type: 3}
   hasTakePower: 0
-  inventoryManager: {fileID: 0}
+  inventoryManager: {fileID: 8167253473953855794, guid: c4ef49007e32c0a4e81a85edabbae0e1, type: 3}
   questManager: {fileID: 0}
 --- !u!4 &1497052052
 Transform:
@@ -1374,11 +1374,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3157915589129081530, guid: 89693d3de045c5049b6040d4c24a2677, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3430616607101180672, guid: 89693d3de045c5049b6040d4c24a2677, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3460100144147977999, guid: 89693d3de045c5049b6040d4c24a2677, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -1386,7 +1386,7 @@ PrefabInstance:
       objectReference: {fileID: 1011920987}
     - target: {fileID: 5904229534392152361, guid: 89693d3de045c5049b6040d4c24a2677, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6013397577321994119, guid: 89693d3de045c5049b6040d4c24a2677, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1430,7 +1430,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6473299228204644961, guid: 89693d3de045c5049b6040d4c24a2677, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
