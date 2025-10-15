@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456095eeb3a398d4e86556967672e09b, type: 3}
+  m_Name: TestTestTest
+  m_EditorClassIdentifier: 
+  title: 'Title '
+  lines: Conversation
+  choices:
+  - choiceText: choice A of player
+    resultText: Reply to choice A
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 11400000, guid: 50c356c6eb437dc468ccf457882db426, type: 2}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice B of player
+    resultText: Reply to choice B
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 11400000, guid: 50c356c6eb437dc468ccf457882db426, type: 2}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice C of player
+    resultText: Reply to choice C
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 11400000, guid: 50c356c6eb437dc468ccf457882db426, type: 2}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice D of player
+    resultText: Reply to choice D
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 11400000, guid: 50c356c6eb437dc468ccf457882db426, type: 2}
+    givesItem: 0
+    takesItem: 0
+  dialogueImage: {fileID: 0}
+  MorningPosition: {x: 0, y: 0, z: 0}

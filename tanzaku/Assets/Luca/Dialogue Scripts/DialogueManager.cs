@@ -112,6 +112,16 @@ namespace RedstoneinventeGameStudio
 
             // 2. Otherwise, check for multi-choice
             var dialogue = npcManager.dialogues[npcManager.currentDialogueIndex];
+
+            if(((npcManager.givesItem == true && npcManager.HasGivenItem == true) ||(npcManager.TakesPlayerItem == true && npcManager.HasTakenItem == true))&& npcManager.HasCompletedQuest == false)
+            {
+                dialogue = npcManager.dialogues[1];
+            }
+            else if(npcManager.HasCompletedQuest == true)
+            {
+                dialogue = npcManager.dialogues[2];
+            }
+
             if (dialogue.choices != null && dialogue.choices.Count > 0)
             {
                 StartCoroutine(ShowMultiChoiceDialogue(dialogue, npcManager));
@@ -315,8 +325,5 @@ namespace RedstoneinventeGameStudio
             // No need to wait for input or hide the panel
             yield break;
         }
-
-
-
     }
 }

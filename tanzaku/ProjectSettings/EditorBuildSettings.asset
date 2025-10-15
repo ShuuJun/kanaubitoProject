@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 6512e17974dd28d42ad39e3c2e7ccd23
   - enabled: 1
-    path: Assets/huslen/Map.unity
+    path: Assets/huslen/Floor3.unity
     guid: 4f3bff287ae6afd4ba728389720e5c2d
   - enabled: 1
     path: Assets/Luca/LucaTestScene.unity

@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 5703036696613074560}
   - component: {fileID: 3719968895856636379}
   m_Layer: 0
-  m_Name: Wallet
+  m_Name: Book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

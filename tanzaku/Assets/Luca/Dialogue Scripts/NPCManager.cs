@@ -6,7 +6,7 @@ namespace RedstoneinventeGameStudio
 {
     public class NPCManager : MonoBehaviour
     {
-        public List<DialogueSO> dialogues; // Use DialogueSO, not NPCDialogueSO
+        public List<DialogueSO> dialogues; // Use DialogueSO, not NPCDialogueSO  first index is normal, second index object check, third quest completed
         public int currentDialogueIndex = 0;
 
         //public ItemSO QuestItem;
@@ -17,6 +17,8 @@ namespace RedstoneinventeGameStudio
 
         public bool TakesPlayerItem;
         public bool HasTakenItem;
+
+        public bool HasCompletedQuest;
 
         public DialogueSO secondaryDialogue;
 
