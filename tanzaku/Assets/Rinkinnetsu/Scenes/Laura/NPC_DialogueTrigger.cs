@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class NPC_DialogueTrigger : MonoBehaviour
 {
@@ -11,7 +11,7 @@ public class NPC_DialogueTrigger : MonoBehaviour
     {
         if (DialogueQuestSystem.Instance == null)
         {
-            Debug.LogError("DialogueQuestSystem is not present in the scene.");
+            Debug.LogError("DialogueQuestSystem がシーンに存在しません。");
             return;
         }
 
@@ -19,7 +19,7 @@ public class NPC_DialogueTrigger : MonoBehaviour
         if (DialogueQuestSystem.Instance.CanTalkToNPC(npcType))
         {
 
-            Debug.Log($"Starting CRITICAL dialogue with: {npcType}.");
+            Debug.Log($"重要度の高い{npcType}との会話を開始します。");
 
             AdvanceQuestState();
 
@@ -27,12 +27,12 @@ public class NPC_DialogueTrigger : MonoBehaviour
         else if (DialogueQuestSystem.Instance.IsQuestCompleted())
         {
             // Quest completed, then a generic dialogue
-            Debug.Log($"Dialogue from {npcType}: 'Thanks for your help, everything is in order.'");
+            Debug.Log($"Dialogue from {npcType}: '手伝ってくれてありがとう、すべて順調です。'");
         }
         else
         {
             // Quest not started or wrong NPC
-            Debug.Log($"Dialogue from {npcType}: 'Hello, how are you?' (Not the current objective)");
+            Debug.Log($"Dialogue from {npcType}: 'こんにちは、いかがですか？' (現在の目標ではありません)");
         }
     }
 
