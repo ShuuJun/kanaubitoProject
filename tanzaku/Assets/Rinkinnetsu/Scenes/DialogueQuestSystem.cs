@@ -86,8 +86,6 @@ public class DialogueQuestSystem : MonoBehaviour
         HandleTestInput();
     }
 
-    
-    
 
     // ===== 以下是任务文字逻辑 =====
 
@@ -184,5 +182,36 @@ public class DialogueQuestSystem : MonoBehaviour
     {
         currentState = DialogueState.NotStarted;
         UpdateQuestDisplay();
+    }
+
+    // ===== FIX: ADDED MISSING METHODS HERE =====
+
+    /// <summary>
+    /// Checks if the player can talk to a specific NPC based on the current quest state.
+    /// </summary>
+    /// <param name="npcType">The type of the NPC (e.g., "Villager").</param>
+    /// <returns>True if it's the correct time to talk to this NPC, otherwise false.</returns>
+    public bool CanTalkToNPC(string npcType)
+    {
+        switch (currentState)
+        {
+            case DialogueState.TalkToVillager:
+                return npcType == "Villager";
+            case DialogueState.TalkToBlacksmith:
+                return npcType == "Blacksmith";
+            case DialogueState.TalkToMayor:
+                return npcType == "Mayor";
+            default:
+                return false;
+        }
+    }
+
+    /// <summary>
+    /// Checks if the quest has been completed.
+    /// </summary>
+    /// <returns>True if the quest state is 'Completed', otherwise false.</returns>
+    public bool IsQuestCompleted()
+    {
+        return currentState == DialogueState.Completed;
     }
 }
