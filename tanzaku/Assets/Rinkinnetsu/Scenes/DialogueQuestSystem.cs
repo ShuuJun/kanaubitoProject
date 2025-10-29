@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
 public class DialogueQuestSystem : MonoBehaviour
 {
     [Header("UI References")]
@@ -10,14 +11,14 @@ public class DialogueQuestSystem : MonoBehaviour
     public Text currentTargetText;
     public Text locationText;
     public Text progressText;
-    // 对话任务状态
+
     private enum DialogueState { NotStarted, TalkToVillager, TalkToBlacksmith, TalkToMayor, Completed }
     private DialogueState currentState = DialogueState.NotStarted;
-    // 单例模式，确保在所有场景中存在
+
     public static DialogueQuestSystem Instance;
+
     void Awake()
     {
-        // 确保只有一个实例存在
         if (Instance == null)
         {
             Instance = this;
@@ -29,18 +30,21 @@ public class DialogueQuestSystem : MonoBehaviour
             return;
         }
     }
+
     void Start()
     {
-        // 自动查找UI组件
         FindUIComponents();
-        //SetupUIStyle();
+
+        // ✅ 一开始显示面板
         if (questPanel != null)
         {
-            questPanel.SetActive(false);
+            questPanel.SetActive(true);
         }
+
         UpdateQuestDisplay();
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
+
     void FindUIComponents()
     {
         if (questPanel == null) questPanel = GameObject.Find("QuestPanel");
@@ -70,89 +74,26 @@ public class DialogueQuestSystem : MonoBehaviour
             if (progressObj != null) progressText = progressObj.GetComponent<Text>();
         }
     }
-    
-    void SetTextStyle(Text textComponent, int fontSize, FontStyle style, Color color)
-    {
-        if (textComponent != null)
-        {
-            textComponent.fontSize = fontSize;
-            textComponent.fontStyle = style;
-            textComponent.color = color;
-            textComponent.alignment = TextAnchor.MiddleCenter;
-        }
-    }
+
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // 重新查找UI组件
         FindUIComponents();
-        //SetupUIStyle();
         UpdateQuestDisplay();
     }
+
     void Update()
     {
-        // 按B键开关任务面板
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            ToggleQuestPanel();
-        }
-        // 测试快捷键
         HandleTestInput();
     }
-    void ToggleQuestPanel()
-    {
-        if (questPanel != null)
-        {
-            bool isActive = !questPanel.activeSelf;
-            questPanel.SetActive(isActive);
-            if (isActive)
-            {
-                UpdateQuestDisplay();
-            }
-        }
-    }
-    // 开始对话任务
-    public void StartDialogueQuest()
-    {
-        if (currentState != DialogueState.NotStarted) return;
-        currentState = DialogueState.TalkToVillager;
-        Debug.Log("开始对话任务：收集村民意见");
-        UpdateQuestDisplay();
-    }
-    // 完成与村民的对话
-    public void CompleteVillagerDialogue()
-    {
-        if (currentState == DialogueState.TalkToVillager)
-        {
-            currentState = DialogueState.TalkToBlacksmith;
-            Debug.Log("已完成：与村民对话");
-            UpdateQuestDisplay();
-        }
-    }
-    // 完成与铁匠的对话
-    public void CompleteBlacksmithDialogue()
-    {
-        if (currentState == DialogueState.TalkToBlacksmith)
-        {
-            currentState = DialogueState.TalkToMayor;
-            Debug.Log("已完成：与铁匠对话");
-            UpdateQuestDisplay();
-        }
-    }
-    // 完成与村长的对话
-    public void CompleteMayorDialogue()
-    {
-        if (currentState == DialogueState.TalkToMayor)
-        {
-            currentState = DialogueState.Completed;
-            Debug.Log("任务完成！所有对话已完成");
-            UpdateQuestDisplay();
-        }
-    }
-    // 更新UI显示
+
+
+    // ===== 以下是任务文字逻辑 =====
+
     void UpdateQuestDisplay()
     {
         if (titleText == null || descText == null || currentTargetText == null ||
             locationText == null || progressText == null) return;
+
         switch (currentState)
         {
             case DialogueState.NotStarted:
@@ -192,50 +133,7 @@ public class DialogueQuestSystem : MonoBehaviour
                 break;
         }
     }
-    // 获取当前对话目标信息
-    public string GetCurrentDialogueTarget()
-    {
-        switch (currentState)
-        {
-            case DialogueState.TalkToVillager:
-                return "村民小李（村庄广场）";
-            case DialogueState.TalkToBlacksmith:
-                return "铁匠老王（铁匠铺）";
-            case DialogueState.TalkToMayor:
-                return "村长张大爷（村长家）";
-            case DialogueState.Completed:
-                return "所有对话已完成";
-            default:
-                return "暂无对话任务";
-        }
-    }
-    // 检查是否可以与某个NPC对话
-    public bool CanTalkToNPC(string npcType)
-    {
-        switch (npcType)
-        {
-            case "Villager":
-                return currentState == DialogueState.TalkToVillager;
-            case "Blacksmith":
-                return currentState == DialogueState.TalkToBlacksmith;
-            case "Mayor":
-                return currentState == DialogueState.TalkToMayor;
-            default:
-                return false;
-        }
-    }
-    // 检查任务是否完成
-    public bool IsQuestCompleted()
-    {
-        return currentState == DialogueState.Completed;
-    }
-    // 重置任务
-    public void ResetQuest()
-    {
-        currentState = DialogueState.NotStarted;
-        UpdateQuestDisplay();
-        Debug.Log("对话任务已重置");
-    }
+
     // 测试用快捷键
     void HandleTestInput()
     {
@@ -244,5 +142,76 @@ public class DialogueQuestSystem : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3)) CompleteBlacksmithDialogue();
         if (Input.GetKeyDown(KeyCode.Alpha4)) CompleteMayorDialogue();
         if (Input.GetKeyDown(KeyCode.R)) ResetQuest();
+    }
+
+    public void StartDialogueQuest()
+    {
+        if (currentState != DialogueState.NotStarted) return;
+        currentState = DialogueState.TalkToVillager;
+        UpdateQuestDisplay();
+    }
+
+    public void CompleteVillagerDialogue()
+    {
+        if (currentState == DialogueState.TalkToVillager)
+        {
+            currentState = DialogueState.TalkToBlacksmith;
+            UpdateQuestDisplay();
+        }
+    }
+
+    public void CompleteBlacksmithDialogue()
+    {
+        if (currentState == DialogueState.TalkToBlacksmith)
+        {
+            currentState = DialogueState.TalkToMayor;
+            UpdateQuestDisplay();
+        }
+    }
+
+    public void CompleteMayorDialogue()
+    {
+        if (currentState == DialogueState.TalkToMayor)
+        {
+            currentState = DialogueState.Completed;
+            UpdateQuestDisplay();
+        }
+    }
+
+    public void ResetQuest()
+    {
+        currentState = DialogueState.NotStarted;
+        UpdateQuestDisplay();
+    }
+
+    // ===== FIX: ADDED MISSING METHODS HERE =====
+
+    /// <summary>
+    /// Checks if the player can talk to a specific NPC based on the current quest state.
+    /// </summary>
+    /// <param name="npcType">The type of the NPC (e.g., "Villager").</param>
+    /// <returns>True if it's the correct time to talk to this NPC, otherwise false.</returns>
+    public bool CanTalkToNPC(string npcType)
+    {
+        switch (currentState)
+        {
+            case DialogueState.TalkToVillager:
+                return npcType == "Villager";
+            case DialogueState.TalkToBlacksmith:
+                return npcType == "Blacksmith";
+            case DialogueState.TalkToMayor:
+                return npcType == "Mayor";
+            default:
+                return false;
+        }
+    }
+
+    /// <summary>
+    /// Checks if the quest has been completed.
+    /// </summary>
+    /// <returns>True if the quest state is 'Completed', otherwise false.</returns>
+    public bool IsQuestCompleted()
+    {
+        return currentState == DialogueState.Completed;
     }
 }
