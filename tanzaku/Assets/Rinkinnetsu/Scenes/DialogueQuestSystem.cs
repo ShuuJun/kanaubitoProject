@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
 public class DialogueQuestSystem : MonoBehaviour
 {
     [Header("UI References")]
@@ -10,11 +11,14 @@ public class DialogueQuestSystem : MonoBehaviour
     public Text currentTargetText;
     public Text locationText;
     public Text progressText;
+
     // 对话任务状态
     private enum DialogueState { NotStarted, TalkToVillager, TalkToBlacksmith, TalkToMayor, Completed }
     private DialogueState currentState = DialogueState.NotStarted;
+
     // 单例模式，确保在所有场景中存在
     public static DialogueQuestSystem Instance;
+
     void Awake()
     {
         // 确保只有一个实例存在
@@ -29,21 +33,22 @@ public class DialogueQuestSystem : MonoBehaviour
             return;
         }
     }
+
     void Start()
     {
-        // 自动查找UI组件
         FindUIComponents();
-        //SetupUIStyle();
         if (questPanel != null)
         {
-            questPanel.SetActive(false);
+            questPanel.SetActive(true); // 默认显示任务面板
         }
         UpdateQuestDisplay();
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
+
     void FindUIComponents()
     {
         if (questPanel == null) questPanel = GameObject.Find("QuestPanel");
+
         if (titleText == null)
         {
             GameObject titleObj = GameObject.Find("TitleText");
@@ -70,46 +75,14 @@ public class DialogueQuestSystem : MonoBehaviour
             if (progressObj != null) progressText = progressObj.GetComponent<Text>();
         }
     }
-    
-    void SetTextStyle(Text textComponent, int fontSize, FontStyle style, Color color)
-    {
-        if (textComponent != null)
-        {
-            textComponent.fontSize = fontSize;
-            textComponent.fontStyle = style;
-            textComponent.color = color;
-            textComponent.alignment = TextAnchor.MiddleCenter;
-        }
-    }
+
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         // 重新查找UI组件
         FindUIComponents();
-        //SetupUIStyle();
         UpdateQuestDisplay();
     }
-    void Update()
-    {
-        // 按B键开关任务面板
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            ToggleQuestPanel();
-        }
-        // 测试快捷键
-        HandleTestInput();
-    }
-    void ToggleQuestPanel()
-    {
-        if (questPanel != null)
-        {
-            bool isActive = !questPanel.activeSelf;
-            questPanel.SetActive(isActive);
-            if (isActive)
-            {
-                UpdateQuestDisplay();
-            }
-        }
-    }
+
     // 开始对话任务
     public void StartDialogueQuest()
     {
@@ -118,7 +91,7 @@ public class DialogueQuestSystem : MonoBehaviour
         Debug.Log("开始对话任务：收集村民意见");
         UpdateQuestDisplay();
     }
-    // 完成与村民的对话
+
     public void CompleteVillagerDialogue()
     {
         if (currentState == DialogueState.TalkToVillager)
@@ -128,7 +101,7 @@ public class DialogueQuestSystem : MonoBehaviour
             UpdateQuestDisplay();
         }
     }
-    // 完成与铁匠的对话
+
     public void CompleteBlacksmithDialogue()
     {
         if (currentState == DialogueState.TalkToBlacksmith)
@@ -138,7 +111,7 @@ public class DialogueQuestSystem : MonoBehaviour
             UpdateQuestDisplay();
         }
     }
-    // 完成与村长的对话
+
     public void CompleteMayorDialogue()
     {
         if (currentState == DialogueState.TalkToMayor)
@@ -148,11 +121,12 @@ public class DialogueQuestSystem : MonoBehaviour
             UpdateQuestDisplay();
         }
     }
-    // 更新UI显示
+
     void UpdateQuestDisplay()
     {
         if (titleText == null || descText == null || currentTargetText == null ||
             locationText == null || progressText == null) return;
+
         switch (currentState)
         {
             case DialogueState.NotStarted:
@@ -192,7 +166,7 @@ public class DialogueQuestSystem : MonoBehaviour
                 break;
         }
     }
-    // 获取当前对话目标信息
+
     public string GetCurrentDialogueTarget()
     {
         switch (currentState)
@@ -209,7 +183,7 @@ public class DialogueQuestSystem : MonoBehaviour
                 return "暂无对话任务";
         }
     }
-    // 检查是否可以与某个NPC对话
+
     public bool CanTalkToNPC(string npcType)
     {
         switch (npcType)
@@ -224,25 +198,22 @@ public class DialogueQuestSystem : MonoBehaviour
                 return false;
         }
     }
-    // 检查任务是否完成
+
     public bool IsQuestCompleted()
     {
         return currentState == DialogueState.Completed;
     }
-    // 重置任务
+
     public void ResetQuest()
     {
         currentState = DialogueState.NotStarted;
         UpdateQuestDisplay();
         Debug.Log("对话任务已重置");
     }
-    // 测试用快捷键
-    void HandleTestInput()
+
+    // 🔹 新增：关闭当前叠加场景的按钮功能
+    public void ClosePopupScene()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) StartDialogueQuest();
-        if (Input.GetKeyDown(KeyCode.Alpha2)) CompleteVillagerDialogue();
-        if (Input.GetKeyDown(KeyCode.Alpha3)) CompleteBlacksmithDialogue();
-        if (Input.GetKeyDown(KeyCode.Alpha4)) CompleteMayorDialogue();
-        if (Input.GetKeyDown(KeyCode.R)) ResetQuest();
+        SceneManager.UnloadSceneAsync(gameObject.scene);
     }
 }
