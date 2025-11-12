@@ -5919,6 +5919,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - {fileID: 757271711}
   - {fileID: 459887283}
 <<<<<<< HEAD:tanzaku/Assets/huslen/Map2.unity
@@ -6038,9 +6039,14 @@ SceneRoots:
 =======
 >>>>>>> 8b07b1379f239188b366596db936615f90701244
 =======
+=======
+>>>>>>> Stashed changes
   - {fileID: 1206092247}
   - {fileID: 309325695}
   - {fileID: 1432587871}
   - {fileID: 460262599}
   - {fileID: 108286854}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
