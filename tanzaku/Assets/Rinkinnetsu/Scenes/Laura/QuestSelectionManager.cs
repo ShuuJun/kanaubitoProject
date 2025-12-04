@@ -9,11 +9,19 @@ public class QuestSelectionManager : MonoBehaviour
     public Text detailTitleText;
     public Text detailRequesterText;
     public Text detailObjectiveText;
+    public Text detailLocationText;   // ← 新增：显示場所
 
     // --- Settings ---
     [Header("Settings")]
     public Color selectedColor = Color.magenta;
     public Color defaultColor = Color.white;
+
+    // ← 新增：乱码
+    private string lockedTitle = "◆◆◆◆◆◆";         
+    private string lockedRequester = "？？？？？？？";
+    private string lockedLocation = "？？？？？？？";
+    private string lockedObjective = "？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？";
+
 
     private List<Text> questTextComponents = new List<Text>();
     private int selectedIndex = 0;
@@ -26,6 +34,10 @@ public class QuestSelectionManager : MonoBehaviour
         public string detailTitle;  // Title in the left panel (Ej: クエスト：本を返す)
         public string requester;    // Applicant (Ej: 依頼人：森乃千花)
         public string objective;    // Objective (Ej: 目的：千花はみのり先輩の本を返してほしい。)
+        public string location;   // ← 新增：場所
+        
+        // ← 新增：乱码
+        public bool isUnlocked = false; // 未完成对话前为 false，完成后从 NPC 脚本改成 true
     }
 
     // Quest List and details
@@ -145,22 +157,70 @@ public class QuestSelectionManager : MonoBehaviour
 
         QuestData currentQuest = allQuests[selectedIndex];
 
+        // 标题
         if (detailTitleText != null)
         {
-            
-            detailTitleText.text = currentQuest.detailTitle;
+            if (currentQuest.isUnlocked)
+                detailTitleText.text = currentQuest.detailTitle;
+            else
+                detailTitleText.text = lockedTitle;
         }
 
+        // 依頼人
         if (detailRequesterText != null)
         {
-            
-            detailRequesterText.text = "依頼人：" + currentQuest.requester;
+            if (currentQuest.isUnlocked)
+                detailRequesterText.text = "依頼者：" + currentQuest.requester;
+            else
+                detailRequesterText.text = "■■■：" + lockedRequester;
         }
 
+        // 目的
         if (detailObjectiveText != null)
         {
-            
-            detailObjectiveText.text = "目的：" + currentQuest.objective;
+            if (currentQuest.isUnlocked)
+                detailObjectiveText.text = "内容：" + currentQuest.objective;
+            else
+                detailObjectiveText.text = "■■：" + lockedObjective;
+
+        }
+
+        // 場所
+        if (detailLocationText != null)
+        {
+            if (currentQuest.isUnlocked)
+                detailLocationText.text = "行先：" + currentQuest.location;
+            else
+                detailLocationText.text = "■■：" + lockedLocation;
         }
     }
+
+    //void UpdateDetailPanel()
+    // {
+    // if (selectedIndex >= allQuests.Count) return;
+
+    // QuestData currentQuest = allQuests[selectedIndex];
+
+    // if (detailTitleText != null)
+    //  {
+
+    //      detailTitleText.text = currentQuest.detailTitle;
+    //  }
+
+    //if (detailRequesterText != null)
+    //  {
+
+    //     detailRequesterText.text = "依頼者：" + currentQuest.requester;
+    // }
+
+    // if (detailObjectiveText != null)
+    // {
+
+    //     detailObjectiveText.text = "内容：" + currentQuest.objective;
+    //}
+    //if (detailLocationText != null)
+    //{
+    //  detailLocationText.text = "行先: ：" + currentQuest.location;
+    // }
+    //}
 }
