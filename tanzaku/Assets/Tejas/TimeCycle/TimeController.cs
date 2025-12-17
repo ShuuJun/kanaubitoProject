@@ -8,6 +8,8 @@ using UnityEngine.UI; // Required for Image
 /// Manages the time of day, lighting, and notifies other game objects of time changes.
 /// Includes a fade-to-black transition when time changes.
 /// </summary>
+/// 
+
 public class TimeController : MonoBehaviour
 {
     // Enum to define the different times of day
