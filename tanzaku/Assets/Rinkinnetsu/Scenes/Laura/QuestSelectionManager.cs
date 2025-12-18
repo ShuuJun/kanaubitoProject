@@ -17,10 +17,10 @@ public class QuestSelectionManager : MonoBehaviour
     public Color defaultColor = Color.white;
 
     // ← 新增：乱码
-    private string lockedTitle = "◆◆◆◆◆◆";         
-    private string lockedRequester = "？？？？？？？";
-    private string lockedLocation = "？？？？？？？";
-    private string lockedObjective = "？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？";
+    private string lockedTitle = "";         
+    private string lockedRequester = "";
+    private string lockedLocation = "";
+    private string lockedObjective = "";
 
 
     private List<Text> questTextComponents = new List<Text>();
@@ -172,7 +172,7 @@ public class QuestSelectionManager : MonoBehaviour
             if (currentQuest.isUnlocked)
                 detailRequesterText.text = "依頼者：" + currentQuest.requester;
             else
-                detailRequesterText.text = "■■■：" + lockedRequester;
+                detailRequesterText.text = "" + lockedRequester;
         }
 
         // 目的
@@ -181,7 +181,7 @@ public class QuestSelectionManager : MonoBehaviour
             if (currentQuest.isUnlocked)
                 detailObjectiveText.text = "内容：" + currentQuest.objective;
             else
-                detailObjectiveText.text = "■■：" + lockedObjective;
+                detailObjectiveText.text = "" + lockedObjective;
 
         }
 
@@ -191,7 +191,7 @@ public class QuestSelectionManager : MonoBehaviour
             if (currentQuest.isUnlocked)
                 detailLocationText.text = "行先：" + currentQuest.location;
             else
-                detailLocationText.text = "■■：" + lockedLocation;
+                detailLocationText.text = "" + lockedLocation;
         }
     }
 
