@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: bbc8e531bd822b149b85f100e73efcb7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hiroki_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 397
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6764b76eb0887994c892df3e09192a51
+      internalID: 628438601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 397
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c7800da8c5d624dadaa15dca92edaa
+      internalID: -834220790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 395
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d817f849a91234ba12ecb104b6630e
+      internalID: -699912108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 393
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbb8e20937ee3744b9773c9274e9b2c
+      internalID: -2120598336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 395
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33edefc5a5d29247a17f43d3caa4617
+      internalID: 1754644460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 397
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1e24a7f032ec540b84b70328096410
+      internalID: 1831456879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 395
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1fdefe76a6b2e478f3ccec2250310a
+      internalID: 1685125262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 393
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5fca80fd131e943a5e260031d253e3
+      internalID: -1039679353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 395
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8613dd8430bd334c9213861499547b3
+      internalID: -477736941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 267
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d03c36d680cb94295393a1c8717443
+      internalID: 1002945186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 267
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb79fdd9b47245e4db3533b43e6610b5
+      internalID: 1058967042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 269
+        width: 44
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b345a0cf59c86214bb1cf4d171e4843c
+      internalID: 420832274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 269
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b6fe69ca7c2d2459487a6f044d5432
+      internalID: -1041769387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 267
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2956e301ff69d4fbe7ab64cfa32044
+      internalID: 186204193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 267
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08150bdb6a6f23a4fbdaacfd20a9bc2a
+      internalID: -643714657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 267
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0430fbde6c31b6c408a5db2b9b12747a
+      internalID: 780259151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 267
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7aff812c7d6f0469be1b3d94353f2a
+      internalID: 1769287601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 267
+        width: 46
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c74e849ac0e4c44966905a6ddf8a45
+      internalID: 2030172339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 139
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bd2d48b77aa3249a44b2ec2550b443
+      internalID: 199740475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 139
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1473d455278ce4da7695e296575c74
+      internalID: -996353972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 137
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34640f947ecfb1e41822e5ad28daaa23
+      internalID: 27696783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 137
+        width: 58
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa49980dc5b6c4046baa37dd8c9ffe30
+      internalID: -794584360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 137
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74c07a3282db3e49b9901113d95fd14
+      internalID: 63499623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 139
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0391959f549ae2449a80d4bd1c5474dd
+      internalID: -741190023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 137
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64d701c83fa4c745ac0af0dde01df81
+      internalID: -341377569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 137
+        width: 58
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee180801f4dfb7419c4397576d8b247
+      internalID: -728264515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 137
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcfad3c6723d3a4dbbb0b88b12392b0
+      internalID: 1309201743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 11
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f0c88040a5cd643ae1d3b43d7c9f7e
+      internalID: 1059909450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 11
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b23a68819a68ff439fc59828678dbc0
+      internalID: -635791901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 13
+        width: 44
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cd2f5949eb9ab4f9d53a0a1e167c3d
+      internalID: -56456576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 13
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b2787c754244a409ae688cbc0407c3
+      internalID: -2146786015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 11
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ab04bc33f25914a9dc6026831fd2d8
+      internalID: -613272061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 11
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2b50bc60307bc4aafdd6aeb9f29248
+      internalID: -1836612999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 11
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2300656e59a058b43bcda79c12ddbf88
+      internalID: 311295489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 11
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d43070d7bea4e4c8dbdd6ccb9a759c
+      internalID: -1876879508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hiroki_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 11
+        width: 46
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e513359e1299ffb4493de2d941757ec3
+      internalID: 1776795255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hiroki_Sprite_0: 628438601
+      Hiroki_Sprite_1: -834220790
+      Hiroki_Sprite_10: 1058967042
+      Hiroki_Sprite_11: 420832274
+      Hiroki_Sprite_12: -1041769387
+      Hiroki_Sprite_13: 186204193
+      Hiroki_Sprite_14: -643714657
+      Hiroki_Sprite_15: 780259151
+      Hiroki_Sprite_16: 1769287601
+      Hiroki_Sprite_17: 2030172339
+      Hiroki_Sprite_18: 199740475
+      Hiroki_Sprite_19: -996353972
+      Hiroki_Sprite_2: -699912108
+      Hiroki_Sprite_20: 27696783
+      Hiroki_Sprite_21: -794584360
+      Hiroki_Sprite_22: 63499623
+      Hiroki_Sprite_23: -741190023
+      Hiroki_Sprite_24: -341377569
+      Hiroki_Sprite_25: -728264515
+      Hiroki_Sprite_26: 1309201743
+      Hiroki_Sprite_27: 1059909450
+      Hiroki_Sprite_28: -635791901
+      Hiroki_Sprite_29: -56456576
+      Hiroki_Sprite_3: -2120598336
+      Hiroki_Sprite_30: -2146786015
+      Hiroki_Sprite_31: -613272061
+      Hiroki_Sprite_32: -1836612999
+      Hiroki_Sprite_33: 311295489
+      Hiroki_Sprite_34: -1876879508
+      Hiroki_Sprite_35: 1776795255
+      Hiroki_Sprite_4: 1754644460
+      Hiroki_Sprite_5: 1831456879
+      Hiroki_Sprite_6: 1685125262
+      Hiroki_Sprite_7: -1039679353
+      Hiroki_Sprite_8: -477736941
+      Hiroki_Sprite_9: 1002945186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

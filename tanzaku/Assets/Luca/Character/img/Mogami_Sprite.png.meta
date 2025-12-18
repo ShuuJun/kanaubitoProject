@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 8109f6d1d44a2d74c9294e29bd6fd4da
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mogami_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 407
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400f7fa763787cb4aa996dae27bb6bd0
+      internalID: 889548418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 407
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958a4b17a41647444b4a08f4e63ac495
+      internalID: -1175952091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 405
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09de5422c098d444c9b8a8c7f3af8ba3
+      internalID: 264470607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 403
+        width: 58
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc953034570ca44caf4aaca03692aea
+      internalID: -997375186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 405
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2d623cfc2d0d54198b5c578b27f53d
+      internalID: -1950322251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 407
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d40756bf1ea3854c9443cd6ec59f229
+      internalID: -1755306752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 405
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494fc5ef68fd4cf4aabb04605daab4af
+      internalID: -1933064155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 403
+        width: 58
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710d9cb816bd9d7429e9c3c8559549fd
+      internalID: -1599009595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 405
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1adcf6f792d21d4da1398928ff35365
+      internalID: -873835580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 277
+        width: 40
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd40de603bda5e44993048d32d6df426
+      internalID: 362729591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 277
+        width: 50
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d069104f6115754f928c36680704678
+      internalID: 1379620305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 279
+        width: 44
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5498a7e486f88eb418e8cf68153f17a4
+      internalID: 283845141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 279
+        width: 44
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc869b333f7cd624694619f9db65f1d7
+      internalID: -1734756753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 277
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47210e3602db23446ac6d5a9c0cecf9b
+      internalID: 915581478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 277
+        width: 56
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2b9c1839669df4489a4cdbe99c9c2a
+      internalID: 1096649079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 277
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a88d9adf8084440bfb7abdd0b31ae0
+      internalID: -2083511881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 277
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad22977b4c1127a46935c223295ecb2e
+      internalID: 1593573178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 277
+        width: 42
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aee3cdd2cf17a441a124a4512b3aacd
+      internalID: 724108434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 149
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41281c33169b44a46bc64bb55c234e48
+      internalID: 1570660718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 149
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95540be92a88dc44ab255f8802a4fac
+      internalID: -1085664493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 147
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e6471891577d24fa6d15c8f797c5dd
+      internalID: 1676289869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 147
+        width: 58
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f19b0e5e72b99419d43c8496f71d25
+      internalID: 1271038748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 147
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8877be3616d23ec46a604fbd1437608c
+      internalID: -1254518154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 149
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7851dc62af8d2640b160415afc8b29d
+      internalID: -1465679986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 147
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d30738be654b841ac67c631b5b915a
+      internalID: 1815717284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 147
+        width: 58
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b57a716ef684a4aa9c0bc214d829c1
+      internalID: -7669505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 147
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c137d85a71f9bf746b5b3378068d3df7
+      internalID: -860160107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 21
+        width: 40
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ef06980f10f8c4ba2793d41234dd78
+      internalID: -1534833433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 21
+        width: 50
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7960ebd2a031b574f8c265663bb5104f
+      internalID: 628763273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 23
+        width: 44
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8db3f1e6cd871041be24d2206c923d0
+      internalID: 633334224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 23
+        width: 44
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b80d743bb354b84c9f4098184d7cb4a
+      internalID: -2091264015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 21
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef900d01c6bef1148a5f4b1dc5c22e52
+      internalID: -1884168706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 21
+        width: 56
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4ccd7b297f43342830a51410e8ea72
+      internalID: -1802693273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 21
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcd488da7b64af4699eebc76a338ceb
+      internalID: 609764207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 21
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982339eac87c1fa488acbad82a51fe2c
+      internalID: 1561665771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mogami_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 21
+        width: 42
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a188ba77ad277a64d8efc9477347fff9
+      internalID: -711961962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mogami_Sprite_0: 889548418
+      Mogami_Sprite_1: -1175952091
+      Mogami_Sprite_10: 1379620305
+      Mogami_Sprite_11: 283845141
+      Mogami_Sprite_12: -1734756753
+      Mogami_Sprite_13: 915581478
+      Mogami_Sprite_14: 1096649079
+      Mogami_Sprite_15: -2083511881
+      Mogami_Sprite_16: 1593573178
+      Mogami_Sprite_17: 724108434
+      Mogami_Sprite_18: 1570660718
+      Mogami_Sprite_19: -1085664493
+      Mogami_Sprite_2: 264470607
+      Mogami_Sprite_20: 1676289869
+      Mogami_Sprite_21: 1271038748
+      Mogami_Sprite_22: -1254518154
+      Mogami_Sprite_23: -1465679986
+      Mogami_Sprite_24: 1815717284
+      Mogami_Sprite_25: -7669505
+      Mogami_Sprite_26: -860160107
+      Mogami_Sprite_27: -1534833433
+      Mogami_Sprite_28: 628763273
+      Mogami_Sprite_29: 633334224
+      Mogami_Sprite_3: -997375186
+      Mogami_Sprite_30: -2091264015
+      Mogami_Sprite_31: -1884168706
+      Mogami_Sprite_32: -1802693273
+      Mogami_Sprite_33: 609764207
+      Mogami_Sprite_34: 1561665771
+      Mogami_Sprite_35: -711961962
+      Mogami_Sprite_4: -1950322251
+      Mogami_Sprite_5: -1755306752
+      Mogami_Sprite_6: -1933064155
+      Mogami_Sprite_7: -1599009595
+      Mogami_Sprite_8: -873835580
+      Mogami_Sprite_9: 362729591
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

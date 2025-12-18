@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 139f45e5010b2a141a45d20d10a015c6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ayumi_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 395
+        width: 56
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c522b740435fc4c40a39e95b1440a48c
+      internalID: 1358976121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 395
+        width: 56
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e227c20367f84484fad14173cf7b2cdf
+      internalID: 1057328831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 393
+        width: 52
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829ac5b67826ff44eb1bd080b83a4ec5
+      internalID: -702934190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 391
+        width: 48
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59124659db492ba4a94d167eca33cb9e
+      internalID: -1619643582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 393
+        width: 56
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67644d25fad4ccb4289f2a28ee063fb9
+      internalID: 934010877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 395
+        width: 56
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4db33a770b3fc844acc2d7d6378165a
+      internalID: 935352294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 393
+        width: 52
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776f9f3e077d7df408d5d53726f67bf1
+      internalID: 787113041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 391
+        width: 48
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411ad800016f2fb46892342cc58f66b8
+      internalID: 2122996166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 393
+        width: 56
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51da5652e3853fc49aa9e0b5d1685179
+      internalID: 1610043743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 267
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4e34a28971f144a943218be24c4459
+      internalID: 1279897777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 267
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb579fbfdb8a744eabf664423010040
+      internalID: -445037436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 269
+        width: 46
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ad87189e15ec84fa965c519a57d221
+      internalID: -2129956477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 269
+        width: 46
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1b13e888434d54a9f79dffabdaf7e2
+      internalID: 1225579510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 267
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342f9149eac3870439e2267f219d107f
+      internalID: -736396164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 267
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21425a269b7b8a48b0ae70ceee525d4
+      internalID: -675079081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 267
+        width: 48
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b3d2781a8de2c4a800add9b340c0c2
+      internalID: 896322127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 267
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ea55ff0e2002f47ad097e0e234f093
+      internalID: 761434252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 267
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd00e2d5f9a39f841932d18b004a2cef
+      internalID: -705868722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 139
+        width: 56
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47f68c53d307194a8b48f467793fb51
+      internalID: 1144661276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 139
+        width: 56
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0b4fa6e2e35f042940ea24251b5875
+      internalID: -1795253134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 137
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c7d84eef4ac7a4aab2842c9b980943
+      internalID: 691211566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 137
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a15f5bdbc415e4aa43f066e4a3a9b3
+      internalID: -2119931930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 137
+        width: 56
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070761431c6730642ad5def76355ea5b
+      internalID: 446351525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 139
+        width: 56
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b5b0a99098a3347bb1038884cf30a0
+      internalID: -1536317866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 137
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eb434e4f190c14698ab1b5acbe944b
+      internalID: -143963517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 137
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893019208c6f173458f1c287f46901df
+      internalID: 1508773502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 137
+        width: 56
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e3d07d2fb6fc9419c34ef4c90de4d6
+      internalID: 1611770641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 11
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71eacf7b1211f542914a4f8c8762803
+      internalID: -144231383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 11
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2384d713b3a6f4eb14f807cdef8b18
+      internalID: 618947111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 13
+        width: 46
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb541cedecedfb4193481ba40daaf03
+      internalID: 1321100310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 13
+        width: 46
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb1fd7a6d77c274b9c25f63175446e4
+      internalID: 1286195903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 11
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aae96e130f2c94ba93b1e4bd119603
+      internalID: 1263966182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 11
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f9f60217cbac74583e7b68cd412b72
+      internalID: 1451469635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 11
+        width: 48
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7222c55bd09c6eb4abe45089960b4065
+      internalID: -538356707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 11
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79c62bea2eb4f642af718add549ffbc
+      internalID: -15012662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayumi_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 11
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50e1c250bdf45f41a04393e3c60ec1a
+      internalID: -413159126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ayumi_Sprite_0: 1358976121
+      Ayumi_Sprite_1: 1057328831
+      Ayumi_Sprite_10: -445037436
+      Ayumi_Sprite_11: -2129956477
+      Ayumi_Sprite_12: 1225579510
+      Ayumi_Sprite_13: -736396164
+      Ayumi_Sprite_14: -675079081
+      Ayumi_Sprite_15: 896322127
+      Ayumi_Sprite_16: 761434252
+      Ayumi_Sprite_17: -705868722
+      Ayumi_Sprite_18: 1144661276
+      Ayumi_Sprite_19: -1795253134
+      Ayumi_Sprite_2: -702934190
+      Ayumi_Sprite_20: 691211566
+      Ayumi_Sprite_21: -2119931930
+      Ayumi_Sprite_22: 446351525
+      Ayumi_Sprite_23: -1536317866
+      Ayumi_Sprite_24: -143963517
+      Ayumi_Sprite_25: 1508773502
+      Ayumi_Sprite_26: 1611770641
+      Ayumi_Sprite_27: -144231383
+      Ayumi_Sprite_28: 618947111
+      Ayumi_Sprite_29: 1321100310
+      Ayumi_Sprite_3: -1619643582
+      Ayumi_Sprite_30: 1286195903
+      Ayumi_Sprite_31: 1263966182
+      Ayumi_Sprite_32: 1451469635
+      Ayumi_Sprite_33: -538356707
+      Ayumi_Sprite_34: -15012662
+      Ayumi_Sprite_35: -413159126
+      Ayumi_Sprite_4: 934010877
+      Ayumi_Sprite_5: 935352294
+      Ayumi_Sprite_6: 787113041
+      Ayumi_Sprite_7: 2122996166
+      Ayumi_Sprite_8: 1610043743
+      Ayumi_Sprite_9: 1279897777
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

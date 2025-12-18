@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: cceba841b7f134444a77c299e864eb22
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 396
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2cda491c5873f4091febf8401fdd6c
+      internalID: 1946791369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 396
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45be7de973d68f142b572c901c7c5b7f
+      internalID: -1414720032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 394
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fdf28a277a35641927e89f6efdf289
+      internalID: 777086050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 392
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134ab1bc0a2b9f7409514de59cc0c5a2
+      internalID: -1783566628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 394
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cda526d139bf749b2a0a30512bd96b
+      internalID: -1501993599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 396
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a1269292a311a43b9d7e38118601f1
+      internalID: 1126600693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 394
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fc81a189e0c0d4a8f148eb50152cbb
+      internalID: -483179336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 392
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c444975189d952458df941f8e924862
+      internalID: -1863129716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 394
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706c2699fa6b7254cab5b162b933841d
+      internalID: -593679821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 268
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c06d903eae35d4c837a3d027c06e31
+      internalID: -75718087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 268
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9c5a4606c988a408a01d0b9ccffd6d
+      internalID: -187503107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 270
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5833f8cd2a7091a4dba07b8bcb23ba6a
+      internalID: -1788640562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 270
+        width: 70
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d5303332d30fb438eedc14be02b378
+      internalID: -106035343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 268
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b7fd4c57881454c9d1d9592f0e1c20
+      internalID: -1101651993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 268
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c892cece24c6bf4ca7aa2f7570554b6
+      internalID: 1956141360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 268
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98da7f21b47fd3843aaa14ff89d31cbe
+      internalID: 13675481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 268
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104d2a717dc035842a413db2692cc3c6
+      internalID: 1533824230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 268
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b327394dc1c034ea178f5f6d4115d0
+      internalID: -442612060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 140
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3521f46777bd241a27ff990b848e8c
+      internalID: 2127669941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 140
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51118b024506d3547a1a0cbea118ca98
+      internalID: 1555581172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 138
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe19025041e911b46bc5d97181ed71fb
+      internalID: -1554052159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 138
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b024426781d904e9296e87d909a58a
+      internalID: 949596246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 138
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f0123a51e4b7a4fb0c46e8e3bd71e8
+      internalID: 1410416738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 140
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26783ecc9bf93ce43a5529339453243a
+      internalID: -523632835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 138
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a68d2fbcd1f7e9479d8042bc3df7213
+      internalID: -1557554530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 138
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5987117525e6d00409646be7dddd064a
+      internalID: 656674646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 138
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaab140962e62e45b8541b29833cb07
+      internalID: -1382094405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 12
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910f2cd9d8284544681d1d1baf1f0cc3
+      internalID: -1109380948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 12
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654336b585a25f84faf5595bbd7fe51a
+      internalID: -390789066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 14
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8634c05fb003b7d4a87d6503a0c3ade1
+      internalID: 586534147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 14
+        width: 62
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973339dbf5c74d64c9be421935aa9f2f
+      internalID: 448068357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 12
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a586e46bc7d1f41820557c44359a58
+      internalID: 171911855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 12
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1527ddac4ba1a6e4c934e81610eb6e73
+      internalID: -2029571340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 12
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536553bc102565649ade9c93bdd9a664
+      internalID: 1218541662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 12
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a21c3fb5876b94491b45b4288f9143
+      internalID: -875614717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafuyu_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 12
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32063596fd972d248b490d9d2282e556
+      internalID: 1596717602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mafuyu_Sprite_0: 1946791369
+      Mafuyu_Sprite_1: -1414720032
+      Mafuyu_Sprite_10: -187503107
+      Mafuyu_Sprite_11: -1788640562
+      Mafuyu_Sprite_12: -106035343
+      Mafuyu_Sprite_13: -1101651993
+      Mafuyu_Sprite_14: 1956141360
+      Mafuyu_Sprite_15: 13675481
+      Mafuyu_Sprite_16: 1533824230
+      Mafuyu_Sprite_17: -442612060
+      Mafuyu_Sprite_18: 2127669941
+      Mafuyu_Sprite_19: 1555581172
+      Mafuyu_Sprite_2: 777086050
+      Mafuyu_Sprite_20: -1554052159
+      Mafuyu_Sprite_21: 949596246
+      Mafuyu_Sprite_22: 1410416738
+      Mafuyu_Sprite_23: -523632835
+      Mafuyu_Sprite_24: -1557554530
+      Mafuyu_Sprite_25: 656674646
+      Mafuyu_Sprite_26: -1382094405
+      Mafuyu_Sprite_27: -1109380948
+      Mafuyu_Sprite_28: -390789066
+      Mafuyu_Sprite_29: 586534147
+      Mafuyu_Sprite_3: -1783566628
+      Mafuyu_Sprite_30: 448068357
+      Mafuyu_Sprite_31: 171911855
+      Mafuyu_Sprite_32: -2029571340
+      Mafuyu_Sprite_33: 1218541662
+      Mafuyu_Sprite_34: -875614717
+      Mafuyu_Sprite_35: 1596717602
+      Mafuyu_Sprite_4: -1501993599
+      Mafuyu_Sprite_5: 1126600693
+      Mafuyu_Sprite_6: -483179336
+      Mafuyu_Sprite_7: -1863129716
+      Mafuyu_Sprite_8: -593679821
+      Mafuyu_Sprite_9: -75718087
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

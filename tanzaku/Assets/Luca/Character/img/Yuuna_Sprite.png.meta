@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: d5e066c872f6d9c49af8a5cca474e6ee
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yuuna_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 401
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a9819333422d2448289a196ae87d50
+      internalID: 1498301497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 401
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8de000479973ed4c8b84330e2139cae
+      internalID: -1389974391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 399
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317284faa6730e746bdf7678611c9fb8
+      internalID: 1081902485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 397
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb684aa1baaf9a47ad31e2e2f060580
+      internalID: 432575279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 399
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf80b1f25c2be44cbe134e4af1680bd
+      internalID: -1703516811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 401
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec49d774b6483bd4cafd26454965c346
+      internalID: -1995936443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 399
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8eb90e3cf57cf489a100d483f4caaa
+      internalID: -1784559169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 397
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c843edec09a74f4c93f28ae4dc3cc3a
+      internalID: 1675190897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 399
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da92a15abcc36dd4581eb26f7551f63d
+      internalID: -1551048124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 273
+        width: 44
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a440001534e533488a115c6daa6db52
+      internalID: -547443614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 273
+        width: 42
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd496a7915c00b42b3f9fda29db76e4
+      internalID: -1297858029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 275
+        width: 42
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e883cef9bf0d7a4ea25344c413076af
+      internalID: 776536035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 275
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fb9dba95b7bf840be00e4c143ff5ef
+      internalID: -2051715323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 273
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ceba8159c9ff034cb2afb6150325531
+      internalID: -908303056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 273
+        width: 54
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4436fee8261fb4e953386d54a3e448
+      internalID: 1192917540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 273
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1569d17697ffd04da95fc779bb343f0
+      internalID: -229722811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 273
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20eef3dd5aa2734ba95ed6f4b5d947b
+      internalID: 1693322397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 273
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd557b3c82b926499b1f96cca6479e2
+      internalID: -265283681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 145
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b973f82ad8ee9de4880f10e693f1eadc
+      internalID: -2037482109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 145
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0580efb28223d684a817d8e51036c11e
+      internalID: 1166664491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 143
+        width: 54
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415228fb381178247956c4812480059e
+      internalID: 1212220190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 143
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d0c0345482a9f4ba740ffb3d8b006f
+      internalID: 795922038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 143
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e64e43e2b6f6648860fcbd9ec3fa5e
+      internalID: -627512893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 145
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc67628ab8e1ce4a9f87cdad21afc55
+      internalID: -709379931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 143
+        width: 54
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366a8904e71a23b49987942e18ac0679
+      internalID: -285490931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 143
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdd395fcf73768478854530581330b2
+      internalID: -1195330632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 143
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6791d9b0f84dd88429f742b3448a53db
+      internalID: 490123303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 17
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb007c5df3b300488cad7957f6af1ed
+      internalID: 2043510436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 17
+        width: 42
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae65c846dc7db9f4d9a8055993ca1c42
+      internalID: 688147551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 19
+        width: 38
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af14ab050436f74ca2a4afe58af356e
+      internalID: 1733629846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 19
+        width: 42
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66381720c1478443a222277cba20326
+      internalID: 635155295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 17
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fecef222750dc4b9632c5227548a0e
+      internalID: 1318779411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 17
+        width: 54
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcff69f3910f4f42b3068f205df2f02
+      internalID: 455337411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 17
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198d5ca5952aa3240a29a6417cdb1d12
+      internalID: 1682515651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 17
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182dbceb318598e4b913077f78aef464
+      internalID: -746556546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yuuna_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 17
+        width: 38
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efa7af0c2a49b0428b2a4a01add42cd
+      internalID: -579884070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Yuuna_Sprite_0: 1498301497
+      Yuuna_Sprite_1: -1389974391
+      Yuuna_Sprite_10: -1297858029
+      Yuuna_Sprite_11: 776536035
+      Yuuna_Sprite_12: -2051715323
+      Yuuna_Sprite_13: -908303056
+      Yuuna_Sprite_14: 1192917540
+      Yuuna_Sprite_15: -229722811
+      Yuuna_Sprite_16: 1693322397
+      Yuuna_Sprite_17: -265283681
+      Yuuna_Sprite_18: -2037482109
+      Yuuna_Sprite_19: 1166664491
+      Yuuna_Sprite_2: 1081902485
+      Yuuna_Sprite_20: 1212220190
+      Yuuna_Sprite_21: 795922038
+      Yuuna_Sprite_22: -627512893
+      Yuuna_Sprite_23: -709379931
+      Yuuna_Sprite_24: -285490931
+      Yuuna_Sprite_25: -1195330632
+      Yuuna_Sprite_26: 490123303
+      Yuuna_Sprite_27: 2043510436
+      Yuuna_Sprite_28: 688147551
+      Yuuna_Sprite_29: 1733629846
+      Yuuna_Sprite_3: 432575279
+      Yuuna_Sprite_30: 635155295
+      Yuuna_Sprite_31: 1318779411
+      Yuuna_Sprite_32: 455337411
+      Yuuna_Sprite_33: 1682515651
+      Yuuna_Sprite_34: -746556546
+      Yuuna_Sprite_35: -579884070
+      Yuuna_Sprite_4: -1703516811
+      Yuuna_Sprite_5: -1995936443
+      Yuuna_Sprite_6: -1784559169
+      Yuuna_Sprite_7: 1675190897
+      Yuuna_Sprite_8: -1551048124
+      Yuuna_Sprite_9: -547443614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

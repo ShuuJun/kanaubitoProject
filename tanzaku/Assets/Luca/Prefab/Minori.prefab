@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2725937584517618947}
   - component: {fileID: 9001876439379996069}
   m_Layer: 0
-  m_Name: NPC1 1
+  m_Name: Minori
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

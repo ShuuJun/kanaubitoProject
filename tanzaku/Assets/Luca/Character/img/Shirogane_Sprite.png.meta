@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 9e242303ab031e542b918aa45407291a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shirogane_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 404
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8991c7deb1d9afe4c8a9eba554a649c7
+      internalID: -2050970358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 404
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695e917e31264ca42a261d3d16a1e228
+      internalID: -356427154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 402
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73227e63b637ec4fa71f226b137c118
+      internalID: -744978958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 400
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dc73c04958fe841b60ed1a9439a832
+      internalID: 2009902050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 402
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306eeb01868db2a4cbcd9521d05f1bf2
+      internalID: -1796936130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 404
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f017d779fc9fb464ab0344b622f51c2d
+      internalID: -1454525364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 402
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b00f355e70a73944ad71a792d050dc8
+      internalID: -682357899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 400
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd124d8be6b75564d90bfa69b1acc775
+      internalID: 856455552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 402
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4493ec77e205ae540b4d202e469df4df
+      internalID: -42603298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 274
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9588b45f6a9e33241b3da523d389040b
+      internalID: 1754728131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 274
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ebd8f46e682441af00d09e5b3eb42
+      internalID: -1165834198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 276
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a5a14a6491d7f488d11680d74f2554
+      internalID: 854723621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 276
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b289ec9a9c82804ba9418b56a846b1b
+      internalID: -2026570274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 274
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e491ea73f8efe438c1590498c206f8
+      internalID: 71544902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 274
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8752052df371b064081e103133857d27
+      internalID: 826847756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 274
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392ebd81608f4ff478b1548b32a1801b
+      internalID: -2020747055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 274
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8639ec3103c327e4a8c0df78f65b3a23
+      internalID: -1206499067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 274
+        width: 44
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947a5552ce319c049b6501144665652b
+      internalID: 550877288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 146
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ed143dfde0aaf41b1e5568066a0195
+      internalID: -1501646543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 146
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74ad8e2895812e4db05a3a72c12aaf8
+      internalID: 1008012647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 144
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36472f81f2ba9a44b6fa5a6f24fbb0b
+      internalID: -1835333963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 144
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64102eb77f0228c49addf24f41fe831f
+      internalID: -1077910392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 144
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a33aead2d52de4a94e7d23ad3d333e
+      internalID: -1689356061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 146
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a28c2a826215d45a4e68aa9322f3fb
+      internalID: -2026209406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 144
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9768b4297940584db182e314e442b72
+      internalID: 656539319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 144
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331723e6eb734b34cabe807b9f2d5a87
+      internalID: -423369188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 144
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f10a4c4d6187d43a8a77ab82f7e812
+      internalID: 899779097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 18
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee4e67094b17e246b06526ffa971b7d
+      internalID: 1687089038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 18
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2763bf702d5f5f842a279eae2542e485
+      internalID: -1312339840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 20
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaa8cdc2e524f843be015030a8db2cb
+      internalID: 526113546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 20
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9ab405a40d3954587f3b25527ab993
+      internalID: 2021520864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 18
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ba0fa53a9224c40835daf13c79e713
+      internalID: -1390920605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 18
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8052664a455a644a996a24c3b99a8e
+      internalID: 697072324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 18
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3ad4d0a38658d4dae5174fdb609680
+      internalID: 1764635682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 18
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18ca30678cea454fb407739b83a2df8
+      internalID: -1441563903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shirogane_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 18
+        width: 44
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffc34a9840f5eb4190be40d86cc04ec
+      internalID: -710353612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Shirogane_Sprite_0: -2050970358
+      Shirogane_Sprite_1: -356427154
+      Shirogane_Sprite_10: -1165834198
+      Shirogane_Sprite_11: 854723621
+      Shirogane_Sprite_12: -2026570274
+      Shirogane_Sprite_13: 71544902
+      Shirogane_Sprite_14: 826847756
+      Shirogane_Sprite_15: -2020747055
+      Shirogane_Sprite_16: -1206499067
+      Shirogane_Sprite_17: 550877288
+      Shirogane_Sprite_18: -1501646543
+      Shirogane_Sprite_19: 1008012647
+      Shirogane_Sprite_2: -744978958
+      Shirogane_Sprite_20: -1835333963
+      Shirogane_Sprite_21: -1077910392
+      Shirogane_Sprite_22: -1689356061
+      Shirogane_Sprite_23: -2026209406
+      Shirogane_Sprite_24: 656539319
+      Shirogane_Sprite_25: -423369188
+      Shirogane_Sprite_26: 899779097
+      Shirogane_Sprite_27: 1687089038
+      Shirogane_Sprite_28: -1312339840
+      Shirogane_Sprite_29: 526113546
+      Shirogane_Sprite_3: 2009902050
+      Shirogane_Sprite_30: 2021520864
+      Shirogane_Sprite_31: -1390920605
+      Shirogane_Sprite_32: 697072324
+      Shirogane_Sprite_33: 1764635682
+      Shirogane_Sprite_34: -1441563903
+      Shirogane_Sprite_35: -710353612
+      Shirogane_Sprite_4: -1796936130
+      Shirogane_Sprite_5: -1454525364
+      Shirogane_Sprite_6: -682357899
+      Shirogane_Sprite_7: 856455552
+      Shirogane_Sprite_8: -42603298
+      Shirogane_Sprite_9: 1754728131
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

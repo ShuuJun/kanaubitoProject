@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 3d8bd440845a3b646aabd00748c94c7e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Natsuki_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 405
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c0cb22b4650c7429fcc1f54866f2b3
+      internalID: -1315176103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 405
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034e608eb7c857f438aac63a2ac76bde
+      internalID: 1015859902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 403
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9038f45fb43b28d4e97efa3eb98a153f
+      internalID: -822465469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 401
+        width: 58
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f730208513ad8240a2ebce2584bd315
+      internalID: 281281569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 403
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41502e006e39bf4e88cdf3c5e37166a
+      internalID: 1779179152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 405
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d08fdde6448afe40979109977df1938
+      internalID: 667249672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 403
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44db5831179ce414f9b98c2aa55829a3
+      internalID: 770768796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 401
+        width: 58
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ab31d88bfdbc642944cab79cda3a10
+      internalID: 926320035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 403
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f0a6f9ac99daa4f900b05552965923
+      internalID: 800178534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 275
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711b0e1b1a886874a86d5a511bfa0c13
+      internalID: 751236825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 275
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa486aae91700f4d972c4dd2528fab1
+      internalID: -1917322708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 277
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f711e573408336418f1c6962e03662e
+      internalID: 338990977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 277
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94a804a085a19648aee292f62d41034
+      internalID: -895579761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 275
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad46267fce3ebe4f9d0d0744715f719
+      internalID: -918843212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 275
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769fded5588bff244a6d460b33652029
+      internalID: -1459638871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 275
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0232f7a477fa74c80046b1a837390a
+      internalID: -1163207474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 275
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c19b55bb6b6c249aae945f85df74be
+      internalID: -733245759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 275
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1117a1f67a0f14eb4f64239815c1c3
+      internalID: 2056390962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 147
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720f49cc0033ff2418e1fa93a66eb05d
+      internalID: 1725711692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 147
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad50beb9e3eb2f4b903630a42aa4b20
+      internalID: 152355814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 145
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18a9acbb203d654893ef8ceda41f284
+      internalID: -687062476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 145
+        width: 58
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e368d5bb775814b93e88313b17d690
+      internalID: 1509645424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 145
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686abb20f88d65545a58d9202668ea0a
+      internalID: 563685162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 147
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8105ac0c1bde15f48a4e8fb41a8885ae
+      internalID: 731502104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 145
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f85157b4dff8644b26e46ad4b3fb6e
+      internalID: 1336853865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 145
+        width: 58
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1406ad0b9c1af540b4926f1353bf3e2
+      internalID: -808993390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 145
+        width: 60
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15708c0e8fb8b8c42a2bcedd6e472090
+      internalID: 854525249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 19
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2673882574eafd441b4f34827db9f31a
+      internalID: -1514574241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 19
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b93513812f17c24382398747d1858b9
+      internalID: 720969707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 21
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d31daec2f98cf4c9d88f7ae0896170
+      internalID: 329628270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 21
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e58eb1596dfa344d9b90385e6b3feb3
+      internalID: 308618917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 19
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d70e2329b7ca5428287208d70782d7
+      internalID: 535009592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 19
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7816373bc04e42c468fff131189cdac8
+      internalID: 746761608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 19
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74caa4709cb57714e87caa30e494d377
+      internalID: -110202470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 19
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f2c669915aac347ad6973d7304cbb5
+      internalID: -663707078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natsuki_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 19
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31d304fbae469c498b1c938f1acf236
+      internalID: 1461238390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Natsuki_Sprite_0: -1315176103
+      Natsuki_Sprite_1: 1015859902
+      Natsuki_Sprite_10: -1917322708
+      Natsuki_Sprite_11: 338990977
+      Natsuki_Sprite_12: -895579761
+      Natsuki_Sprite_13: -918843212
+      Natsuki_Sprite_14: -1459638871
+      Natsuki_Sprite_15: -1163207474
+      Natsuki_Sprite_16: -733245759
+      Natsuki_Sprite_17: 2056390962
+      Natsuki_Sprite_18: 1725711692
+      Natsuki_Sprite_19: 152355814
+      Natsuki_Sprite_2: -822465469
+      Natsuki_Sprite_20: -687062476
+      Natsuki_Sprite_21: 1509645424
+      Natsuki_Sprite_22: 563685162
+      Natsuki_Sprite_23: 731502104
+      Natsuki_Sprite_24: 1336853865
+      Natsuki_Sprite_25: -808993390
+      Natsuki_Sprite_26: 854525249
+      Natsuki_Sprite_27: -1514574241
+      Natsuki_Sprite_28: 720969707
+      Natsuki_Sprite_29: 329628270
+      Natsuki_Sprite_3: 281281569
+      Natsuki_Sprite_30: 308618917
+      Natsuki_Sprite_31: 535009592
+      Natsuki_Sprite_32: 746761608
+      Natsuki_Sprite_33: -110202470
+      Natsuki_Sprite_34: -663707078
+      Natsuki_Sprite_35: 1461238390
+      Natsuki_Sprite_4: 1779179152
+      Natsuki_Sprite_5: 667249672
+      Natsuki_Sprite_6: 770768796
+      Natsuki_Sprite_7: 926320035
+      Natsuki_Sprite_8: 800178534
+      Natsuki_Sprite_9: 751236825
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 0a584ee3929954546b09162c7db2e090
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 395
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fd6d26f90fb8c4c93f9ecc8c5f1a88
+      internalID: 1364183800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 395
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd1c6b1720b34b4bac38a4e77fddc26
+      internalID: 1594545233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 393
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c4e3349b873024094232933a07f4dc
+      internalID: -1175480184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 391
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad94d23ddaf07f7468ce7f6ca07bff78
+      internalID: 215831483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 393
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a008cdd312727664589c289adf0498b2
+      internalID: 1098026919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 395
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c77080d137fa204a9dd8fd602f7c054
+      internalID: 1108096603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 393
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935051dfca029e846ae1049ba218f56b
+      internalID: -308201891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 391
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b261e6c88f9cc4d88a0ebf2da212a0
+      internalID: -1967063549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 393
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d71ff65756da140b4c44b75ebcfbcc
+      internalID: -5768028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 267
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6cc69ca49e70f48ad1c15b902068a8
+      internalID: -156392708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 267
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615d3e60ea6277c489f8bc982cb95797
+      internalID: -1746555766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 269
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f4a29a513f2884cab408feff368fe5
+      internalID: 173211112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 269
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6cf36c8d84e134b8d6ed36e8f3a9a7
+      internalID: 259091260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 267
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c567537db7e88340baea2a8bda7d4fd
+      internalID: -1568884012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 267
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5115a27a5a5dd45a8bb6f2f39fe9be
+      internalID: -641197783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 267
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1dcb8cd5acab3418ad4f9dc165c07f
+      internalID: -66049629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 267
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791eec74b18503c45ad5a2b8f4a570bb
+      internalID: 2055667742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 267
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f280baa0ff5fc34ea3ae196a950b05c
+      internalID: -476777420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 139
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2f9ac38e879f9409da48c5d95d2ad5
+      internalID: 1395078535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 139
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ea229ed4fe85b478c0e4ffc1710f14
+      internalID: 668564232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 137
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e2d14d4f76e6c4c84f027c63704f14
+      internalID: -921736335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 137
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b186cecb9055184ea80d23f81fecdea
+      internalID: -1037576400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 137
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716df62c274cdd44bb44b47d53178f47
+      internalID: -1668677613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 139
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7426451fffcbee64f8e03aa3254e7a1c
+      internalID: -1402323827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 137
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39b12416d240694093d08c24d56ab97
+      internalID: 1886526624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 137
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70704e0d0a548a14297ea68b23007bdf
+      internalID: -600593669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 137
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8306bddf0e600b0448fe92c90828a979
+      internalID: -1791909588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 11
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53b72d0ece0786409db1dc031eb3a52
+      internalID: -1401763910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 11
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19a2705baa562b4c84b3ce9ea3b049c
+      internalID: 1562005696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 13
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b6bee4f6a5b1942adac6ba4cb78a8a
+      internalID: 1581635150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 13
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0513901a02aae14fa5f72e4e366daeb
+      internalID: -1219799771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 11
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43268143ec61d7240a549eecf4d03061
+      internalID: 186495125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 11
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf8cd527f109f94296349190ff21eca
+      internalID: -1767668247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 11
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89427b32c73519943a4a1ff81c2e36bb
+      internalID: -75125974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 11
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758d450b1d812c5468cad6bc5596ea90
+      internalID: -1727067215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tsumugi_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 11
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a972133bc304d64a9967377e03f349b
+      internalID: -327869098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tsumugi_Sprite_0: 1364183800
+      Tsumugi_Sprite_1: 1594545233
+      Tsumugi_Sprite_10: -1746555766
+      Tsumugi_Sprite_11: 173211112
+      Tsumugi_Sprite_12: 259091260
+      Tsumugi_Sprite_13: -1568884012
+      Tsumugi_Sprite_14: -641197783
+      Tsumugi_Sprite_15: -66049629
+      Tsumugi_Sprite_16: 2055667742
+      Tsumugi_Sprite_17: -476777420
+      Tsumugi_Sprite_18: 1395078535
+      Tsumugi_Sprite_19: 668564232
+      Tsumugi_Sprite_2: -1175480184
+      Tsumugi_Sprite_20: -921736335
+      Tsumugi_Sprite_21: -1037576400
+      Tsumugi_Sprite_22: -1668677613
+      Tsumugi_Sprite_23: -1402323827
+      Tsumugi_Sprite_24: 1886526624
+      Tsumugi_Sprite_25: -600593669
+      Tsumugi_Sprite_26: -1791909588
+      Tsumugi_Sprite_27: -1401763910
+      Tsumugi_Sprite_28: 1562005696
+      Tsumugi_Sprite_29: 1581635150
+      Tsumugi_Sprite_3: 215831483
+      Tsumugi_Sprite_30: -1219799771
+      Tsumugi_Sprite_31: 186495125
+      Tsumugi_Sprite_32: -1767668247
+      Tsumugi_Sprite_33: -75125974
+      Tsumugi_Sprite_34: -1727067215
+      Tsumugi_Sprite_35: -327869098
+      Tsumugi_Sprite_4: 1098026919
+      Tsumugi_Sprite_5: 1108096603
+      Tsumugi_Sprite_6: -308201891
+      Tsumugi_Sprite_7: -1967063549
+      Tsumugi_Sprite_8: -5768028
+      Tsumugi_Sprite_9: -156392708
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

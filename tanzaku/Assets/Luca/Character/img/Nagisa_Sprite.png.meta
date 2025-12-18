@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 624267bfbd2c56e458823061ca385de6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nagisa_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 401
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41458c1175041894abfb70558053b216
+      internalID: -1927341791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 401
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f586ea1f441964bab6b131d631a4b6
+      internalID: 30446654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 399
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab88a37966a17124fa890f2db77fe50b
+      internalID: -775417516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 397
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31b05a2d3a3d104a8dec5deed86d084
+      internalID: 1121488911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 399
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26568ffc45f712d4fadaa46187f423e2
+      internalID: 486650845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 401
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84451162a85777c409f734e3f439783c
+      internalID: 1483819373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 399
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fece486fd593c84fae7c8def4b18bd8
+      internalID: 1988498271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 397
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ef0b7b701aa064cb622b162cfeb1b8
+      internalID: -1528660498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 399
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97427b0749b696443a754f4dc139d370
+      internalID: 1545857754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 273
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24b7c4c0b540644cac080927590ef0e
+      internalID: -1043511902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 273
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8365b13bc4554c46be5e44502b9dd59
+      internalID: -1416093031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 275
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f316d6b0b871e7d43bedc19ca4b47d74
+      internalID: 1189227941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 275
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a20e9c67ee0e34ab31fdf4cfdec97e
+      internalID: -635783740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 273
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c1bc6f20395ed49a1c05d20cf4e240
+      internalID: 301069093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 273
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7d6e3198302414cb29db44be0736b6
+      internalID: -1754532115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 273
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509e15561ee64e148b9108a1debde6c9
+      internalID: 276333781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 273
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2a564c52078fb4db3381844f6af160
+      internalID: -241656179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 273
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c855344393b59ae4ab175a24a2d07c41
+      internalID: -1183603787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 145
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71629953701388c4c913b34796b3b693
+      internalID: 1844882377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbac6d8f93d44f46a63ec157ba880d4
+      internalID: -766112141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 143
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e123b7a324b0a047b284bfbbacc7815
+      internalID: 147688353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 143
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75d0d9e1df2c07488bc8274ed9e26b2
+      internalID: 88337721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 143
+        width: 56
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb30bcef756638e4da5b20d4d512ff6a
+      internalID: 737058519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 145
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff49a8db63161e4f84c7f2f8ed5b5fe
+      internalID: 263684299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 143
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079f977dd2f46984c939ccfa04825d6d
+      internalID: 74514017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 143
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aaffbcdd2ff0f499a872183379e98a
+      internalID: 1715611653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 143
+        width: 56
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f42426cccdb4ac48b8f88660552a2a4
+      internalID: -424758240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 17
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e370853b50b974cb52e629d573dadb
+      internalID: -617953945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 17
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4932393e833b5f240b91ac4cf7d01b45
+      internalID: -1945449101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 19
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7185fd538f1d84095a4e83f6716326
+      internalID: 1566746143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 19
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9403ea10e94c934ebcb65667ef16473
+      internalID: 1091315672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 17
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d9a720112997b4d9d6a74921985e2d
+      internalID: -1234627658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 17
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82fa699592e88344b89a26f49b0cb46
+      internalID: 1514699638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 17
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ee0e8a991897a47a0c2a1e2fc5fb5d
+      internalID: -1632395195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 17
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a91c557cb575dd458382b9c08199ea5
+      internalID: 1446245609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nagisa_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 17
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5d6b1e0074d9c4fb5049f426bb41ac
+      internalID: 1716839569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Nagisa_Sprite_0: -1927341791
+      Nagisa_Sprite_1: 30446654
+      Nagisa_Sprite_10: -1416093031
+      Nagisa_Sprite_11: 1189227941
+      Nagisa_Sprite_12: -635783740
+      Nagisa_Sprite_13: 301069093
+      Nagisa_Sprite_14: -1754532115
+      Nagisa_Sprite_15: 276333781
+      Nagisa_Sprite_16: -241656179
+      Nagisa_Sprite_17: -1183603787
+      Nagisa_Sprite_18: 1844882377
+      Nagisa_Sprite_19: -766112141
+      Nagisa_Sprite_2: -775417516
+      Nagisa_Sprite_20: 147688353
+      Nagisa_Sprite_21: 88337721
+      Nagisa_Sprite_22: 737058519
+      Nagisa_Sprite_23: 263684299
+      Nagisa_Sprite_24: 74514017
+      Nagisa_Sprite_25: 1715611653
+      Nagisa_Sprite_26: -424758240
+      Nagisa_Sprite_27: -617953945
+      Nagisa_Sprite_28: -1945449101
+      Nagisa_Sprite_29: 1566746143
+      Nagisa_Sprite_3: 1121488911
+      Nagisa_Sprite_30: 1091315672
+      Nagisa_Sprite_31: -1234627658
+      Nagisa_Sprite_32: 1514699638
+      Nagisa_Sprite_33: -1632395195
+      Nagisa_Sprite_34: 1446245609
+      Nagisa_Sprite_35: 1716839569
+      Nagisa_Sprite_4: 486650845
+      Nagisa_Sprite_5: 1483819373
+      Nagisa_Sprite_6: 1988498271
+      Nagisa_Sprite_7: -1528660498
+      Nagisa_Sprite_8: 1545857754
+      Nagisa_Sprite_9: -1043511902
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

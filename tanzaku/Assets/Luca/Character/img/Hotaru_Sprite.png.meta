@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: ebe406aa7feddfe49954dc371e751733
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hotaru_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 400
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89f3115ae69cd24e81ccfea9f7070ec
+      internalID: 1640091587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 400
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2f0a17cb8c32843b2eb40a9d3f4805
+      internalID: 2056337486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 398
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e034048011f284bbceac5ddc6d0bf9
+      internalID: -555909466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 396
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6edcf100bee7d47b9f577fac33c0ce
+      internalID: 672556778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 398
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f1793c9b0371641987c6135cea024a
+      internalID: 1233248452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 400
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301ecbff680792347b9a256ea57c9ba0
+      internalID: -2026077048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 398
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95aaf8baff953414faff8bafd2778121
+      internalID: 434588884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 396
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8d301bea7d3ee45b63ec90d69f86ba
+      internalID: -2100467570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 398
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b02fe76f79a7d409064828b484e25a
+      internalID: -911562358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 272
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323562ee0556df7428c29f756a9da43d
+      internalID: -216440013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 272
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76e3fb6c39904b40920b0c54a19f5bd
+      internalID: 1909543023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 274
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b938cb89d564a4a95471c7a9c93f62
+      internalID: -5099799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 274
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0974f501de25699498126a4a7f6e0f5b
+      internalID: 449256871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 272
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb58894f1093b64ab20d00a8ed1df4a
+      internalID: 347151429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 272
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18e65ce8cee78f489a7b5126421cb5e
+      internalID: 716308176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 272
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83122817e431dcf44864cac1bc9ec15e
+      internalID: -293378151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 272
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646399765b2719f47b0d4117142dff16
+      internalID: 2120617833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 272
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95867a30dc0fd304193a89934464a107
+      internalID: 1202295713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 144
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f34605b67451246a2413ec71344f18
+      internalID: 44267303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 144
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6b9b7aa57334246a88b74f0b707ea7
+      internalID: 712686189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 142
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a2646e196a3e54485a8b57bc065638
+      internalID: 2143722079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 142
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285a7e484438ff84983065a7e9fdd073
+      internalID: 627148957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 142
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5e9b5386f3d2c47908cb9dcbf05766
+      internalID: 295906282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 144
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9406783a72808458c7b3e9eec373d4
+      internalID: -87925453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 142
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eae4225b7a92548b48dceb2a5c8891
+      internalID: -589709399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 142
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3787d99073a883e4cbeee1f5261a291c
+      internalID: -1622924850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 142
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9931491292c74a44c83ab8dfefde8b11
+      internalID: 1122053582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 16
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf9ef9f47d998848ad55e6be159f2a5
+      internalID: 1631847310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 16
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d2447b28fc79941a68844618dc0400
+      internalID: -138668035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 18
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6444f9130ee10e34f935fee6ab9ba4f7
+      internalID: -1900425905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 18
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3c838f755d555459931dffdf12b5ad
+      internalID: 1618005614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 16
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ca131adc3a27a4894f7a4ef15c7c0c
+      internalID: 1896207900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 16
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b8e0b59003d1f4f87598731a9ddd5d
+      internalID: -1870291384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 16
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ce5891ccde6114493358f324be686f
+      internalID: 1526558173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 16
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f3259c11710c64fa68066c298d3d24
+      internalID: -830718356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotaru_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 16
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce56d8775a4b33942ac31985a2ce12c2
+      internalID: -2078658863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hotaru_Sprite_0: 1640091587
+      Hotaru_Sprite_1: 2056337486
+      Hotaru_Sprite_10: 1909543023
+      Hotaru_Sprite_11: -5099799
+      Hotaru_Sprite_12: 449256871
+      Hotaru_Sprite_13: 347151429
+      Hotaru_Sprite_14: 716308176
+      Hotaru_Sprite_15: -293378151
+      Hotaru_Sprite_16: 2120617833
+      Hotaru_Sprite_17: 1202295713
+      Hotaru_Sprite_18: 44267303
+      Hotaru_Sprite_19: 712686189
+      Hotaru_Sprite_2: -555909466
+      Hotaru_Sprite_20: 2143722079
+      Hotaru_Sprite_21: 627148957
+      Hotaru_Sprite_22: 295906282
+      Hotaru_Sprite_23: -87925453
+      Hotaru_Sprite_24: -589709399
+      Hotaru_Sprite_25: -1622924850
+      Hotaru_Sprite_26: 1122053582
+      Hotaru_Sprite_27: 1631847310
+      Hotaru_Sprite_28: -138668035
+      Hotaru_Sprite_29: -1900425905
+      Hotaru_Sprite_3: 672556778
+      Hotaru_Sprite_30: 1618005614
+      Hotaru_Sprite_31: 1896207900
+      Hotaru_Sprite_32: -1870291384
+      Hotaru_Sprite_33: 1526558173
+      Hotaru_Sprite_34: -830718356
+      Hotaru_Sprite_35: -2078658863
+      Hotaru_Sprite_4: 1233248452
+      Hotaru_Sprite_5: -2026077048
+      Hotaru_Sprite_6: 434588884
+      Hotaru_Sprite_7: -2100467570
+      Hotaru_Sprite_8: -911562358
+      Hotaru_Sprite_9: -216440013
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
