@@ -15,6 +15,7 @@ public class SimplePlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        LoadPosition();
     }
 
     void Update()
@@ -83,4 +84,16 @@ public class SimplePlayerController : MonoBehaviour
             npcInRange = null;
         }
     }
+
+    public void LoadPosition()
+    {
+        if (PlayerPrefs.HasKey("PlayerX")) // Check if data exists
+        {
+            float x = PlayerPrefs.GetFloat("PlayerX");
+            float y = PlayerPrefs.GetFloat("PlayerY");
+            float z = PlayerPrefs.GetFloat("PlayerZ");
+            transform.position = new Vector3(x, y, z);
+        }
+    }
+
 }
