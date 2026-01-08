@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456095eeb3a398d4e86556967672e09b, type: 3}
+  m_Name: KoutaDialogueTest
+  m_EditorClassIdentifier: 
+  title: "\u8D64\u7FBD\u529F\u6CF0"
+  lines: "\u3042\u304B\u3070\u306D\u3053\u3046\u305F\u306E\u30C6\u30B9\u30C8\u30C0\u30A4\u30A2\u30ED\u30B0"
+  choices: []
+  dialogueImage: {fileID: 0}
+  MorningPosition: {x: 0, y: 0, z: 0}
