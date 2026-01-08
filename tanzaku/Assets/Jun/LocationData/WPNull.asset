@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59d4d3026ed57004aa5491bb8aba8f63, type: 3}
-  m_Name: WP2
+  m_Name: WPNull
   m_EditorClassIdentifier: 
-  waypointCoordinates: {x: -6.5, y: 2, z: 0}
+  waypointCoordinates: {x: 38, y: -1, z: 0}
