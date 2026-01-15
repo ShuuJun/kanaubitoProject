@@ -7,7 +7,9 @@ public class Warp : MonoBehaviour
 {
     public string WarpTo;
     public wpLocationData waypoint;
+    public wpLocationData currentLocation;
     private bool isPlayerInside = false;
+    public SimplePlayerController player;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,10 +23,11 @@ public class Warp : MonoBehaviour
 
     public void SavePosition()
     {
-        PlayerPrefs.SetFloat("PlayerX", waypoint.waypointCoordinates.x);
-        PlayerPrefs.SetFloat("PlayerY", waypoint.waypointCoordinates.y);
-        PlayerPrefs.SetFloat("PlayerZ", waypoint.waypointCoordinates.z);
-        PlayerPrefs.Save(); // Ensure data is written to disk/registry
+        currentLocation.waypointCoordinates = waypoint.waypointCoordinates;
+        //PlayerPrefs.SetFloat("PlayerX", waypoint.waypointCoordinates.x);
+        //PlayerPrefs.SetFloat("PlayerY", waypoint.waypointCoordinates.y);
+        //PlayerPrefs.SetFloat("PlayerZ", waypoint.waypointCoordinates.z);
+        //PlayerPrefs.Save(); // Ensure data is written to disk/registry
     }
 
     private void Update()

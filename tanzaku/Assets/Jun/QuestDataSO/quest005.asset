@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4affe0a03b4e07e4b815d7d2fa564d62, type: 3}
+  m_Name: quest005
+  m_EditorClassIdentifier: 
+  questName: 5
+  questRequester: "\u8D64\u7FBD\u4E00\u4F3D\u5148\u751F"
+  questDestination: "\u5B66\u6821\u5468\u8FBA\u306E\u69D8\u3005\u306A\u5834\u6240"
+  questDetails: "\u5B66\u6821\u306E\u96A3\u306B\u3042\u308B\u5927\u5207\u306A\u795E\u793E\u3092\u58CA\u3057\u3066\u3057\u307E\u3063\u305F\u304A\u8A6B\u3073\u3068\u3057\u3066\u3001\u6821\u9577\u5148\u751F\u304B\u3089\u793E\u4F1A\u5949\u4ED5\u6D3B\u52D5\u306E\u4EFB\u52D9\u3092\u547D\u3058\u3089\u308C\u305F\u3002\u3067\u304D\u308B\u3060\u3051\u591A\u304F\u306E\u751F\u5F92\u3092\u52A9\u3051\u3001\u7ACB\u82B1\u5148\u751F\u306B\u5831\u544A\u3057\u3088\u3046\uFF01"
+  questCompleteChecksum: 0

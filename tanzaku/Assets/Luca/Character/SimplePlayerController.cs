@@ -7,6 +7,8 @@ public class SimplePlayerController : MonoBehaviour
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 lastMoveDir = Vector2.down;
+    public bool warped = false;
+    public wpLocationData spawnLocation;
 
     // For NPC interaction
     //private GameObject npcInRange;
@@ -15,7 +17,10 @@ public class SimplePlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        LoadPosition();
+        if (spawnLocation != null) // Check if data exists
+        {
+            LoadPosition();
+        }
     }
 
     void Update()
@@ -87,13 +92,10 @@ public class SimplePlayerController : MonoBehaviour
 
     public void LoadPosition()
     {
-        if (PlayerPrefs.HasKey("PlayerX")) // Check if data exists
-        {
-            float x = PlayerPrefs.GetFloat("PlayerX");
-            float y = PlayerPrefs.GetFloat("PlayerY");
-            float z = PlayerPrefs.GetFloat("PlayerZ");
+            float x = spawnLocation.waypointCoordinates.x;
+            float y = spawnLocation.waypointCoordinates.y;
+            float z = spawnLocation.waypointCoordinates.z;
             transform.position = new Vector3(x, y, z);
-        }
     }
 
 }
