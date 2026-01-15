@@ -15,5 +15,7 @@ MonoBehaviour:
   itemName: Wallet
   statToChange: 0
   amountToChangeStat: 0
+  playerHasItem: 0
+  questComplete: 1
   attributeToChange: 0
   amountToChangeAttribute: 0

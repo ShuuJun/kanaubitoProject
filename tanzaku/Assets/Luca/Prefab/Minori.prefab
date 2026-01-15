@@ -209,12 +209,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
+  - {fileID: 11400000, guid: 8223968afc3f8da459b1e69756afe398, type: 2}
   - {fileID: 11400000, guid: c3ecd0ce8653d0746acb1d19673b4e23, type: 2}
+  - {fileID: 11400000, guid: 6cf79fd4d09bb6449b5972104625614a, type: 2}
   currentDialogueIndex: 0
   givesItem: 0
-  QuestObject: {fileID: 0}
+  QuestObject: {fileID: 3719968895856636379, guid: 33b5ec26a971e754c906038fcc14442d, type: 3}
   HasGivenItem: 0
-  inventoryManager: {fileID: 0}
+  PlayerHasItem: 0
+  inventoryManager: {fileID: 292297966216870571, guid: dfe5dc9c6a1ffe842ac4fe270b617c09, type: 3}
   TakesPlayerItem: 1
   HasTakenItem: 0
   HasCompletedQuest: 0

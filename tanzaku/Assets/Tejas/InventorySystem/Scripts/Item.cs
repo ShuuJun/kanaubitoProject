@@ -14,9 +14,12 @@ public class Item : MonoBehaviour
     [SerializeField]
     public string itemDescription;
     private InventoryManager inventoryManager;
+    public ItemSO itemSO;
     void Start()
     {
         inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
+        itemSO.playerHasItem = false;
+        itemSO.questComplete = false;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -25,9 +28,15 @@ public class Item : MonoBehaviour
         {
             int leftOverItems = inventoryManager.AddItem(itemName, quantity, sprite, itemDescription);
             if (leftOverItems <= 0)
+            {
                 Destroy(gameObject);
-            else
+                itemSO.playerHasItem = true;
+            }
+            else {
                 quantity = leftOverItems;
+                
+            }
+                
         }
     }
 }

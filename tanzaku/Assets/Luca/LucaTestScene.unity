@@ -290,6 +290,7 @@ MonoBehaviour:
   givesItem: 0
   QuestObject: {fileID: 0}
   HasGivenItem: 0
+  PlayerHasItem: 0
   inventoryManager: {fileID: 0}
   TakesPlayerItem: 0
   HasTakenItem: 0
@@ -490,6 +491,7 @@ MonoBehaviour:
   givesItem: 0
   QuestObject: {fileID: 0}
   HasGivenItem: 0
+  PlayerHasItem: 0
   inventoryManager: {fileID: 0}
   TakesPlayerItem: 0
   HasTakenItem: 0
@@ -638,6 +640,7 @@ MonoBehaviour:
   givesItem: 0
   QuestObject: {fileID: 0}
   HasGivenItem: 0
+  PlayerHasItem: 0
   inventoryManager: {fileID: 0}
   TakesPlayerItem: 0
   HasTakenItem: 0
@@ -835,6 +838,7 @@ MonoBehaviour:
   givesItem: 0
   QuestObject: {fileID: 0}
   HasGivenItem: 0
+  PlayerHasItem: 0
   inventoryManager: {fileID: 0}
   TakesPlayerItem: 0
   HasTakenItem: 0
@@ -979,6 +983,7 @@ MonoBehaviour:
   givesItem: 0
   QuestObject: {fileID: 0}
   HasGivenItem: 0
+  PlayerHasItem: 0
   inventoryManager: {fileID: 0}
   TakesPlayerItem: 0
   HasTakenItem: 0
@@ -1288,6 +1293,7 @@ MonoBehaviour:
   givesItem: 0
   QuestObject: {fileID: 827966166109888696}
   HasGivenItem: 0
+  PlayerHasItem: 0
   inventoryManager: {fileID: 8167253473693029031}
   TakesPlayerItem: 1
   HasTakenItem: 0
@@ -1476,7 +1482,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1557657643319843601, guid: e7395386965d99740bc48e736d5f1311, type: 3}
       propertyPath: m_Name
-      value: NPC1
+      value: Minori
       objectReference: {fileID: 0}
     - target: {fileID: 2725937584517618947, guid: e7395386965d99740bc48e736d5f1311, type: 3}
       propertyPath: QuestObject
@@ -1647,6 +1653,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 491d02e41b6a97c48a6b132177524ebc, type: 3}
+--- !u!1001 &3028197360347766284
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2053796020849384635, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053796020849384635, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.2931583
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053796020849384635, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053796020849384635, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053796020849384635, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053796020849384635, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053796020849384635, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053796020849384635, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053796020849384635, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053796020849384635, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836071013477114014, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: m_Name
+      value: Wallet
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
 --- !u!1001 &3371338976938019404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1655,9 +1718,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 55262361842673149, guid: 33b5ec26a971e754c906038fcc14442d, type: 3}
+      propertyPath: m_Name
+      value: Book
+      objectReference: {fileID: 0}
     - target: {fileID: 189924215931084805, guid: 33b5ec26a971e754c906038fcc14442d, type: 3}
       propertyPath: m_Name
-      value: Wallet
+      value: Book
       objectReference: {fileID: 0}
     - target: {fileID: 1570294945485354417, guid: 33b5ec26a971e754c906038fcc14442d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1699,6 +1766,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3719968895856636379, guid: 33b5ec26a971e754c906038fcc14442d, type: 3}
+      propertyPath: itemSO
+      value: 
+      objectReference: {fileID: 11400000, guid: bcc641c61ee04244db222d134a0ac14b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2010,6 +2081,10 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5227403719794469550, guid: f5b06e4566bc0254297d133b7f4eed59, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227403719794469550, guid: f5b06e4566bc0254297d133b7f4eed59, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -2213,9 +2288,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: QuestObject
+      value: 
+      objectReference: {fileID: 827966166109888696}
+    - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: questChecksum
+      value: 
+      objectReference: {fileID: 11400000, guid: 4ea1098892188cb498f4f97f1b6ae2b2, type: 2}
+    - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
       propertyPath: inventoryManager
       value: 
       objectReference: {fileID: 8167253473693029031}
+    - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: dialogues.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1941e82763fddd0449cd80511d72340c, type: 2}
+    - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: dialogues.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2ff3ab270df6d504398899aabe21ad88, type: 2}
     - target: {fileID: 4412298671704917853, guid: 534719615b9df58498cabd242d2832fd, type: 3}
       propertyPath: m_Name
       value: NPC2
@@ -2282,6 +2377,7 @@ SceneRoots:
   - {fileID: 152716502109270671}
   - {fileID: 6595293094946014852}
   - {fileID: 3371338976938019404}
+  - {fileID: 3028197360347766284}
   - {fileID: 8908799008793009351}
   - {fileID: 1491411452}
   - {fileID: 2158055089104687723}

@@ -9,7 +9,7 @@ public class InventoryManager : MonoBehaviour
     public GameObject InventoryMenu;
     private bool menuActivated;
     public ItemSlot[] itemSlot;
-
+    public bool removed = false;
     public ItemSO[] itemSOs;
 
     [Header("UI Resources")]
@@ -74,7 +74,7 @@ public class InventoryManager : MonoBehaviour
 
     public void RemoveItem(Item item)
     {
-        bool removed = false;
+
         for (int i = 0; i < itemSlot.Length; i++)
         {
             Debug.Log($"Checking slot {i}: {itemSlot[i].itemName} x{itemSlot[i].quantity}");
@@ -96,7 +96,7 @@ public class InventoryManager : MonoBehaviour
                         itemSlot[i].itemImage.color = new Color(1, 1, 1, 0.2f); // Optional: Make it translucent
                     }
                 }
-
+                
                 removed = true;
                 break;
             }

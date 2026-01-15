@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 456095eeb3a398d4e86556967672e09b, type: 3}
   m_Name: TsumugiDialogueTest
   m_EditorClassIdentifier: 
-  title: "\u7ACB\u82B1\u5148\u751F"
-  lines: "\u305F\u3061\u3070\u306A\u3042\u3084\u305B\u306E\u30C6\u30B9\u30C8\u30C0\u30A4\u30A2\u30ED\u30B0"
+  title: "\u516B\u57CE\u7D2C"
+  lines: "\u3084\u3057\u308D\u3064\u3080\u304E\u306E\u30C6\u30B9\u30C8\u30C0\u30A4\u30A2\u30ED\u30B0"
   choices: []
   dialogueImage: {fileID: 0}
   MorningPosition: {x: 0, y: 0, z: 0}

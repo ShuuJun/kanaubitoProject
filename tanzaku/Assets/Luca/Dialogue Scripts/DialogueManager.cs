@@ -10,6 +10,8 @@ namespace RedstoneinventeGameStudio
     public class DialogueManager : MonoBehaviour
     {
         public static DialogueManager instance;
+        public InventoryManager inventoryManager;
+
 
         public TMP_Text title;
         public TMP_Text content;
@@ -113,13 +115,25 @@ namespace RedstoneinventeGameStudio
             // 2. Otherwise, check for multi-choice
             var dialogue = npcManager.dialogues[npcManager.currentDialogueIndex];
 
-            if(((npcManager.givesItem == true && npcManager.HasGivenItem == true) ||(npcManager.TakesPlayerItem == true && npcManager.HasTakenItem == true))&& npcManager.HasCompletedQuest == false)
+            if ((npcManager.HasCompletedQuest == true) || npcManager.QuestObject.itemSO.playerHasItem == false && npcManager.HasGivenItem == true)
+            {
+                dialogue = npcManager.dialogues[2];
+            }
+            else if (((npcManager.givesItem == true && npcManager.HasGivenItem == true) || (npcManager.QuestObject.itemSO.playerHasItem == true && npcManager.TakesPlayerItem == true && npcManager.HasTakenItem == false)) && npcManager.HasCompletedQuest == false)
             {
                 dialogue = npcManager.dialogues[1];
             }
-            else if(npcManager.HasCompletedQuest == true)
+            //else if((npcManager.HasCompletedQuest == true) || (npcManager.questChecksum.isQuestComplete == true))
+            //{
+            //    dialogue = npcManager.dialogues[2];
+            //}
+            else if (((npcManager.givesItem == true && npcManager.HasGivenItem == false) || (npcManager.QuestObject.itemSO.playerHasItem == false && npcManager.TakesPlayerItem == true && npcManager.HasTakenItem == false)) && npcManager.HasCompletedQuest == true)
             {
-                dialogue = npcManager.dialogues[2];
+                dialogue = npcManager.dialogues[0];
+            }
+            else
+            {
+                dialogue = npcManager.dialogues[0];
             }
 
             if (dialogue.choices != null && dialogue.choices.Count > 0)

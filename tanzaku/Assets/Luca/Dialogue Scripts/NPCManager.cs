@@ -13,6 +13,7 @@ namespace RedstoneinventeGameStudio
         public bool givesItem;
         public Item QuestObject;
         public bool HasGivenItem;
+        public bool PlayerHasItem;
         public InventoryManager inventoryManager;
 
         public bool TakesPlayerItem;
@@ -26,7 +27,8 @@ namespace RedstoneinventeGameStudio
         {
             HasGivenItem = false;
             HasTakenItem = false;
-    }
+            HasCompletedQuest = false;
+        }
 
         public void MoveNext()
         {
@@ -60,6 +62,7 @@ namespace RedstoneinventeGameStudio
             {
                 inventoryManager.AddItem(QuestObject.itemName, QuestObject.quantity, QuestObject.sprite, QuestObject.itemDescription);
                 HasGivenItem = true;
+                QuestObject.itemSO.playerHasItem = true;
             }
             //Debug.Log(">>> Given GivePlayerItem");
         }
@@ -70,6 +73,9 @@ namespace RedstoneinventeGameStudio
             {
                 inventoryManager.RemoveItem(QuestObject);
                 HasTakenItem = true;
+                HasCompletedQuest = true;
+                QuestObject.itemSO.questComplete = true;
+                QuestObject.itemSO.playerHasItem = false;
             }
         }
 

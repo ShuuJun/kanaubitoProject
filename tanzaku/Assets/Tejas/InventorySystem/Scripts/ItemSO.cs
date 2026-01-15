@@ -8,7 +8,8 @@ public class ItemSO : ScriptableObject
     public string itemName;
     public StatToChange statToChange = new StatToChange();
     public int amountToChangeStat;
-
+    public bool playerHasItem = false;
+    public bool questComplete = false;
     public AttributeToChange attributeToChange = new AttributeToChange();
     public int amountToChangeAttribute;
 

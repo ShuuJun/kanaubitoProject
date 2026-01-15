@@ -12,27 +12,88 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 456095eeb3a398d4e86556967672e09b, type: 3}
   m_Name: Secondary
   m_EditorClassIdentifier: 
-  title: 
-  lines: 
+  title: Dialogue2
+  lines: 1
   choices:
   - choiceText: Person1
     resultText: friend
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
   - choiceText: Person2
     resultText: friend
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
   - choiceText: Person3
     resultText: not friend
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
   - choiceText: Person4
     resultText: friend
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
   - choiceText: Person5
     resultText: friend
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
   - choiceText: Person6
     resultText: stinky
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
   - choiceText: Person7
     resultText: enemy
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
   - choiceText: Person8
     resultText: meow
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
   - choiceText: Person9
     resultText: bark
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
   - choiceText: Person10
     resultText: dog
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
+  dialogueImage: {fileID: 0}
   MorningPosition: {x: 0, y: 0, z: 0}

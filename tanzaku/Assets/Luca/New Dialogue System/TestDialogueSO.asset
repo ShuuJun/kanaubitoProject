@@ -15,15 +15,85 @@ MonoBehaviour:
   title: "\u3084\u3042"
   lines: "\u3084\u3042\u3001\u5148\u8F29\u3002\u3069\u3046\u3057\u305F\u306E\uFF1F"
   choices:
-  - choiceText: banana
-    resultText: i se you have chosen banana
+  - choiceText: choice 0
+    resultText: i se you have chosen 0
     onChoice:
       m_PersistentCalls:
         m_Calls: []
-  - choiceText: Apple
-    resultText: i se you have chosen Apple
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice 1
+    resultText: i se you have chosen 1
     onChoice:
       m_PersistentCalls:
         m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice 2
+    resultText: i se you have chosen 2
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice 3
+    resultText: i se you have chosen 3
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice 4
+    resultText: i se you have chosen 4
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice 5
+    resultText: i se you have chosen 5
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice 6
+    resultText: i se you have chosen 6
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice 7
+    resultText: i se you have chosen 7
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice 8
+    resultText: i se you have chosen 8
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
+  - choiceText: choice 9
+    resultText: i se you have chosen 9
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    givesItem: 0
+    takesItem: 0
   dialogueImage: {fileID: 21300000, guid: db03c3ae8a6617e49b58c6fba2712142, type: 3}
   MorningPosition: {x: 0, y: 0, z: 0}
