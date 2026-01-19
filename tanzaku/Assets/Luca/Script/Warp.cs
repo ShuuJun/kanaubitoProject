@@ -35,6 +35,7 @@ public class Warp : MonoBehaviour
         if (isPlayerInside && Input.GetKeyDown(KeyCode.F))
         {
             SavePosition();
+            //player.warped = true;
             SceneManager.LoadScene(WarpTo);
         }
     }

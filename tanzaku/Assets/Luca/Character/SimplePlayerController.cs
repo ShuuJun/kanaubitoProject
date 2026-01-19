@@ -1,4 +1,5 @@
 using RedstoneinventeGameStudio;
+using System;
 using UnityEngine;
 
 public class SimplePlayerController : MonoBehaviour
@@ -19,7 +20,9 @@ public class SimplePlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         if (spawnLocation != null) // Check if data exists
         {
-            LoadPosition();
+            
+                LoadPosition();
+            
         }
     }
 
@@ -92,10 +95,11 @@ public class SimplePlayerController : MonoBehaviour
 
     public void LoadPosition()
     {
-            float x = spawnLocation.waypointCoordinates.x;
-            float y = spawnLocation.waypointCoordinates.y;
-            float z = spawnLocation.waypointCoordinates.z;
-            transform.position = new Vector3(x, y, z);
+            //float x = spawnLocation.waypointCoordinates.x;
+            //float y = spawnLocation.waypointCoordinates.y;
+            //float z = spawnLocation.waypointCoordinates.z;
+            transform.position = spawnLocation.waypointCoordinates;
+            spawnLocation.waypointCoordinates = new Vector3(0, 0, 0);
     }
 
 }
