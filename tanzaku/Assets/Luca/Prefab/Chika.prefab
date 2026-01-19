@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3272050400016575438}
   - component: {fileID: 3934772876285708202}
   m_Layer: 0
-  m_Name: NPC2
+  m_Name: Chika
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
