@@ -1132,6 +1132,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3719968895856636379, guid: 33b5ec26a971e754c906038fcc14442d, type: 3}
+      propertyPath: itemSO
+      value: 
+      objectReference: {fileID: 11400000, guid: d9374875de560c948a70b6fe9b17dad2, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4287,6 +4291,91 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 12.224737, y: 0.41259313}
   m_EdgeRadius: 0
+--- !u!1001 &1577568886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: QuestObject
+      value: 
+      objectReference: {fileID: 1005981736}
+    - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: inventoryManager
+      value: 
+      objectReference: {fileID: 808839382}
+    - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: dialogues.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: ec247bdb96260f549a8f2344361b3390, type: 2}
+    - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: dialogues.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1941e82763fddd0449cd80511d72340c, type: 2}
+    - target: {fileID: 3272050400016575438, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: dialogues.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2ff3ab270df6d504398899aabe21ad88, type: 2}
+    - target: {fileID: 4412298671704917853, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_Name
+      value: Chika
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865701634775844288, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865701634775844288, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865701634775844288, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865701634775844288, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865701634775844288, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865701634775844288, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865701634775844288, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865701634775844288, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865701634775844288, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865701634775844288, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8932772618761730514, guid: 534719615b9df58498cabd242d2832fd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 534719615b9df58498cabd242d2832fd, type: 3}
 --- !u!1001 &1682808413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4295,6 +4384,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 458377213843612765, guid: f5b06e4566bc0254297d133b7f4eed59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 458377213843612765, guid: f5b06e4566bc0254297d133b7f4eed59, type: 3}
+      propertyPath: inventoryManager
+      value: 
+      objectReference: {fileID: 808839382}
     - target: {fileID: 850707756966271997, guid: f5b06e4566bc0254297d133b7f4eed59, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -4816,7 +4913,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1557657643319843601, guid: e7395386965d99740bc48e736d5f1311, type: 3}
       propertyPath: m_Name
-      value: NPC1 1
+      value: Minori
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725937584517618947, guid: e7395386965d99740bc48e736d5f1311, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2725937584517618947, guid: e7395386965d99740bc48e736d5f1311, type: 3}
       propertyPath: QuestObject
@@ -4828,7 +4929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2725937584517618947, guid: e7395386965d99740bc48e736d5f1311, type: 3}
       propertyPath: TakesPlayerItem
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2725937584517618947, guid: e7395386965d99740bc48e736d5f1311, type: 3}
       propertyPath: inventoryManager
@@ -4841,7 +4942,7 @@ PrefabInstance:
     - target: {fileID: 2725937584517618947, guid: e7395386965d99740bc48e736d5f1311, type: 3}
       propertyPath: dialogues.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: c3ecd0ce8653d0746acb1d19673b4e23, type: 2}
+      objectReference: {fileID: 11400000, guid: 8223968afc3f8da459b1e69756afe398, type: 2}
     - target: {fileID: 6475719374717072776, guid: e7395386965d99740bc48e736d5f1311, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
@@ -5219,3 +5320,4 @@ SceneRoots:
   - {fileID: 89709287}
   - {fileID: 289084247}
   - {fileID: 796811073}
+  - {fileID: 1577568886}
