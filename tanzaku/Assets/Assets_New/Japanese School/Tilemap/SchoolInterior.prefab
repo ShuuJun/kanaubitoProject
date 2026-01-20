@@ -6574,7 +6574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1495909297268338164}
   - component: {fileID: 2794286604961819000}
-  m_Layer: 31
+  m_Layer: 0
   m_Name: SchoolInterior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6609,7 +6609,7 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
---- !u!114 &431691011155045712
+--- !u!114 &8055574036640918969
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
