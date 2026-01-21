@@ -1,6 +1,7 @@
 using RedstoneinventeGameStudio;
 using System;
 using UnityEngine;
+using static TimeController;
 
 public class SimplePlayerController : MonoBehaviour
 {

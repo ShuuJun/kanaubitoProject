@@ -68,6 +68,7 @@ public class TimeController : MonoBehaviour
         }
         // Set the initial lighting and notify all listeners of the starting time.
         UpdateTime();
+        //DontDestroyOnLoad(this);
     }
 
     /// <summary>
