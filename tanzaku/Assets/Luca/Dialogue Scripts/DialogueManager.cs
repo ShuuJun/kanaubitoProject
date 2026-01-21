@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 using System.Collections;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
@@ -138,9 +139,10 @@ namespace RedstoneinventeGameStudio
 
             if (dialogue.choices != null && dialogue.choices.Count > 0)
             {
-                StartCoroutine(ShowMultiChoiceDialogue(dialogue, npcManager));
+                StartCoroutine(ShowMultiChoiceDialogue(dialogue, npcManager)); // Always call it
                 return;
             }
+
 
             // 3. Otherwise, show standard dialogue
             StartCoroutine(ShowDialogueC(npcManager, dialogue));
@@ -229,19 +231,54 @@ namespace RedstoneinventeGameStudio
 
             yield return StartCoroutine(TypewriterEffect(dialogue.lines, content, characterDelay, punctuationDelay, maxWords));
 
-            multiChoicePanel.SetActive(true);
+            // Filter choices - only show ones with actual text
+            var validChoices = dialogue.choices.FindAll(c => !string.IsNullOrWhiteSpace(c.choiceText));
 
+            if (validChoices.Count == 0)
+            {
+                NextButtontext.text = "Next";
+                moveNextButt.SetActive(true);
+                moveNext = false;
+                yield return new WaitUntil(() => moveNext);  // Wait for Next press
+                moveNextButt.SetActive(false);
+
+
+                // THEN check for nextDialogue
+                DialogueSO nextDialogue = null;
+                foreach (var c in dialogue.choices)
+                {
+                    if (c.nextDialogue != null)
+                    {
+                        nextDialogue = c.nextDialogue;
+                        break;
+                    }
+                }
+
+                if (nextDialogue != null)
+                {
+                    yield return StartCoroutine(ShowMultiChoiceDialogue(nextDialogue, npc));
+                }
+                else
+                {
+                    dialogueCanvas.enabled = false;  // Hide canvas ONLY if no nextDialogue
+                    npc.MoveNext();
+                    IsDialogueActive = false;
+                }
+                yield break;
+            }
+
+            // NORMAL choice flow (unchanged, but use validChoices)
+            multiChoicePanel.SetActive(true);
             bool choiceMade = false;
             int chosenIndex = -1;
 
-            // Setup choice buttons
             for (int i = 0; i < choiceButtons.Length; i++)
             {
-                if (i < dialogue.choices.Count)
+                if (i < validChoices.Count)
                 {
                     choiceButtons[i].gameObject.SetActive(true);
                     int index = i;
-                    choiceButtons[i].GetComponentInChildren<TMP_Text>().text = dialogue.choices[i].choiceText;
+                    choiceButtons[i].GetComponentInChildren<TMP_Text>().text = validChoices[i].choiceText;
                     choiceButtons[i].onClick.RemoveAllListeners();
                     choiceButtons[i].onClick.AddListener(() =>
                     {
@@ -257,58 +294,44 @@ namespace RedstoneinventeGameStudio
 
             yield return new WaitUntil(() => choiceMade);
 
-            multiChoicePanel.SetActive(false);
+            multiChoicePanel.SetActive(false);  // Hide choice buttons
 
-            var choice = dialogue.choices[chosenIndex];
+            var selectedChoice = validChoices[chosenIndex];
 
-            // GIVE PLAYER ITEM if flagged
-            if (npc != null && choice.givesItem)
+            if (npc != null && selectedChoice.givesItem) npc.GivePlayerItem();
+            if (npc != null && selectedChoice.takesItem) npc.RemovePlayerItem();
+
+            // 1. Show resultText IMMEDIATELY after choice click
+            if (!string.IsNullOrEmpty(selectedChoice.resultText))
             {
-                //Debug.Log("GiveItem");
-                //Debug.Log("NPC passed: " + (npc == null ? "NULL" : npc.QuestObject.name));
-                npc.GivePlayerItem();
-            }
-            //Debug.Log("after giveitem logic");
-
-            // REMOVE PLAYER ITEM if flagged
-            if (npc != null && choice.takesItem)
-            {
-                npc.RemovePlayerItem();
+                yield return StartCoroutine(TypewriterEffect(selectedChoice.resultText, content, characterDelay, punctuationDelay, maxWords));
             }
 
+            // 2. Then show Next button to advance (exactly like normal flow)
 
-
-            // 1. Show result text first, if you want
-            if (!string.IsNullOrEmpty(choice.resultText))
-            {
-                yield return StartCoroutine(TypewriterEffect(choice.resultText, content, characterDelay, punctuationDelay, maxWords));
-            }
-
-            // 2. If the choice leads to another dialogue, start it!
-            if (choice.nextDialogue != null)
-            {
-                yield return StartCoroutine(ShowMultiChoiceDialogue(choice.nextDialogue, npc));
-                yield break;
-            }
-
-            // Otherwise, continue as before (end dialogue or advance)
-            bool isLastDialogue = (npc.currentDialogueIndex == npc.dialogues.Count - 1);
-
-            if (isLastDialogue)
-                NextButtontext.text = "End";
-            else
-                NextButtontext.text = "Next";
-
+            bool isLastDialogue = npc.currentDialogueIndex == npc.dialogues.Count - 1;
+            NextButtontext.text = isLastDialogue ? "End" : "Next";
             moveNextButt.SetActive(true);
             moveNext = false;
             yield return new WaitUntil(() => moveNext);
             moveNextButt.SetActive(false);
-            secondaryChoicePanel.SetActive(false);
 
+            // Handle nextDialogue AFTER Next press
+            if (selectedChoice.nextDialogue != null)
+            {
+                yield return StartCoroutine(ShowMultiChoiceDialogue(selectedChoice.nextDialogue, npc));
+                yield break;
+            }
+
+            // Normal end
             dialogueCanvas.enabled = false;
             npc.MoveNext();
             IsDialogueActive = false;
+
         }
+
+
+
 
 
         private IEnumerator ShowSecondaryDialogue(DialogueSO dialogue)
