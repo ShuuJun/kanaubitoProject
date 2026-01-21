@@ -1709,6 +1709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wallet
       objectReference: {fileID: 0}
+    - target: {fileID: 3455554004400828309, guid: 6ec3ebd6e2e8d4048869ae9edac23d04, type: 3}
+      propertyPath: itemSO
+      value: 
+      objectReference: {fileID: 11400000, guid: bcc641c61ee04244db222d134a0ac14b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
