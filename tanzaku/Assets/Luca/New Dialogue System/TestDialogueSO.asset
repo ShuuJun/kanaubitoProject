@@ -95,5 +95,5 @@ MonoBehaviour:
     nextDialogue: {fileID: 0}
     givesItem: 0
     takesItem: 0
-  dialogueImage: {fileID: 21300000, guid: db03c3ae8a6617e49b58c6fba2712142, type: 3}
+  dialogueImage: {fileID: 0}
   MorningPosition: {x: 0, y: 0, z: 0}
