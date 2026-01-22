@@ -12,7 +12,7 @@ namespace RedstoneinventeGameStudio
     {
         public static DialogueManager instance;
         public InventoryManager inventoryManager;
-
+        public DialogueSO checkNextDialogue;
 
         public TMP_Text title;
         public TMP_Text content;
@@ -190,8 +190,8 @@ namespace RedstoneinventeGameStudio
             // Wait for player input to continue
             bool isLastDialogue = (nPCManager.currentDialogueIndex == nPCManager.dialogues.Count - 1);
 
-            if (isLastDialogue)
-                NextButtontext.text = "End";
+            if (nPCManager.dialogues[0].choices[0].nextDialogue != null)
+                NextButtontext.text = "Next";
             else
                 NextButtontext.text = "Next";
 
@@ -236,7 +236,7 @@ namespace RedstoneinventeGameStudio
 
             if (validChoices.Count == 0)
             {
-                NextButtontext.text = "Next";
+                //NextButtontext.text = "Last";
                 moveNextButt.SetActive(true);
                 moveNext = false;
                 yield return new WaitUntil(() => moveNext);  // Wait for Next press
@@ -249,9 +249,12 @@ namespace RedstoneinventeGameStudio
                 {
                     if (c.nextDialogue != null)
                     {
+                        
                         nextDialogue = c.nextDialogue;
                         break;
                     }
+                    
+                        
                 }
 
                 if (nextDialogue != null)
@@ -263,6 +266,7 @@ namespace RedstoneinventeGameStudio
                     dialogueCanvas.enabled = false;  // Hide canvas ONLY if no nextDialogue
                     npc.MoveNext();
                     IsDialogueActive = false;
+                    
                 }
                 yield break;
             }
@@ -271,20 +275,29 @@ namespace RedstoneinventeGameStudio
             multiChoicePanel.SetActive(true);
             bool choiceMade = false;
             int chosenIndex = -1;
+            Color firstButtonColor = new Color(126/255f,160/255f,255/255f);
 
             for (int i = 0; i < choiceButtons.Length; i++)
             {
+                
                 if (i < validChoices.Count)
                 {
+                    
                     choiceButtons[i].gameObject.SetActive(true);
                     int index = i;
                     choiceButtons[i].GetComponentInChildren<TMP_Text>().text = validChoices[i].choiceText;
+                    if (npc != null && validChoices[index].isQuestDialogue == true) {
+                        choiceButtons[i].GetComponent<Image>().color = new Color(0,255,0);
+                    }
+                        
                     choiceButtons[i].onClick.RemoveAllListeners();
                     choiceButtons[i].onClick.AddListener(() =>
                     {
                         choiceMade = true;
                         chosenIndex = index;
+                        
                     });
+      
                 }
                 else
                 {
@@ -293,24 +306,26 @@ namespace RedstoneinventeGameStudio
             }
 
             yield return new WaitUntil(() => choiceMade);
-
+            choiceButtons[chosenIndex].GetComponent<Image>().color = new Color(firstButtonColor.r, firstButtonColor.g, firstButtonColor.b);
             multiChoicePanel.SetActive(false);  // Hide choice buttons
 
             var selectedChoice = validChoices[chosenIndex];
 
             if (npc != null && selectedChoice.givesItem) npc.GivePlayerItem();
             if (npc != null && selectedChoice.takesItem) npc.RemovePlayerItem();
+            
 
             // 1. Show resultText IMMEDIATELY after choice click
             if (!string.IsNullOrEmpty(selectedChoice.resultText))
             {
+
                 yield return StartCoroutine(TypewriterEffect(selectedChoice.resultText, content, characterDelay, punctuationDelay, maxWords));
             }
 
             // 2. Then show Next button to advance (exactly like normal flow)
 
-            bool isLastDialogue = npc.currentDialogueIndex == npc.dialogues.Count - 1;
-            NextButtontext.text = isLastDialogue ? "End" : "Next";
+            //bool isLastDialogue = npc.currentDialogueIndex == npc.dialogues.Count - 1;
+            //NextButtontext.text = isLastDialogue ? "Next" : "Next";
             moveNextButt.SetActive(true);
             moveNext = false;
             yield return new WaitUntil(() => moveNext);
@@ -319,19 +334,30 @@ namespace RedstoneinventeGameStudio
             // Handle nextDialogue AFTER Next press
             if (selectedChoice.nextDialogue != null)
             {
+                
                 yield return StartCoroutine(ShowMultiChoiceDialogue(selectedChoice.nextDialogue, npc));
                 yield break;
             }
+            else
+            {
+                //moveNextButt.SetActive(true);
+                //moveNext = false;
+                //yield return new WaitUntil(() => moveNext);
+                //moveNextButt.SetActive(false);
+            }
 
             // Normal end
+
+            
+            yield return new WaitUntil(() => moveNext);
+            
             dialogueCanvas.enabled = false;
             npc.MoveNext();
             IsDialogueActive = false;
 
         }
 
-
-
+        
 
 
         private IEnumerator ShowSecondaryDialogue(DialogueSO dialogue)
