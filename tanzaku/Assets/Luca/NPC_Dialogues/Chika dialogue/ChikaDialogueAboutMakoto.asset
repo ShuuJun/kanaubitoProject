@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 456095eeb3a398d4e86556967672e09b, type: 3}
-  m_Name: ChikaDialogueQuest
+  m_Name: ChikaDialogueAboutMakoto
   m_EditorClassIdentifier: 
   title: "\u5343\u82B1"
-  lines: "\u3058\u3083\u3042\u983C\u3080\u301C"
+  lines: This is dialogue about Makoto
   choices: []
   dialogueImage: {fileID: 0}
   MorningPosition: {x: 0, y: 0, z: 0}

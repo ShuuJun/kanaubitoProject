@@ -190,10 +190,10 @@ namespace RedstoneinventeGameStudio
             // Wait for player input to continue
             bool isLastDialogue = (nPCManager.currentDialogueIndex == nPCManager.dialogues.Count - 1);
 
-            if (nPCManager.dialogues[0].choices[0].nextDialogue != null)
-                NextButtontext.text = "Next";
-            else
-                NextButtontext.text = "Next";
+            //if (nPCManager.dialogues[0].choices[0].nextDialogue != null)
+            //    NextButtontext.text = "Next";
+            //else
+            //    NextButtontext.text = "Next";
 
             moveNextButt.SetActive(true);
             moveNext = false;
@@ -274,7 +274,7 @@ namespace RedstoneinventeGameStudio
             // NORMAL choice flow (unchanged, but use validChoices)
             multiChoicePanel.SetActive(true);
             bool choiceMade = false;
-            int chosenIndex = -1;
+            int chosenIndex = 0;
             Color firstButtonColor = new Color(126/255f,160/255f,255/255f);
 
             for (int i = 0; i < choiceButtons.Length; i++)
@@ -289,7 +289,8 @@ namespace RedstoneinventeGameStudio
                     if (npc != null && validChoices[index].isQuestDialogue == true) {
                         choiceButtons[i].GetComponent<Image>().color = new Color(0,255,0);
                     }
-                        
+                    else choiceButtons[i].GetComponent<Image>().color = new Color(firstButtonColor.r, firstButtonColor.g, firstButtonColor.b);
+
                     choiceButtons[i].onClick.RemoveAllListeners();
                     choiceButtons[i].onClick.AddListener(() =>
                     {
@@ -313,23 +314,29 @@ namespace RedstoneinventeGameStudio
 
             if (npc != null && selectedChoice.givesItem) npc.GivePlayerItem();
             if (npc != null && selectedChoice.takesItem) npc.RemovePlayerItem();
-            
+
 
             // 1. Show resultText IMMEDIATELY after choice click
             if (!string.IsNullOrEmpty(selectedChoice.resultText))
             {
 
                 yield return StartCoroutine(TypewriterEffect(selectedChoice.resultText, content, characterDelay, punctuationDelay, maxWords));
+                moveNextButt.SetActive(true);
+                moveNext = false;
+                yield return new WaitUntil(() => moveNext);
+                moveNextButt.SetActive(false);
+            }
+            else { 
+                moveNextButt.SetActive(false);
+                moveNext = true;
+
             }
 
             // 2. Then show Next button to advance (exactly like normal flow)
 
             //bool isLastDialogue = npc.currentDialogueIndex == npc.dialogues.Count - 1;
             //NextButtontext.text = isLastDialogue ? "Next" : "Next";
-            moveNextButt.SetActive(true);
-            moveNext = false;
-            yield return new WaitUntil(() => moveNext);
-            moveNextButt.SetActive(false);
+            
 
             // Handle nextDialogue AFTER Next press
             if (selectedChoice.nextDialogue != null)
