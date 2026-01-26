@@ -7,11 +7,17 @@ using UnityEngine;
 public class PlayerTimeInteraction : MonoBehaviour
 {
     [Tooltip("Reference to the scene's TimeController.")]
-    [SerializeField]
-    private TimeController timeController;
 
     // A flag to check if the player is currently inside the trigger zone of a time-changing object.
     private bool canChangeTime = false;
+
+    private TimeController timeController;
+
+    void Start()
+    {
+        timeController = TimeController.Instance;
+    }
+
 
     void Update()
     {

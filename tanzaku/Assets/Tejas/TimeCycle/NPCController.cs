@@ -44,7 +44,14 @@ public class NPCController : MonoBehaviour
     private void OnEnable()
     {
         TimeController.OnTimeChanged += HandleTimeChange;
+
+        // Immediately sync to current time if controller exists
+        if (TimeController.Instance != null)
+        {
+            HandleTimeChange(TimeController.Instance.GetCurrentTime());
+        }
     }
+
 
     // Unsubscribe from the event when the object is disabled to prevent errors
     private void OnDisable()

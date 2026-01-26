@@ -3,6 +3,7 @@ using UnityEngine.Rendering.Universal; // Required for Light2D
 using System; // Required for Action
 using System.Collections; // Required for Coroutines
 using UnityEngine.UI; // Required for Image
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Manages the time of day, lighting, and notifies other game objects of time changes.
@@ -12,6 +13,9 @@ using UnityEngine.UI; // Required for Image
 
 public class TimeController : MonoBehaviour
 {
+
+    public static TimeController Instance { get; private set; }
+
     // Enum to define the different times of day
     public enum TimeOfDay
     {
@@ -56,6 +60,18 @@ public class TimeController : MonoBehaviour
     // A flag to prevent spamming the time change
     private bool isChangingTime = false;
 
+    private void Awake()
+    {
+        // Singleton pattern
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
 
     void Start()
     {
@@ -189,6 +205,22 @@ public class TimeController : MonoBehaviour
     public TimeOfDay GetCurrentTime()
     {
         return currentTime;
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        globalLight = FindObjectOfType<Light2D>();
+        UpdateLighting();
     }
 }
 
