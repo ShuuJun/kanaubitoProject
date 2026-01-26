@@ -114,5 +114,5 @@ MonoBehaviour:
     givesItem: 0
     takesItem: 0
     isQuestDialogue: 0
-  dialogueImage: {fileID: 0}
+  dialogueImage: {fileID: 21300000, guid: 6510774c4b9c20f41b17f96e519cad87, type: 3}
   MorningPosition: {x: 0, y: 0, z: 0}

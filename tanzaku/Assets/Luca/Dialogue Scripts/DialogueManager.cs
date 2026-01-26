@@ -59,7 +59,7 @@ namespace RedstoneinventeGameStudio
             instance = this;
 
             NextButtontext = moveNextButt.GetComponentInChildren<TextMeshProUGUI>();
-            NextButtontext.text = "Next";
+            NextButtontext.text = "ŽŸ";
         }
 
 
@@ -85,56 +85,51 @@ namespace RedstoneinventeGameStudio
             //choicePanel.SetActive(true);
         }
 
+        
+
         public void ShowDialogue(NPCManager npcManager)
         {
-            IsDialogueActive = true;
-
-            if (npcManager.dialogues[npcManager.currentDialogueIndex].dialogueImage)
+            void ShowDialogueImage(int index)
             {
-                ImageTarget.sprite = npcManager.dialogues[npcManager.currentDialogueIndex].dialogueImage;
+                ImageTarget.sprite = npcManager.dialogues[index].dialogueImage;
                 var color = ImageTarget.color;
                 color.a = 1f;
                 ImageTarget.color = color;
             }
-            else
-            {
-                ImageTarget.sprite = null;
-                var color = ImageTarget.color;
-                color.a = 0f;
-                ImageTarget.color = color;
-            }
+
+            IsDialogueActive = true;
 
 
+            ShowDialogueImage(npcManager.currentDialogueIndex);
 
-            // 1. Show secondary dialogue if present
-            if (npcManager.secondaryDialogue != null)
-            {
-                StartCoroutine(ShowSecondaryDialogue(npcManager.secondaryDialogue));
-                //return;
-            }
+            // 1. Show secondary dialogue if present (no longer used)
+            //if (npcManager.secondaryDialogue != null)
+            //{
+            //    StartCoroutine(ShowSecondaryDialogue(npcManager.secondaryDialogue));
+            //    //return;
+            //}
 
             // 2. Otherwise, check for multi-choice
-            var dialogue = npcManager.dialogues[npcManager.currentDialogueIndex];
+            var dialogue = npcManager.dialogues[0];
 
             if ((npcManager.HasCompletedQuest == true) || npcManager.QuestObject.itemSO.playerHasItem == false && npcManager.HasGivenItem == true)
             {
                 dialogue = npcManager.dialogues[2];
+                ShowDialogueImage(2);
             }
             else if (((npcManager.givesItem == true && npcManager.HasGivenItem == true) || (npcManager.QuestObject.itemSO.playerHasItem == true && npcManager.TakesPlayerItem == true && npcManager.HasTakenItem == false)) && npcManager.HasCompletedQuest == false)
             {
                 dialogue = npcManager.dialogues[1];
+                ShowDialogueImage(1);
             }
-            //else if((npcManager.HasCompletedQuest == true) || (npcManager.questChecksum.isQuestComplete == true))
+            //else if (((npcManager.givesItem == true && npcManager.HasGivenItem == false) || (npcManager.QuestObject.itemSO.playerHasItem == false && npcManager.TakesPlayerItem == true && npcManager.HasTakenItem == false)) && npcManager.HasCompletedQuest == true)
             //{
-            //    dialogue = npcManager.dialogues[2];
+            //    dialogue = npcManager.dialogues[0];
             //}
-            else if (((npcManager.givesItem == true && npcManager.HasGivenItem == false) || (npcManager.QuestObject.itemSO.playerHasItem == false && npcManager.TakesPlayerItem == true && npcManager.HasTakenItem == false)) && npcManager.HasCompletedQuest == true)
-            {
-                dialogue = npcManager.dialogues[0];
-            }
             else
             {
                 dialogue = npcManager.dialogues[0];
+                ShowDialogueImage(0);
             }
 
             if (dialogue.choices != null && dialogue.choices.Count > 0)
@@ -147,7 +142,6 @@ namespace RedstoneinventeGameStudio
             // 3. Otherwise, show standard dialogue
             StartCoroutine(ShowDialogueC(npcManager, dialogue));
         }
-
 
         private IEnumerator TypewriterEffect(string text, TMP_Text target, float charDelay, float punctDelay, int maxWords)
         {
@@ -226,8 +220,10 @@ namespace RedstoneinventeGameStudio
 
         private IEnumerator ShowMultiChoiceDialogue(DialogueSO dialogue, NPCManager npc)
         {
+
             dialogueCanvas.enabled = true;
             title.text = dialogue.title;
+            moveNextButt.SetActive(false);
 
             yield return StartCoroutine(TypewriterEffect(dialogue.lines, content, characterDelay, punctuationDelay, maxWords));
 

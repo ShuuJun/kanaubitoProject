@@ -32,7 +32,7 @@ namespace RedstoneinventeGameStudio
 
         public void MoveNext()
         {
-            currentDialogueIndex++;
+            //currentDialogueIndex++;
             if (currentDialogueIndex >= dialogues.Count)
             {
                 currentDialogueIndex = 0;
