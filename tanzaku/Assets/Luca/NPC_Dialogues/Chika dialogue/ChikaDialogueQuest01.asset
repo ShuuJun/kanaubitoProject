@@ -10,18 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 456095eeb3a398d4e86556967672e09b, type: 3}
-  m_Name: MinoriQuest1
+  m_Name: ChikaDialogueQuest01
   m_EditorClassIdentifier: 
-  title: "\u307F\u306E\u308A"
-  lines: "\u3082\u3057\u304B\u3057\u3066\u2026\u5343\u82B1\u3061\u3083\u3093\u306B\u983C\u307E\u308C\u305F\u304B\u3089\uFF1F"
-  choices:
-  - choiceText: 
-    resultText: 
-    onChoice:
-      m_PersistentCalls:
-        m_Calls: []
-    nextDialogue: {fileID: 11400000, guid: 4f85eeeee79da664c8dd010275fcacaf, type: 2}
-    givesItem: 0
-    takesItem: 0
+  title: "\u5343\u82B1"
+  lines: "\u3058\u3083\u3042\u983C\u3080\u301C"
+  choices: []
   dialogueImage: {fileID: 0}
   MorningPosition: {x: 0, y: 0, z: 0}

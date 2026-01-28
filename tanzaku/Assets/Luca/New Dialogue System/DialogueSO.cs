@@ -11,6 +11,7 @@ public class DialogueChoice
     public DialogueSO nextDialogue;
     public bool givesItem;
     public bool takesItem;
+    public bool isQuestDialogue;
 }
 
 [CreateAssetMenu(fileName = "DialogueSO", menuName = "Dialogue")]

@@ -113,8 +113,6 @@ public class QuestSelectionManager : MonoBehaviour
             UpdateSelectionDisplay();
             UpdateDetailPanel();
         }
-        // Si quieres que el cursor "envuelva" de abajo a arriba:
-        /*
         else if (newIndex < 0)
         {
             selectedIndex = questTextComponents.Count - 1;
@@ -127,7 +125,7 @@ public class QuestSelectionManager : MonoBehaviour
             UpdateSelectionDisplay();
             UpdateDetailPanel();
         }
-        */
+        
     }
 
     // ==========================================================

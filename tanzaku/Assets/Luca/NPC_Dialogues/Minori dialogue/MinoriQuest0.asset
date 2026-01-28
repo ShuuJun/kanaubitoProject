@@ -16,11 +16,11 @@ MonoBehaviour:
   lines: "\u3042\u3089\u3001\u79C1\u306B\u4F55\u304B\u3088\u3046\u3067\u3059\u304B\uFF1F"
   choices:
   - choiceText: "\u672C\u3092\u8FD4\u3057\u307E\u3059 "
-    resultText: 
+    resultText: "\u3042\u3001\u3042\u308A\u304C\u3068\u3046\u3002\u3067\u3082\u3069\u3046\u3057\u3066\u307E\u3053\u3068\u304F\u3093\u304C\u8FD4\u3059\u306E\uFF1F "
     onChoice:
       m_PersistentCalls:
         m_Calls: []
-    nextDialogue: {fileID: 11400000, guid: 861b93f44c1629f499a7da7ac958bad0, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 407b1bd36dcf33844978f02852b4e79c, type: 2}
     givesItem: 0
     takesItem: 0
   dialogueImage: {fileID: 0}
