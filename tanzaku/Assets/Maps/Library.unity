@@ -8291,6 +8291,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light 2D
       objectReference: {fileID: 0}
+    - target: {fileID: 9063627892492675861, guid: f46e3f279ddf7ea48be717ab8d966604, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063627892492675861, guid: f46e3f279ddf7ea48be717ab8d966604, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063627892492675861, guid: f46e3f279ddf7ea48be717ab8d966604, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
