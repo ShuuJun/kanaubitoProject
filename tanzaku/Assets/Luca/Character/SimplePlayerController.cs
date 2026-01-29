@@ -11,6 +11,7 @@ public class SimplePlayerController : MonoBehaviour
     private Vector2 lastMoveDir = Vector2.down;
     public bool warped = false;
     public wpLocationData spawnLocation;
+    public GameObject otherPlayer;
 
     // For NPC interaction
     //private GameObject npcInRange;
@@ -29,6 +30,14 @@ public class SimplePlayerController : MonoBehaviour
 
     void Update()
     {
+       if (Input.GetKeyDown(KeyCode.Z))
+        {
+            otherPlayer.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            otherPlayer.GetComponent<SimplePlayerController>().enabled = true;
+            GetComponent<SimplePlayerController>().enabled = false;
+            GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+        }
+
         if (DialogueManager.IsDialogueActive)
         {
             rb.velocity = Vector2.zero; // Stop movement immediately
