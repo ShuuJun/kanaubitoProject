@@ -195,7 +195,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 25, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4741110563108956600}
@@ -214,7 +214,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2080f6b60519e354895f8b47f98ef939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WarpTo: LucaTestScene
+  WarpTo: Floor3
+  waypoint: {fileID: 11400000, guid: 1f29d12f2a72e4e4ea5e2f3d90e8d3f9, type: 2}
+  currentLocation: {fileID: 0}
+  player: {fileID: 0}
 --- !u!61 &384173367739476022
 BoxCollider2D:
   m_ObjectHideFlags: 0

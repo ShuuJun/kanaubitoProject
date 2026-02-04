@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456095eeb3a398d4e86556967672e09b, type: 3}
+  m_Name: MinoriDialogue03
+  m_EditorClassIdentifier: 
+  title: "\u4F0A\u7E54\u307F\u306E\u308A"
+  lines: "\u306F\u301C\u4ECA\u65E5\u3082\u75B2\u308C\u307E\u3057\u305F\u306D\u3002\u77ED\u518A\u306B\u306A\u3063\u3066\u3001\u98A8\u306B\u63FA\u308C\u305F\u3044\u301C"
+  choices:
+  - choiceText: "\u5996\u602A\u306B\u3064\u3044\u3066\u2026"
+    resultText: 
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 11400000, guid: ce89b4f36918f0a4ead1f1b4fc357bf8, type: 2}
+    givesItem: 0
+    takesItem: 0
+    isQuestDialogue: 0
+  - choiceText: "\u672C\u306B\u3064\u3044\u3066"
+    resultText: 
+    onChoice:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 11400000, guid: 0c3ba8a9e189a5e40a7a74a283d4c543, type: 2}
+    givesItem: 0
+    takesItem: 0
+    isQuestDialogue: 1
+  dialogueImage: {fileID: 187321062, guid: 77add8ff1232ae542b6dec75978dea44, type: 3}
+  MorningPosition: {x: 0, y: 0, z: 0}

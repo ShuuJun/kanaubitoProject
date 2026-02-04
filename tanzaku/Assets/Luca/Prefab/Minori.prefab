@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6692247393559445498}
   - component: {fileID: 2725937584517618947}
   - component: {fileID: 9001876439379996069}
+  - component: {fileID: 7835197718550511937}
   m_Layer: 0
   m_Name: Minori
   m_TagString: NPC
@@ -211,13 +212,13 @@ MonoBehaviour:
   dialogues:
   - {fileID: 11400000, guid: 8223968afc3f8da459b1e69756afe398, type: 2}
   - {fileID: 11400000, guid: c3ecd0ce8653d0746acb1d19673b4e23, type: 2}
-  - {fileID: 11400000, guid: 6cf79fd4d09bb6449b5972104625614a, type: 2}
+  - {fileID: 11400000, guid: 4e0d90a0f31ef324f97af26444c95ca8, type: 2}
   currentDialogueIndex: 0
   givesItem: 0
-  QuestObject: {fileID: 3719968895856636379, guid: 33b5ec26a971e754c906038fcc14442d, type: 3}
+  QuestObject: {fileID: 0}
   HasGivenItem: 0
   PlayerHasItem: 0
-  inventoryManager: {fileID: 292297966216870571, guid: dfe5dc9c6a1ffe842ac4fe270b617c09, type: 3}
+  inventoryManager: {fileID: 0}
   TakesPlayerItem: 1
   HasTakenItem: 0
   HasCompletedQuest: 0
@@ -267,3 +268,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.62, y: 0.7}
   m_EdgeRadius: 0
+--- !u!114 &7835197718550511937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557657643319843601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687b865f18cd91140b89240c8ec9ee5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  morningTarget: {fileID: 0}
+  afternoonTarget: {fileID: 0}
+  eveningTarget: {fileID: 0}
+  moveRadius: 0
+  moveSpeed: 2
+  minIdleTime: 0.5
+  maxIdleTime: 1
