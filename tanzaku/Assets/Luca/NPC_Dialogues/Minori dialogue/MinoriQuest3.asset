@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 456095eeb3a398d4e86556967672e09b, type: 3}
-  m_Name: MinoriQuest2
+  m_Name: MinoriQuest3
   m_EditorClassIdentifier: 
   title: "\u4F0A\u7E54\u307F\u306E\u308A"
-  lines: "\u3082\u3046\u3001\u5343\u82B1\u3061\u3083\u3093\u3063\u305F\u3089\u2026\u305D\u308C\u306B\u307E\u3053\u3068\u304F\u3093\u3001\u5F8C\u8F29\u306B\u5229\u7528\u3055\u308C\u306A\u3044\u3088\u3046\u306B\u306D\u3002"
+  lines: "\u672C\u306E\u3053\u3068\u306F\u3042\u308A\u304C\u3068\u3046\u3002\u3067\u3082\u307E\u3053\u3068\u304F\u3093\u3001\u5F8C\u8F29\u306B\u5229\u7528\u3055\u308C\u306A\u3044\u3088\u3046\u306B\u306D\u3002"
   choices:
   - choiceText: "\u3042\u306F\u306F\u3001\u4ECA\u5F8C\u6C17\u3092\u3064\u3051\u307E\u3059\u3002"
     resultText: 
@@ -22,7 +22,7 @@ MonoBehaviour:
         m_Calls: []
     nextDialogue: {fileID: 0}
     givesItem: 0
-    takesItem: 1
+    takesItem: 0
     isQuestDialogue: 0
   dialogueImage: {fileID: 0}
   MorningPosition: {x: 0, y: 0, z: 0}
