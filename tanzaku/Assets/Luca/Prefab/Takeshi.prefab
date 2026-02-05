@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7781321574672513509}
   - component: {fileID: 5571651981067382938}
   - component: {fileID: 8834894690077669454}
+  - component: {fileID: 8338290646549055848}
   - component: {fileID: 1171823911702400657}
   - component: {fileID: 4081484348652225841}
   - component: {fileID: 8956773565283496708}
@@ -22,7 +23,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7781321574672513509
 Transform:
   m_ObjectHideFlags: 0
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 2034035211, guid: 8424de9f3b3563a4e97c14187294651e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -111,6 +112,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8338290646549055848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2371996438102736305}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5bb650852c92c4884036678864708d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 8834894690077669454}
+  moveSpeed: 5
+  warpedState: 0
+  spawnLocation: {fileID: 11400000, guid: 6a0f0a2744fb01445b5bc3afa6c00aaf, type: 2}
+  otherPlayer: {fileID: 0}
 --- !u!114 &1171823911702400657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,7 +144,7 @@ MonoBehaviour:
   animator: {fileID: 8834894690077669454}
   moveSpeed: 5
   warped: 0
-  spawnLocation: {fileID: 0}
+  spawnLocation: {fileID: 11400000, guid: 6a0f0a2744fb01445b5bc3afa6c00aaf, type: 2}
   otherPlayer: {fileID: 0}
 --- !u!61 &4081484348652225841
 BoxCollider2D:

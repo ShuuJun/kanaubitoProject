@@ -4,13 +4,13 @@ using UnityEngine;
 using static TimeController;
 using UnityEngine.SceneManagement;
 
-public class SimplePlayerController : MonoBehaviour
+public class TakeshiPlayerController : MonoBehaviour
 {
     public Animator animator;
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 lastMoveDir = Vector2.down;
-    public bool warped = false;
+    public bool warpedState = false;
     public wpLocationData spawnLocation;
     public wpLocationData WPDeparture;
     public GameObject otherPlayer;
@@ -21,32 +21,41 @@ public class SimplePlayerController : MonoBehaviour
 
     void Start()
     {
+        LoadPosition();
         rb = GetComponent<Rigidbody2D>();
-        //if (WPDeparture.takeshiActive == true && WPDeparture.warpedState == true)
-        //    this.gameObject.SetActive(false);
-        //else
-            this.gameObject.SetActive(true);
         if (WPDeparture.takeshiActive == true)
-            this.gameObject.GetComponent<SimplePlayerController>().enabled = false;
+        {
+            this.gameObject.SetActive(true);
+            this.gameObject.GetComponent<Camera>().enabled = true;
+            this.gameObject.GetComponent<TakeshiPlayerController>().enabled = true;
+            
+        }
+        else
+            this.gameObject.SetActive(false);
         if (spawnLocation != null) // Check if data exists
         {
-            
-                LoadPosition();
-                
+
+            LoadPosition();
+
         }
     }
 
     void Update()
     {
-       if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
+            if (WPDeparture.takeshiActive == true && WPDeparture.warpedState == true)
+            {
+                spawnLocation.waypointCoordinates = WPDeparture.waypointCoordinates;
+                SceneManager.LoadScene(WPDeparture.savedScene);
+            }
+            WPDeparture.takeshiActive = false;
             otherPlayer.SetActive(true);
-            WPDeparture.takeshiActive = true;
             otherPlayer.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-            otherPlayer.GetComponent<TakeshiPlayerController>().enabled = true;
-            otherPlayer.GetComponent<Transform>().position = transform.position;
-            GetComponent<SimplePlayerController>().enabled = false;
+            otherPlayer.GetComponent<SimplePlayerController>().enabled = true;
+            GetComponent<TakeshiPlayerController>().enabled = false;
             GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+            this.gameObject.SetActive(false);
         }
 
         if (DialogueManager.IsDialogueActive)
@@ -116,25 +125,11 @@ public class SimplePlayerController : MonoBehaviour
 
     public void LoadPosition()
     {
-        if (WPDeparture.savedScene == SceneManager.GetActiveScene().name || WPDeparture.savedScene == null)
-        {
-            WPDeparture.warpedState = false;
-            WPDeparture.savedScene = null;
-        }
-        //float x = spawnLocation.waypointCoordinates.x;
-        //float y = spawnLocation.waypointCoordinates.y;
-        //float z = spawnLocation.waypointCoordinates.z;
-        if (WPDeparture.takeshiActive == true)
-        {
-            transform.position = WPDeparture.waypointCoordinates;
-            //WPDeparture.waypointCoordinates = new Vector3(0, 0, 0);
-        }
-        else
-        {
-            transform.position = spawnLocation.waypointCoordinates;
-            spawnLocation.waypointCoordinates = new Vector3(0, 0, 0);
-        }
-        
+        transform.position = spawnLocation.waypointCoordinates;
+        spawnLocation.waypointCoordinates = new Vector3(0, 0, 0);
+
+        // else
+        //transform.position = otherPlayer.transform.position + new Vector3(0, 0, 0);
     }
 
 }

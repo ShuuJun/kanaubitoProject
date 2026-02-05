@@ -6,4 +6,7 @@ using UnityEngine;
 public class wpLocationData : ScriptableObject
 {
     public Vector3 waypointCoordinates;
+    public string savedScene;
+    public bool takeshiActive = false;
+    public bool warpedState = false;
 }

@@ -214,10 +214,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2080f6b60519e354895f8b47f98ef939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WarpTo: Floor3
-  waypoint: {fileID: 11400000, guid: 1f29d12f2a72e4e4ea5e2f3d90e8d3f9, type: 2}
-  currentLocation: {fileID: 0}
+  WarpTo: Classroom_a
+  waypoint: {fileID: 11400000, guid: a593213c524453544b2eb325a8960fb3, type: 2}
+  currentLocation: {fileID: 11400000, guid: 6a0f0a2744fb01445b5bc3afa6c00aaf, type: 2}
+  makotoLocation: {fileID: 11400000, guid: a80376e4200cd244ca804c0bc5fe265c, type: 2}
   player: {fileID: 0}
+  playerMakoto: {fileID: 0}
+  playerTakeshi: {fileID: 0}
 --- !u!61 &384173367739476022
 BoxCollider2D:
   m_ObjectHideFlags: 0

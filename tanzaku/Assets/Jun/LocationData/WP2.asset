@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: WP2
   m_EditorClassIdentifier: 
   waypointCoordinates: {x: -6.5, y: 2, z: 0}
+  savedScene: 

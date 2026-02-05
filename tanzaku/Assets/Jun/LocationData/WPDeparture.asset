@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59d4d3026ed57004aa5491bb8aba8f63, type: 3}
   m_Name: WPDeparture
   m_EditorClassIdentifier: 
-  waypointCoordinates: {x: 0, y: 0, z: 0}
+  waypointCoordinates: {x: 0.81715727, y: 0.57573605, z: 0}
+  savedScene: 
+  takeshiActive: 0
+  warpedState: 0
