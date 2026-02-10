@@ -8,6 +8,8 @@ TagManager:
   - Ground
   - Desk
   - NPC
+  - TimeChanger
+  - FadeImage
   layers:
   - Default
   - TransparentFX

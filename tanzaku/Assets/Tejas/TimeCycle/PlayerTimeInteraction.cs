@@ -41,7 +41,6 @@ public class PlayerTimeInteraction : MonoBehaviour
         // We use a tag to identify the object that can be used to change time.
         if (other.CompareTag("TimeChanger"))
         {
-            Debug.Log("Entered time change zone.");
             canChangeTime = true;
             // You can add a UI prompt here to show "Press E to change time"
         }
@@ -52,7 +51,6 @@ public class PlayerTimeInteraction : MonoBehaviour
     {
         if (other.CompareTag("TimeChanger"))
         {
-            Debug.Log("Exited time change zone.");
             canChangeTime = false;
             // You can hide the UI prompt here
         }

@@ -219,8 +219,27 @@ public class TimeController : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        // Re-find Global Light
         globalLight = FindObjectOfType<Light2D>();
+
+        // Re-find Fade Image
+        GameObject fadeObj = GameObject.FindGameObjectWithTag("FadeImage");
+        if (fadeObj != null)
+        {
+            fadeImage = fadeObj.GetComponent<Image>();
+
+            // Reset alpha just in case
+            Color c = fadeImage.color;
+            c.a = 0f;
+            fadeImage.color = c;
+        }
+        else
+        {
+            Debug.LogError("Fade Image not found in scene!");
+        }
+
         UpdateLighting();
     }
+
 }
 
