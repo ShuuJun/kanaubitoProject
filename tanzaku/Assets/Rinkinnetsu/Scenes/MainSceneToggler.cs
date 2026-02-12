@@ -12,13 +12,11 @@ public class MainSceneToggler : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            if (!isSceneLoaded)
+            Scene scene = SceneManager.GetSceneByName("MainScene");
+
+            if (!scene.isLoaded)
             {
-                LoadSceneAdditively();
-            }
-            else
-            {
-                UnloadScene();
+                SceneManager.LoadScene("MainScene", LoadSceneMode.Additive);
             }
         }
     }
