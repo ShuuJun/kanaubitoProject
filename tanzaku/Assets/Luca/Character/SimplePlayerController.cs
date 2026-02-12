@@ -28,12 +28,7 @@ public class SimplePlayerController : MonoBehaviour
             this.gameObject.SetActive(true);
         if (WPDeparture.takeshiActive == true)
             this.gameObject.GetComponent<SimplePlayerController>().enabled = false;
-        if (spawnLocation != null) // Check if data exists
-        {
-            
-                LoadPosition();
-                
-        }
+        LoadPosition();
     }
 
     void Update()

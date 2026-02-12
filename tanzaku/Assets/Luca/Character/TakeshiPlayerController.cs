@@ -126,7 +126,7 @@ public class TakeshiPlayerController : MonoBehaviour
     public void LoadPosition()
     {
         transform.position = spawnLocation.waypointCoordinates;
-        spawnLocation.waypointCoordinates = new Vector3(0, 0, 0);
+        //spawnLocation.waypointCoordinates = new Vector3(0, 0, 0);
 
         // else
         //transform.position = otherPlayer.transform.position + new Vector3(0, 0, 0);

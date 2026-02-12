@@ -35,6 +35,7 @@ public class Warp : MonoBehaviour
     public void SavePosition()
     {
         currentLocation.waypointCoordinates = waypoint.waypointCoordinates;
+        //Debug.Log(waypoint.waypointCoordinates);
         if (makotoLocation.takeshiActive == true)
         {
             if (makotoLocation.warpedState == false)
