@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SaveLoadManager : MonoBehaviour
 {
+    public static SaveLoadManager Instance;
+
     private string savePath;
     public GameObject player;
     public bool hasTakePower;
@@ -12,8 +14,42 @@ public class SaveLoadManager : MonoBehaviour
     public InventoryManager inventoryManager;
     public QuestManager questManager;
 
+    public QuestSelectionManager selectionManager;
+
+    void Start()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        FindManagersInScene();
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        FindManagersInScene();
+    }
+
+    void FindManagersInScene()
+    {
+        if (selectionManager == null)
+            selectionManager = FindObjectOfType<QuestSelectionManager>();
+
+        if (questManager == null)
+            questManager = FindObjectOfType<QuestManager>();
+
+        if (player == null)
+            player = GameObject.FindWithTag("Player");
+    }
     void Awake()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         savePath = Application.persistentDataPath + "/savefile.json";
     }
 
@@ -46,14 +82,14 @@ public class SaveLoadManager : MonoBehaviour
         }
 
         // Save Quests
-        if (questManager != null)
+        data.quests = new List<QuestData>();
+        if (selectionManager != null)
         {
-            data.quests = new List<QuestData>();
-            foreach (var quest in questManager.quests)
+            foreach (var quest in selectionManager.allQuests)
             {
                 QuestData questData = new QuestData();
-                questData.title = quest.title;
-                questData.isCompleted = quest.isCompleted;
+                questData.title = quest.questTitle;
+                questData.isUnlocked = quest.isUnlocked;
                 data.quests.Add(questData);
             }
         }
@@ -75,6 +111,7 @@ public class SaveLoadManager : MonoBehaviour
         string json = File.ReadAllText(savePath);
         SaveData data = JsonUtility.FromJson<SaveData>(json);
 
+        // Load position
         if (player != null)
         {
             Vector3 newPos = new Vector3(data.playerPosX, data.playerPosY, data.playerPosZ);
@@ -83,6 +120,8 @@ public class SaveLoadManager : MonoBehaviour
 
         hasTakePower = data.hasTakePower;
 
+
+        //Load Inventory
         if (inventoryManager != null && data.inventoryItems != null)
         {
             // Clear current inventory
@@ -104,21 +143,29 @@ public class SaveLoadManager : MonoBehaviour
         }
 
         // Load the missions
-        if (questManager != null && data.quests != null)
+        if (data.quests != null)
         {
-
-            // Set the completion status for each quest based on the saved data
-            for (int i = 0; i < data.quests.Count && i < questManager.quests.Count; i++)
+            // 1. Load Mission panel
+            if (selectionManager != null)
             {
-                questManager.quests[i].isCompleted = data.quests[i].isCompleted;
+                for (int i = 0; i < data.quests.Count && i < selectionManager.allQuests.Count; i++)
+                {
+                    selectionManager.allQuests[i].isUnlocked = data.quests[i].isUnlocked;
+                }
+                selectionManager.UpdateSelectionDisplay();
             }
 
-            // Advance the currentQuestIndex by completing quests based on the saved data
-            for (int i = 0; i < data.quests.Count && i < questManager.quests.Count; i++)
+            // 2. Load Mission progress
+            if (questManager != null)
             {
-                if (data.quests[i].isCompleted)
+                for (int i = 0; i < data.quests.Count && i < questManager.quests.Count; i++)
                 {
-                    questManager.CompleteCurrentQuest();
+                    questManager.quests[i].isCompleted = data.quests[i].isCompleted;
+
+                    if (data.quests[i].isCompleted)
+                    {
+                        questManager.CompleteCurrentQuest();
+                    }
                 }
             }
         }

@@ -3,8 +3,13 @@
 public class NPC_DialogueTrigger : MonoBehaviour
 {
     // Type of NPC.
+    [Header("NPC Settings")]
     [Tooltip("Type must match 'Villager', 'Blacksmith', or 'Mayor'")]
     public string npcType = "Villager";
+
+    [Header("Quest Unlock Settings")]
+    [Tooltip("The mission that will unlock in the list on the right after speaking with this NPC. For example: 1")]
+    public int questIndexToUnlock = 1;
 
     // Method called when the player interacts with the NPC
     public void Interact()
@@ -22,6 +27,13 @@ public class NPC_DialogueTrigger : MonoBehaviour
             Debug.Log($"重要度の高い{npcType}との会話を開始します。");
 
             AdvanceQuestState();
+
+            QuestSelectionManager uiManager = FindObjectOfType<QuestSelectionManager>();
+            if (uiManager != null)
+            {
+                uiManager.UnlockQuest(questIndexToUnlock);
+                Debug.Log($"クエスト {questIndexToUnlock} がリストに開放されました。");
+            }
 
         }
         else if (DialogueQuestSystem.Instance.IsQuestCompleted())
@@ -56,6 +68,7 @@ public class NPC_DialogueTrigger : MonoBehaviour
         }
     }
 
+    // --- Proximity logic ---
     private bool isPlayerInRange = false;
 
     private void OnTriggerEnter(Collider other)

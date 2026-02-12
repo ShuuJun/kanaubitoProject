@@ -13,6 +13,7 @@ public class QuestData
 {
     public string title;
     public bool isCompleted;
+    public bool isUnlocked;
 }
 
 [Serializable]
