@@ -119,6 +119,12 @@ public class DialogueQuestSystem : MonoBehaviour
             currentState = DialogueState.Completed;
             Debug.Log("任务完成！所有对话已完成");
             UpdateQuestDisplay();
+
+            QuestSelectionManager questUI = FindObjectOfType<QuestSelectionManager>();
+            if (questUI != null)
+            {
+                questUI.UnlockQuest(1);
+            }
         }
     }
 

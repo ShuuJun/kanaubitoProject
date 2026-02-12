@@ -107,11 +107,14 @@ public class QuestSelectionManager : MonoBehaviour
         int newIndex = selectedIndex + direction;
 
         // Limit the index within the range of available missions
-        if (newIndex >= 0 && newIndex < questTextComponents.Count)
+        if (newIndex >= 0 && newIndex < allQuests.Count)
         {
-            selectedIndex = newIndex;
-            UpdateSelectionDisplay();
-            UpdateDetailPanel();
+            if (allQuests[newIndex].isUnlocked)
+            {
+                selectedIndex = newIndex;
+                UpdateSelectionDisplay();
+                UpdateDetailPanel();
+            }
         }
         else if (newIndex < 0)
         {
@@ -128,22 +131,40 @@ public class QuestSelectionManager : MonoBehaviour
         
     }
 
+    public void UnlockQuest(int index)
+    {
+        if (index >= 0 && index < allQuests.Count)
+        {
+            allQuests[index].isUnlocked = true;
+            UpdateSelectionDisplay();
+        }
+    }
+
     // ==========================================================
     // UI UPDATE
     // ==========================================================
 
     // Change the text color in the selected mission
-    void UpdateSelectionDisplay()
+    public void UpdateSelectionDisplay()
     {
         for (int i = 0; i < questTextComponents.Count; i++)
         {
-            if (i == selectedIndex)
+            // Verificamos si la misión existe en la lista de datos y si está desbloqueada
+            bool unlocked = (i < allQuests.Count) && allQuests[i].isUnlocked;
+
+            if (!unlocked)
             {
-                questTextComponents[i].color = selectedColor;
+                questTextComponents[i].text = "--------";
+                questTextComponents[i].color = Color.gray;
             }
             else
             {
-                questTextComponents[i].color = defaultColor;
+                questTextComponents[i].text = allQuests[i].questTitle;
+
+                if (i == selectedIndex)
+                    questTextComponents[i].color = selectedColor;
+                else
+                    questTextComponents[i].color = defaultColor;
             }
         }
     }
