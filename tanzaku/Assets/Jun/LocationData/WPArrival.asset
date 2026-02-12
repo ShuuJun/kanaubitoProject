@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: WPArrival
   m_EditorClassIdentifier: 
   waypointCoordinates: {x: 0, y: 0, z: 0}
+  savedScene: 
+  takeshiActive: 0
+  warpedState: 0
