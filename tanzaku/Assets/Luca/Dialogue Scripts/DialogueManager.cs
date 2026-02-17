@@ -1,4 +1,4 @@
-using JetBrains.Annotations;
+ï»¿using JetBrains.Annotations;
 using System.Collections;
 using System.Linq;
 using TMPro;
@@ -59,7 +59,7 @@ namespace RedstoneinventeGameStudio
             instance = this;
 
             NextButtontext = moveNextButt.GetComponentInChildren<TextMeshProUGUI>();
-            NextButtontext.text = "ŽŸ";
+            NextButtontext.text = "æ¬¡";
         }
 
 

@@ -548,6 +548,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9024419200055668863, guid: 8f6ad600bc9def44eba84906305b3c52, type: 3}
+      propertyPath: m_text
+      value: "\u6B21"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -905,6 +909,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5865701634775844288, guid: 534719615b9df58498cabd242d2832fd, type: 3}
   m_PrefabInstance: {fileID: 1577568886}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &718349111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1557657643319843601, guid: e7395386965d99740bc48e736d5f1311, type: 3}
+  m_PrefabInstance: {fileID: 1879499396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &718349120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718349111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83322e62c9d6b943b04c5b007d3bfc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcType: Villager
+  questIndexToUnlock: 0
 --- !u!1 &720593931
 GameObject:
   m_ObjectHideFlags: 0
@@ -5248,7 +5271,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1557657643319843601, guid: e7395386965d99740bc48e736d5f1311, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 718349120}
   m_SourcePrefab: {fileID: 100100000, guid: e7395386965d99740bc48e736d5f1311, type: 3}
 --- !u!4 &1914127043 stripped
 Transform:
