@@ -29,7 +29,7 @@ public class TakeshiPlayerController : MonoBehaviour
             if(this.gameObject.GetComponent<Camera>() != null)
                 this.gameObject.GetComponent<Camera>().enabled = true;
             this.gameObject.GetComponent<TakeshiPlayerController>().enabled = true;
-            
+
         }
         else
             this.gameObject.SetActive(false);
