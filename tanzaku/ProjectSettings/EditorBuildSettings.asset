@@ -20,4 +20,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rinkinnetsu/Scenes/MainScene.unity
     guid: cd16399b1490bfa45b11c65105ff860a
+  - enabled: 1
+    path: Assets/Maps/Library.unity
+    guid: c25908d9de99df9439c569e7a86e1111
+  - enabled: 1
+    path: Assets/Maps/ArchiveRoom.unity
+    guid: 0a12dcbe31487c54bb7a115147fc61f5
+  - enabled: 1
+    path: "Assets/huslen/\u4FDD\u5065\u5BA4.unity"
+    guid: e2b5549d2e47b6c46af6dbb788b45d5b
+  - enabled: 1
+    path: "Assets/huslen/\u5316\u5B66\u5BA4.unity"
+    guid: 90f2b39f8ddb7e84e8cf8a0362c64331
+  - enabled: 1
+    path: "Assets/huslen/\u5BB6\u5EAD\u79D1\u5BA4.unity"
+    guid: 075bd71b3fe881d4bb2348553dcdd76f
+  - enabled: 1
+    path: "Assets/huslen/\u66F4\u8863\u5BA4.unity"
+    guid: 94aec480e672f2745aa635b2bfe97ff4
+  - enabled: 1
+    path: "Assets/huslen/\u97F3\u697D\u5BA4.unity"
+    guid: fd374d79976db034a9cb681e288cb3ea
+  - enabled: 1
+    path: Assets/Maps/ComputerRoom.unity
+    guid: f38bd85b777a57f4d8167560dc5c2762
   m_configObjects: {}
