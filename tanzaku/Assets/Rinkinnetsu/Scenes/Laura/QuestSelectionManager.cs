@@ -137,7 +137,10 @@ public class QuestSelectionManager : MonoBehaviour
         {
             allQuests[index].isUnlocked = true;
             UpdateSelectionDisplay();
+            UpdateDetailPanel();
         }
+        Debug.Log("Trying to unlock quest index: " + index);
+        Debug.Log("Total quests: " + allQuests.Count);
     }
 
     // ==========================================================
