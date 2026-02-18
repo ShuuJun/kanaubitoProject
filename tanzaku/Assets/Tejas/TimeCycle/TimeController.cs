@@ -173,7 +173,6 @@ public class TimeController : MonoBehaviour
 
         // Fire the event to notify all subscribers (like NPCs)
         OnTimeChanged?.Invoke(currentTime);
-        Debug.Log("Time has changed to: " + currentTime);
     }
 
     /// <summary>

@@ -11,6 +11,14 @@ public class NPC_DialogueTrigger : MonoBehaviour
     [Tooltip("The mission that will unlock in the list on the right after speaking with this NPC. For example: 1")]
     public int questIndexToUnlock = 1;
 
+    private QuestSelectionManager uiManager;
+
+    void Awake()
+    {
+        uiManager = FindObjectOfType<QuestSelectionManager>();
+    }
+
+
     // Method called when the player interacts with the NPC
     public void Interact()
     {
@@ -18,6 +26,12 @@ public class NPC_DialogueTrigger : MonoBehaviour
         {
             Debug.LogError("DialogueQuestSystem がシーンに存在しません。");
             return;
+        }
+
+        if (uiManager != null)
+        {
+            uiManager.UnlockQuest(questIndexToUnlock);
+            Debug.Log($"クエスト {questIndexToUnlock} がリストに開放されました。");
         }
 
         // 2. Current state of the quest
@@ -46,6 +60,7 @@ public class NPC_DialogueTrigger : MonoBehaviour
             // Quest not started or wrong NPC
             Debug.Log($"Dialogue from {npcType}: 'こんにちは、いかがですか？' (現在の目標ではありません)");
         }
+
     }
 
     // Advance the quest state

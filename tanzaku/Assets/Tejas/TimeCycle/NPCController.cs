@@ -65,7 +65,6 @@ public class NPCController : MonoBehaviour
     /// <param name="newTime">The new time of day.</param>
     private void HandleTimeChange(TimeController.TimeOfDay newTime)
     {
-        Debug.Log($"NPC {gameObject.name} reacting to time change: {newTime}");
         MoveNpc(newTime);
     }
 
@@ -103,10 +102,6 @@ public class NPCController : MonoBehaviour
 
             // Start the new wandering routine from the new position
             wanderCoroutine = StartCoroutine(Wander());
-        }
-        else
-        {
-            Debug.LogWarning($"NPC {gameObject.name} does not have a target for {time}.");
         }
     }
 

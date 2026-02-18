@@ -5095,6 +5095,10 @@ PrefabInstance:
       propertyPath: spawnLocation
       value: 
       objectReference: {fileID: 11400000, guid: 6a0f0a2744fb01445b5bc3afa6c00aaf, type: 2}
+    - target: {fileID: 8134700185757835630, guid: aad9d8f9c3ae1ee4f8569be2bb8fdefa, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8636822836992639686, guid: aad9d8f9c3ae1ee4f8569be2bb8fdefa, type: 3}
       propertyPath: m_IsActive
       value: 0
