@@ -26,7 +26,8 @@ public class TakeshiPlayerController : MonoBehaviour
         if (WPDeparture.takeshiActive == true)
         {
             this.gameObject.SetActive(true);
-            this.gameObject.GetComponent<Camera>().enabled = true;
+            if(this.gameObject.GetComponent<Camera>() != null)
+                this.gameObject.GetComponent<Camera>().enabled = true;
             this.gameObject.GetComponent<TakeshiPlayerController>().enabled = true;
             
         }
